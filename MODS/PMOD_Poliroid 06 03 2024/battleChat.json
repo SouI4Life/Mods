@@ -1,0 +1,14 @@
+// Игровой чат в бою.
+// Ingame chat in battle.
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable": false,
+	
+	// Фильтр игрового чата.
+	// Ingame chat filter.
+	${"battleChat_cleaner.json"},
+	// Информер результатов о завершенном бое в чат. *Большинство настроек находятся в файле скина
+	// Informer results of completed battle to chat. *Most of the settings are in the skin file
+	${"battleChat_resultInformer.json"}
+}

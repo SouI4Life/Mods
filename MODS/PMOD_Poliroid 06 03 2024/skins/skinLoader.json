@@ -1,0 +1,12 @@
+ {
+	// ВЫБОР КОМПОНЕНТОВ СКИНА (ССЫЛКИ)  |  SKIN COMPONENTS SELECTION (LINKS)
+
+	${"skins/skinLoader/battleChat.json"},       // Информер результатов о завершенном бое в чат | Battle Chat - Result Informer
+	${"skins/skinLoader/sessionStatistic.json"}, // Сессионная статистика | Session Statistic
+	${"skins/skinLoader/systemMessages.json"}    // Обработка сообщений в системном канале | System Channel Messages
+
+ }
+ 
+ /**
+ * Загрузчик скинов
+ */

@@ -1,0 +1,46 @@
+// Изменение поведения интерфейса в бою.
+// Changing of the interface in battle.
+
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable": true,
+	
+	// Состояние панели игроков (ушей) при отсчете до начала боя.
+	// Возможные значения - none (скрыть), short (короткая), medium (средняя), medium2 (средняя 2), large (длинная).
+	// Players panel state when counting up the fight.
+	// Possible values ​​- none, short, medium, medium2, large.
+	${"battleGui_playersPanelState.json"},
+	
+	// Продолжительность отображения индикатора засвета (лампочка) в секундах.
+	// Duration displaying light indicator (lamp) in seconds.
+	${"battleGui_sixthSenseDuration.json"},
+	
+	// Скрывать личный жетон игрока который убил вас.
+	// Hide dog tag of the player who killed you.
+	${"battleGui_hidePostmortemDogTag.json"},
+	
+	// Отображать углы горизонтальной наводки на всех типах техники (0.9.5 - ВГ Миникарта).
+	// Display traverse angles on all types of vehicles (0.9.5 - WG minimap).
+	"minimapAnglesFix": true,
+	
+	// Скрывать сообщения о формированиях динамических взводов
+	// Hide messages about the formation of dynamic platoons
+	"hideDynSquadMessages": false,
+	
+	// Хп команд
+	// Teams Health
+	${"battleGui_teamHealth.json"},
+
+	// Индикация важности танка для медали Эксперт
+	// Enemys detect indication
+	${"battleGui_tankExpert.json"},
+	
+	// Индикация обнаружения вражеских танков
+	// Enemys detect indication
+	${"battleGui_detectionState.json"},
+	
+	// Здоровье игроков
+	// Players Health
+	${"battleGui_playersHealth.json"}
+}

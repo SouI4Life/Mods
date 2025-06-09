@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "hidePrestigeHangarWidget": true,
+  "hidePrestigeProfileWidget": true,
+  "hidePrestigeInPlatoonWindow": true,
+  "hidePrestigeInBattleResults": true,
+  "hidePrestigeInSystemMessages": true,
+  "hidePrestigeRewardWindow": true,
+  "hidePrestigeInEliteVehicleWindow": true,
+  "hidePrestigeInBattle": true
+}

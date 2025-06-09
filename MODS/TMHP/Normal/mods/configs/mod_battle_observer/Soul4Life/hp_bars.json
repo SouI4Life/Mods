@@ -1,0 +1,19 @@
+{
+  "barsWidth": 200, 
+  "enabled": true, 
+  "markers": {
+    "enabled": true, 
+    "markersClassColor": false, 
+    "showMarkers_hotkey": [
+      82
+    ], 
+    "x": 5, 
+    "y": 31
+  }, 
+  "outline": {
+    "color": "#FAFAFA", 
+    "enabled": true
+  }, 
+  "showAliveCount": false, 
+  "style": "normal"
+}

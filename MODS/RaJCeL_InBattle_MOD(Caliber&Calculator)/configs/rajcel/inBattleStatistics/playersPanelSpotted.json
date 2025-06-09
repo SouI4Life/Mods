@@ -1,0 +1,48 @@
+// RaJCeL inBattleStatistics Players Panel Spotted config file
+{
+    // enables panel
+    "enable": false,
+    // enables errors trace in python.log
+    "debug": false,
+    // always show panel info
+    "alwaysOn": true,
+    // hotkey to show panel info, when alwaysOn is false
+    "hotkey": 21,
+    "removeBaseIndicator": true,
+    "message": {
+        // horizontal align; determine place from which "x" are calculated; available values: "left", "center", "right"
+        "hAlign": "left",
+        // vertical align; determine place from which "y" are calculated; available values: "top", "center", "bottom"
+        "vAlign": "top",
+        // x positions for different players panel types; in pixels;
+        "x": {
+            "none": 2,
+            "short": 80,
+            "medium": 125,
+            "medium2": 150,
+            "large": 265
+        },
+        // y positions for different players panel types; in pixels;
+        "y": {
+            "none": 3,
+            "short": 3,
+            "medium": 3,
+            "medium2": 3,
+            "large": 3
+        },
+        "alpha": 1.0, // 0.0 - 1.0; 0.0 fully transparent; 1.0 fully visible
+        "height": 380,
+        "width": 20,
+        "shadow": {
+            "distance": 1,
+            "angle": 45,
+            "color": "#000000",
+            "alpha": 0.75,
+            "blurX": 5,
+            "blurY": 5,
+            "strength": 5,
+            "quality": 1
+        },
+        "format": "<img src='img://../mods/configs/rajcel/inBattleStatistics/spottedIndicators/%s.png' width='15' height='24'>"
+    }
+}

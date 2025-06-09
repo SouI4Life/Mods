@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+// Автор: AntonVK
+// http://anton.koudinov.ru
+// E-Mail: anton@koudinov.ru
+//
+// Мод для World of Tanks: Часы в ангаре
+// http://wot.anton.koudinov.ru/hangar-clock-calculator
+//
+//
+	* По нижеприведённым ссылкам доступна информация для понимания принципа отрисовки фона
+	* Follow the links listed below to understand how to customize background
+	*
+	* http://help.adobe.com/ru_RU/FlashPlatform/reference/actionscript/3/flash/display/Graphics.html#beginGradientFill()
+	* http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/display/Graphics.html#beginGradientFill()
+	* http://help.adobe.com/ru_RU/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7dd7.html
+	* http://help.adobe.com/en_US/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7dd7.html
+	*
+//
+// Конфигурационный файл
+	//
+	//
+	* hangarClock align: left|center|right
+	* Глобальное горизонтальное выравнивание
+	* The global horizontal alignment
+	//
+	* hangarClock offsetX, offsetY: <number value>
+	* Глобальное смещение по оси X и Y
+	* The global offset relative to XY-axes
+	//
+	//
+	* position x,y: <number value>
+	* Положение объекта по оси X и Y
+	* The position of the object relative to XY-axes
+	//
+	* visible: true|false
+	* Отображать или скрывать элемент
+	* Show or hide element
+	//
+	//
+	* alpha: <0 - 1>
+	* Значение альфа-прозрачности элемента
+	* The alpha transparency value for the element
+	//
+	* gType: RADIAL|LINEAR
+	* Тип градиента: GradientType.RADIAL или GradientType.LINEAR
+	* The type of the gradient to use: GradientType.RADIAL or GradientType.LINEAR
+	//
+	* gColors: <HEX value, ... , HEX value>
+	* Массив шестнадцатеричных значений цвета RGB, используемых в градиенте (можно указать до 15 цветов). Для каждого цвета необходимо указать соответствующее значение в параметрах альфа-канала и пропорций распределения цветов
+	* An array of RGB hexadecimal color values used in the gradient (You can specify up to 15 colors). For each color, specify a corresponding value in the alphas and ratios parameters
+	//
+	* gAlphas: <0 - 1, ..., 0 - 1>
+	* Массив значений альфа-канала для соответствующих цветов в массиве цветов градиента
+	* An array of alpha values for the corresponding colors in the colors array
+	//
+	* gRatios: <0 - 255, ..., 0 - 255>
+	* Массив значений пропорций распределения цветов градиента
+	* An array of color distribution ratios
+	//
+	* gFocalPtRatio focalPtRatio: <-1 - 1>
+	* Положение фокуса градиента
+	* The location of the focal point of the gradient
+	//
+	* gBox width, height, rotation: <number value>
+	* Ширина, высота и поворот (в радианах) градиента
+	* The width, the height and the the rotation (in radians) of the gradient box
+	//
+	* gTxy tx, ty: <number value>
+	* Смещение вправо и вниз по оси X и Y
+	* The distance to translate to the right and down along the X and the Y axis
+	//
+	* gRectangle x,y: <number value>
+	* Положение прямоугольника по оси X и Y
+	* The position of the rectangle relative to XY-axes
+	//
+	* gRectangle width, height: <number value>
+	* Ширина и высота прямоугольника
+	* The width and the height of the rectangle
+	//
+	//
+	* AMPM: true|false
+	* 12-часовой формат исчисления времени
+	* 12-hour clock
+	//
+	* blink: true|false
+	* Мигающее двоеточие на часах
+	* Blinking colon on the clock
+	//
+	* sepWidth: <number value>
+	* Ширина текстового поля разделителя (двоеточие) между значениями часов, минут и секунд
+	* The width of the textfiled separator (colon) between hours, minutes and seconds digits
+	//
+	//
+	* text align: left|center|right
+	* Выравнивание абзаца
+	* The alignment of the paragraph
+	//
+	* text bold: true|false
+	* Использовать или не использовать полужирное начертание (зависит от выбранного шрифта)
+	* Specifies whether the text is boldface (depends on the currently selected font)
+	//
+	* text color: <HEX value>
+	* Шестнадцатеричное значение цвета текста
+	* The color of the text in a hexadecimal notation
+	//
+	* text font: <macro>
+	* Шрифт текста (по умолчанию используется шрифт "Micra Normal"). Допустимо указание макросов из приведённого ниже списка
+	* The name of the font for text (the default font is "Micra Normal"). Use only macros listed below
+	*
+	  $TitleFont - ZurichCondBold
+	  $ChinaNameFont - ZurichCond
+	  $FieldFont - ZurichCond
+	  $TextFont	- Tahoma
+	  $PartnerCondensed - PartnerCondensed
+	  $PartnerLightCondensed- PartnerLightCondensed
+	  $UniversCondC - UniversCondC
+	*
+	//
+	* text size: <number value>
+	* Рекомендуемые значения размера шрифта: 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48
+	* The recommended font size values: 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48
+	//
+	//
+	* filters enablе: true|false
+	* Использовать или не использовать визуальные эффекты
+	* Enable or disable visual effects
+	//
+	* filters filter: shadow|glow
+	* Визуальный эффект, который будет использоваться (применяется только один из-за ограничений Scaleform)
+	* Specifies the visual effect (only one can be specified at the same time due to Scaleform limitations)
+	//
+	//
+	* glow blurX: <0 - 255>
+	* Интенсивность размытия по горизонтали. Значения, являющиеся степенью 2 (т. е. 2, 4, 8, 16, 32 и т.д.), оптимизируются и выполняются быстрее, чем остальные
+	* The amount of horizontal blur. Values that are a power of 2 (such as 2, 4, 8, 16, 32 etc.) are optimized to render more quickly than other values
+	//
+	* glow blurY: <0 - 255>
+	* Интенсивность размытия по вертикали. Значения, являющиеся степенью 2 (т. е. 2, 4, 8, 16, 32 и т.д.), оптимизируются и выполняются быстрее, чем остальные
+	* The amount of vertical blur. Values that are a power of 2 (such as 2, 4, 8, 16, 32 etc.) are optimized to render more quickly than other values
+	//
+	* glow color: <HEX value>
+	* Шестнадцатеричное значение цвета свечения
+	* The color of the glow in a hexadecimal notation
+	//
+	* glow strength: <0 - 255>
+	* Интенсивность нанесения
+	* The strength of the spread
+	//
+	//
+	* shadow angle: <0 - 360>
+	* Угол направления тени
+	* The angle of the shadow
+	//
+	* shadow blurX: <0 - 255>
+	* Интенсивность размытия по горизонтали
+	* The amount of horizontal blur
+	//
+	* shadow blurY: <0 - 255>
+	* Интенсивность размытия по вертикали
+	* The amount of vertical blur
+	//
+	* shadow color: <HEX value>
+	* Шестнадцатеричное значение цвета тени
+	* The color of the shadow in a hexadecimal notation
+	//
+	* shadow distance: <number value>
+	* Расстояние смещения для тени
+	* The offset distance for the shadow
+	//
+	* shadow strength: <0 - 255>
+	* Интенсивность нанесения
+	* The strength of the spread
+	//
+	//
+	* format dd: true|false
+	* День месяца в числовом формате из одной или двух цифр
+	* Day of the Month as numeric in one or two digits
+	//
+	* format: {HH}, {mm}, {ss}, {day}, {date}, {month}, {fullYear}, <any symbol>
+	* Форматирование вывода часов и даты при помощи указанных макросов и любых символов
+	* Use listed macro and any characters to format the clock and the date output
+	//
+	* offsetHrs, offsetMin, offsetSec, offsetAMPM: <number value>
+	* Дополнительное смещение к ширине текстового поля для значений часов, минут, секунд и AMPM
+	* The additional offset to the width of the textfield with hours, minutes, seconds digits and AMPM
+	//
+	* Day, Month: <name>, <any symbol>
+	* Названия дней недели и месяцев
+	* Days of the Week and Months of the Year
+//
+-->
+
+<hangarClock align="center" offsetX="0" offsetY="0">
+
+	<!-- Background for Date, Clock, Day -->
+	<ConfigBackground visible="true" alpha="0.7">
+		<position x="0" y="34"/>
+		<gType>RADIAL</gType>
+		<gColors>0xFF0000, 0x000000</gColors>
+		<gAlphas>1, 0</gAlphas>
+		<gRatios>0, 255</gRatios>
+		<gFocalPtRatio focalPtRatio="0"/>
+		<gBox width="768" height="72" rotation="0"/>
+		<gTxy tx="10" ty="-20"/>
+		<gRectangle x="10" y="10" width="768" height="16"/>
+	</ConfigBackground>
+
+	<!-- Clock -->
+	<ConfigClock visible="true" AMPM="false" blink="false" sepWidth="12">
+		<position x="0" y="44"/>
+		<text bold="false" color="0xFFFFCC" font="Micra" size="12"/>
+		<filters enable="true" filter="shadow">
+			<glow blurX="4" blurY="4" color="0x000000" strength="1"/>
+			<shadow angle="45" blurX="2" blurY="2" color="0x000000" distance="2" strength="1"/>
+		</filters>
+		<formatHrs offsetHrs="4">{HH}</formatHrs>
+		<formatMin offsetMin="4">{mm}</formatMin>
+		<formatSec offsetSec="4" visible="true">{ss}</formatSec>
+		<formatAMPM offsetAMPM="4"></formatAMPM >
+	</ConfigClock>
+
+	<!-- The day of the week -->
+	<ConfigDay visible="false">
+		<position x="240" y="44"/>
+		<text align="left" bold="false" color="0xFFFFCC" font="Micra" size="10"/>
+		<filters enable="true" filter="shadow">
+			<glow blurX="4" blurY="4" color="0x000000" strength="1"/>
+			<shadow angle="45" blurX="2" blurY="2" color="0x000000" distance="2" strength="1"/>
+		</filters>
+		<!--
+			* <format> , {day} </format>
+			* <format>{day},</format>
+			* <format> - {day} - </format>
+		-->
+		<format>{day}</format>
+	</ConfigDay>
+
+	<Day>
+		<!--
+			* <Su>Sunday</Su>
+			* <Mo> 01 </Mo>
+			* <Mo> Пон. </Mo>
+		-->
+		<Su>Воскресенье</Su>
+		<Mo>Понедельник</Mo>
+		<Tu>Вторник</Tu>
+		<We>Среда</We>
+		<Th>Четверг</Th>
+		<Fr>Пятница</Fr>
+		<Sa>Суббота</Sa>
+	</Day>
+
+	<!-- The date -->
+	<ConfigDate visible="false">
+		<position x="-240" y="44"/>
+		<text align="right" bold="false" color="0xFFFFCC" font="Micra" size="10"/>
+		<filters enable="true" filter="shadow">
+			<glow blurX="4" blurY="4" color="0x000000" strength="1"/>
+			<shadow angle="45" blurX="2" blurY="2" color="0x000000" distance="2" strength="1"/>
+		</filters>
+		<!--
+			* <format>{date}.{month}.{fullYear}</format>
+			* <format>{fullYear}-{month}-{date}</format>
+			* <format>{month} {date}, {fullYear}</format>
+		-->
+		<!-- <format>{date} {month} {fullYear} г.</format> -->
+		<format dd="true">{date}.{month}.{fullYear}</format>
+	</ConfigDate>
+
+	<Month>
+		<!--
+			* <May> 05 </May>
+			* <Sep>September</Sep>
+		-->
+		<!--
+		<Jan>января</Jan>
+		<Feb>февраля</Feb>
+		<Mar>марта</Mar>
+		<Apr>апреля</Apr>
+		<May>мая</May>
+		<Jun>июня</Jun>
+		<Jul>сентября</Jul>
+		<Aug>августа</Aug>
+		<Sep>сентября</Sep>
+		<Oct>октября</Oct>
+		<Nov>ноября</Nov>
+		<Dec>декабря</Dec>
+		-->
+		<Jan>01</Jan>
+		<Feb>02</Feb>
+		<Mar>03</Mar>
+		<Apr>04</Apr>
+		<May>05</May>
+		<Jun>06</Jun>
+		<Jul>07</Jul>
+		<Aug>08</Aug>
+		<Sep>09</Sep>
+		<Oct>10</Oct>
+		<Nov>11</Nov>
+		<Dec>12</Dec>
+	</Month>
+
+</hangarClock>

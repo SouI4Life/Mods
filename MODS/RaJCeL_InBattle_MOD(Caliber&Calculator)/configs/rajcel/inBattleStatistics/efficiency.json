@@ -1,0 +1,34 @@
+// RaJCeL inBattleStatistics Efficiency config file
+{
+    // enables panel
+    "enable": false,
+    // enables errors trace in python.log
+    "debug": false,
+    // enables panel in Frontline
+    "enableInFrontline": false,
+    "message": {
+        // allows to move panels message in battle with mouse drag and drop
+        "drag": true,
+        // horizontal align; determine place from which "x" are calculated; available values: "left", "center", "right"
+        "hAlign": "left",
+        // vertical align; determine place from which "y" are calculated; available values: "top", "center", "bottom"
+        "vAlign": "bottom",
+        "x": 0,
+        "y": 252,
+        "alpha": 1.0, // 0.0 - 1.0; 0.0 fully transparent; 1.0 fully visible
+        "height": 25,
+        "width": 300,
+        "shadow": {
+            "distance": 1,
+            "angle": 45,
+            "color": "#000000",
+            "alpha": 0.75,
+            "blurX": 5,
+            "blurY": 5,
+            "strength": 5,
+            "quality": 1
+        },
+        "format": "<b><textformat tabstops='[65,130,195]'><font size='17' color='{{c:default}}' face='Arial Narrow'><img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/damage.png' vspace='-2'> {{damage}}\t<img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/assist.png' vspace='-2'> {{assist}}\t<img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/blocked.png' vspace='-2'> {{blocked}}\t<img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/spotted.png' vspace='-2'> {{spotted}}</font></textformat></b>",
+        "formatSPG": "<b><textformat tabstops='[65,130,195,235]'><font size='17' color='{{c:default}}' face='Arial Narrow'><img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/damage.png' vspace='-2'> {{damage}}\t<img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/assist.png' vspace='-2'> {{assist}}\t<img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/blocked.png' vspace='-2'> {{blocked}}\t<img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/spotted.png' vspace='-2'> {{spotted}}\t<img src='img://../mods/configs/rajcel/inBattleStatistics/efficiency/stunAssist.png' vspace='-2'> {{stunAssist}}</font></textformat></b>"
+    }
+}

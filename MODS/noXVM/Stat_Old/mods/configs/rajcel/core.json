@@ -1,0 +1,11 @@
+// RaJCeL Core config file
+{
+    // enables errors trace in python.log
+    "debug": false,
+    // enables updating of tank expected values and xvm color scale
+    "updateWN8Values": {
+        "enable": true,
+        "expectedUrl": "https://static.modxvm.com/wn8-data-exp/json/wg/wn8exp.json",
+        "scaleUrl": "https://static.modxvm.com/xvmscales-wg.json"
+    }
+}

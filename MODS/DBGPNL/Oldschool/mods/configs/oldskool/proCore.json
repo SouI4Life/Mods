@@ -1,0 +1,17 @@
+{
+    "soundReloaded": 0,
+    "soundFire": 0,
+    "maxFriends": 1000,
+    "disableStunSoundEffect": false,
+    "fpsLimit": 1000,
+    "maxIgnore": 5000,
+    "enabled": true,
+    "hideCrewHint": false,
+    "disableRedDotNotifications": false,
+    "carouselRows": 1,
+    "hideCamo": false,
+    "configVersion": 5,
+    "hideDecals": false,
+    "hideClanlogo": false,
+    "uiScale": 100
+}

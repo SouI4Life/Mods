@@ -1,0 +1,9 @@
+//	Информер результатов о завершенном бое в чат.
+//	Informer results of completed battle to chat.
+
+"resultInformer": {
+	
+	// true - включить функцию.
+	// true - enable function.
+	"enable": true
+}

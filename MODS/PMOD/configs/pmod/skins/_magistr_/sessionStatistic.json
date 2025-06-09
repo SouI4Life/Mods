@@ -1,0 +1,126 @@
+"sessionStatistic": {
+	"commonMacros": {
+		"CM:version": "1.6.0"
+	},
+	"noBattles": {
+		"icon": "../maps/icons/statistic/rating.png",
+		"background": "../maps/icons/library/SallyResultBg-1.png",
+		"message": "<textformat leading='2'><p align='center'><font face='times' size='16' color='#E1F5A9'><b>Статистика от _Magistr_</b></font></p></textformat>\n<img src='img://gui/maps/icons/vehicle/unique/normal_germany-G105_T-55_NVA_DDR.png' width='200' height='128' align='baseline' vspace='0'>\n\n<p align='center'><font face='times' size='14' color='#E1F5A9'>Сегодня не было сражений</font></p>\n<p align='center'><font face='times' size='14' color='#E1F5A9'>или статистика была обнулена</font></p>"
+	},
+	"pages": [
+		{
+			"pageName": "overalStatistic",
+			"macroses": "overal",
+			"messageBackground": {
+				"enable": true,
+				"path": "../maps/icons/library/SallyResultBg-1.png"
+			},
+			"messageIcon": {
+				"enable": true,
+				"path": "../maps/icons/statistic/rating.png"
+			},
+			"templateWrapper": "<textformat tabstops='[27,115,175]'>{{items}}</textformat>",
+			"templateItem": [
+				"<font size='14'><font color='{{c:WN8}}' size='14'><img src='img://{{config}}/skins/_magistr_/assets/rating/{{c:WN8}}.png' width='20' height='20' align='baseline' vspace='-6'>\t<b>Рейтинг WN8:\t\t{{WN8}}</b></font>\n",
+				"<font color='{{c:EFF}}' size='14'><img src='img://{{config}}/skins/_magistr_/assets/rating/{{c:EFF}}.png' width='20' height='20' align='baseline' vspace='-6'>\t<b>Рейтинг EFF:\t\t{{EFF}}</b></font>\n\n",
+				"<img src='img://{{config}}/skins/_magistr_/assets/lines/{{c:WN8}}.png' width='230' height='1'>\n\n",
+				"<img src='img://gui/maps/icons/library/TournamentBattleResultIcon-1.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Побед:\t{{Wins}}/{{Battles}}\t<font color='{{c:WinRate}}'>{{WinRate}}%</b></font>\n",
+				"<img src='img://gui/maps/icons/library/dossier/avgDamage40x32.png' width='20' height='16' align='baseline' vspace='-6'>\t<b>Урон:\t{{DamageDealt}}\t<font color='{{c:DamageDealt}}'>{{AvgDamageDealt}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/dossier/assist40x32.png' width='20' height='16' align='baseline' vspace='-6'>\t<b>По засвету:\t{{DamageAssisted}}\t<font color='{{c:AvgDamageAssisted}}'>{{AvgDamageAssisted}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/dossier/maxDestroyed40x32.png' width='20' height='16' align='baseline' vspace='-6'>\t<b>Уничтожил:\t{{Frags}}\t<font color='{{c:Frags}}'>{{AvgFrags}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/crits/commanderDestroyedSmall.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Обнаружил:\t{{SpottedEnemies}}\t<font color='{{c:SpottedEnemies}}'>{{AvgSpottedEnemies}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/crits/gunnerDestroyedSmall.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Попадания:\t{{Hits}}/{{Shots}}\t<font color='{{c:HitsRate}}'>{{HitsRate}}%</b></font>\n",
+				"<img src='img://gui/maps/icons/library/fortBattleDefenceInviteIcon-1.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Защита:\t{{DroppedCapturePoints}}\t<font color='{{c:DroppedCapturePoints}}'>{{AvgDroppedCapturePoints}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/dossier/winsByCapture40x32.png' width='20' height='15' align='baseline' vspace='-6'>\t<b>Захват:\t{{CapturePoints}}\t<font color='{{c:CapturePoints}}'>{{AvgCapturePoints}}</b></font>\n\n",
+				"<img src='img://{{config}}/skins/_magistr_/assets/lines/{{c:WN8}}.png' width='230' height='1'>\n\n",
+				"<img src='img://gui/maps/icons/library/EliteXpIcon-2.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Опыт:\t{{OriginalXP}}\t<font color='{{c:OriginalXP}}'>{{AvgOriginalXP}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/multyXp.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Опыт хХ:\t{{XP}}\t<font color='{{c:OriginalXP}}'>{{AvgXP}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/crystal_16x16.png' width='14' height='14' align='baseline' vspace='-3'>\t<b>Боны:\t<font color='{{c:Crystal}}'>{{Crystal}}\t {{AvgCrystal}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/CreditsIcon-2.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Кредиты:\t<font color='{{c:PureCredits}}'>{{PureCredits}}\t{{AvgPureCredits}}</b></font></font>\n\n",
+				"<p align='center'><a href='event:showPage:overalStatistic'>{{UM:buttonOverallNew}}</a><a href='event:showPage:tanksEfficiency'>{{UM:buttonTanksNew}}</a><a href='event:resetStatisticConfirmation'>{{UM:buttonResetNew}}</a></p>\n"
+			],
+			"userMacros": {
+				"UM:buttonOverallNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/overall-active.png' width='44' height='32' align='baseline' vspace='-10'>",
+				"UM:buttonTanksNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/tanks-new.png' width='44' height='32' align='baseline' vspace='-10'>",
+				"UM:buttonResetNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/reset-new.png' width='44' height='32' align='baseline' vspace='-10'>"
+			},
+			${"skins/_magistr_/assets/colors.json"}
+		},
+		{
+			"pageName": "tanksEfficiency",
+			"macroses": "byTanks",
+			"messageBackground": {
+				"enable": true,
+				"path": "../maps/icons/library/SallyResultBg-1.png"
+			},
+			"messageIcon": {
+				"enable": true,
+				"path": "../maps/icons/statistic/rating.png"
+			},
+			"templateWrapper": [
+				"<textformat leading='-4' tabstops='[73,110,147,184]'><img src='img://gui/maps/icons/library/dossier/survival40x32.png' width='30' height='22' align='baseline' vspace='-10'>\t<font size='13' color='#C9B967'><b><a href='event:sortPage:WinRate'>Бои</a></b>\t<b><a href='event:sortPage:AvgDamageDealt'>Урон</a></b>\t<b><a href='event:sortPage:WN8'>WN8</a></b>\t<font size='13'><b><a href='event:sortPage:EFF'>EFF</a></b></font></font></textformat>\n\n",
+				"<img src='img://{{config}}/skins/_magistr_/assets/lines/{{c:WN8}}.png' width='230' height='1'>\n\n",
+				"{{items}}\n\n",
+				"<p align='center'><a href='event:showPage:overalStatistic'>{{UM:buttonOverallNew}}</a><a href='event:showPage:tanksEfficiency'>{{UM:buttonTanksNew}}</a><a href='event:resetStatisticConfirmation'>{{UM:buttonResetNew}}</a></p>\n"
+			],
+			"templateConnector": "",
+			"templateItem": "<textformat leading='-4' tabstops='[73,110,147,184]'><font size='0'>fake</font><font size='13'><font color='#FFE6B3'><b><a href='event:showPage:tankEfficiency:{{tank_id}}'>{{VehicleLocalNameShort}}</a></b></font>\t<font color='{{c:WinRate}}'><b>{{Wins}}/{{Battles}}</b></font>\t<font color='{{c:DamageDealt}}'><b>{{AvgDamageDealt}}</b></font>\t<font color='{{c:WN8}}'><b>{{WN8}}</b></font>\t<font color='{{c:EFF}}'><b>{{EFF}}</b></font></font></textformat>\n",
+			"itemsSortingMacros": "Battles:desc",
+      ${"skins/_magistr_/assets/colors.json"},
+			"userMacros": {
+				"UM:buttonOverall": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/overall.png' width='100' height='20' align='baseline' vspace='0'>",
+				"UM:buttonReset": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/reset.png' width='100' height='20' align='baseline' vspace='0'>",
+				"UM:buttonOverallNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/overall-new.png' width='44' height='32' align='baseline' vspace='-10'>",
+				"UM:buttonTanksNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/tanks-active.png' width='44' height='32' align='baseline' vspace='-10'>",
+				"UM:buttonResetNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/reset-new.png' width='44' height='32' align='baseline' vspace='-10'>",
+				"UM:name": "<font color='#E4D5C2'>{{VehicleLocalNameShort}}</font>",
+				"UM:battles": "<tab><font color='{{c:WinRate}}'>{{Wins}}/{{Battles}}</font>",
+				"UM:damage": "<tab><font color='{{c:AvgDamageDealt}}'>{{AvgDamageDealt}}</font>",
+				"UM:rating": "<tab><font color='{{c:WN8}}'>{{WN8}} ({{XWN8}})</font>"
+			}
+		},
+		{
+			"pageName": "tankEfficiency",
+			"macroses": "byTank",
+			"messageBackground": {
+				"enable": true,
+				"path": "../maps/icons/library/SallyResultBg-1.png"
+			},
+			"messageIcon": {
+				"enable": true,
+				"path": "../maps/icons/statistic/rating.png"
+			},
+			"templateWrapper": [
+				"<textformat tabstops='[27,115,175]'><font size='14'>{{items}}</font></textformat>\n",
+				"<p align='center'><a href='event:showPage:overalStatistic'>{{UM:buttonOverallNew}}</a><a href='event:showPage:tanksEfficiency'>{{UM:buttonTanksNew}}</a><a href='event:resetStatisticConfirmation'>{{UM:buttonResetNew}}</a></p>\n"
+			],
+			"templateItem": [
+				"<p align='center'><font size='18'><b>{{VehicleLocalNameShort}}</b></font></p>\n",
+				"<p align='center'><img src='img://gui/maps/icons/vehicle/{{VehicleImage}}.png' width='160' height='100' align='baseline'></p>\n",
+				"<font color='{{c:WN8}}'><img src='img://{{config}}/skins/_magistr_/assets/rating/{{c:WN8}}.png' width='20' height='20' align='baseline' vspace='-6'>\t<b>Рейтинг WN8:\t\t{{WN8}}</b></font>\n",
+				"<font color='{{c:EFF}}'><img src='img://{{config}}/skins/_magistr_/assets/rating/{{c:EFF}}.png' width='20' height='20' align='baseline' vspace='-6'>\t<b>Рейтинг EFF:\t\t{{EFF}}</b></font>\n\n",
+				"<img src='img://{{config}}/skins/_magistr_/assets/lines/{{c:WN8}}.png' width='230' height='1'>\n\n",
+				"<img src='img://gui/maps/icons/library/dossier/avgDamage40x32.png' width='20' height='16' align='baseline' vspace='-6'>\t<b>Урон:\t{{DamageDealt}}\t<font color='{{c:DamageDealt}}'>{{AvgDamageDealt}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/dossier/assist40x32.png' width='20' height='16' align='baseline' vspace='-6'>\t<b>По засвету:\t{{DamageAssisted}}\t<font color='{{c:AvgDamageAssisted}}'>{{AvgDamageAssisted}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/dossier/maxDestroyed40x32.png' width='20' height='16' align='baseline' vspace='-6'>\t<b>Уничтожил:\t{{Frags}}\t<font color='{{c:Frags}}'>{{AvgFrags}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/crits/commanderDestroyedSmall.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Обнаружил:\t{{SpottedEnemies}}\t<font color='{{c:SpottedEnemies}}'>{{AvgSpottedEnemies}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/crits/gunnerDestroyedSmall.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Попадания:\t{{Hits}}/{{Shots}}\t<font color='{{c:HitsRate}}'>{{HitsRate}}%</b></font>\n",
+				"<img src='img://gui/maps/icons/library/fortBattleDefenceInviteIcon-1.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Защита:\t{{DroppedCapturePoints}}\t<font color='{{c:DroppedCapturePoints}}'>{{AvgDroppedCapturePoints}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/dossier/winsByCapture40x32.png' width='20' height='15' align='baseline' vspace='-6'>\t<b>Захват:\t{{CapturePoints}}\t<font color='{{c:CapturePoints}}'>{{AvgCapturePoints}}</b></font>\n\n",
+        "<img src='img://{{config}}/skins/_magistr_/assets/lines/{{c:WN8}}.png' width='230' height='1'>\n\n",
+				"<img src='img://gui/maps/icons/library/EliteXpIcon-2.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Опыт:\t{{OriginalXP}}\t<font color='{{c:OriginalXP}}'>{{AvgOriginalXP}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/multyXp.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Опыт хХ:\t{{XP}}\t<font color='{{c:OriginalXP}}'>{{AvgXP}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/crystal_16x16.png' width='14' height='14' align='baseline' vspace='-3'>\t<b>Боны:\t<font color='{{c:Crystal}}'>{{Crystal}}\t {{AvgCrystal}}</b></font>\n",
+				"<img src='img://gui/maps/icons/library/CreditsIcon-2.png' width='16' height='16' align='baseline' vspace='-4'>\t<b>Кредиты:\t<font color='{{c:PureCredits}}'>{{PureCredits}}\t{{AvgPureCredits}}</b></font></font>\n\n"
+      ],
+			${"skins/_magistr_/assets/colors.json"},
+			"userMacros": {
+				"UM:buttonOverall": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/overall.png' width='100' height='20' align='baseline' vspace='0'>",
+				"UM:buttonReset": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/reset.png' width='100' height='20' align='baseline' vspace='0'>",
+				"UM:buttonOverallNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/overall-new.png' width='44' height='32' align='baseline' vspace='-10'>",
+				"UM:buttonTanksNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/tanks-active.png' width='44' height='32' align='baseline' vspace='-10'>",
+				"UM:buttonResetNew": "<img src='img://{{config}}/skins/_magistr_/assets/buttons/reset-new.png' width='44' height='32' align='baseline' vspace='-10'>"
+			}
+		}
+	]
+}

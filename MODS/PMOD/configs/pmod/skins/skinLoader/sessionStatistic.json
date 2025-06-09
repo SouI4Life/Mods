@@ -1,0 +1,5 @@
+"sessionStatistic": {
+	// true - включить модуль.
+	// true - enable the module.
+	"enable": false
+}

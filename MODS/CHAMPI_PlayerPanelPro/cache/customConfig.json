@@ -1,0 +1,118 @@
+{
+    "playerpanel": {
+        "1spot": {
+            "hideIfDead": false,
+            "right": {
+                "align": "right",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/spotted/%(status)s' width='%(iconsize)d' height='%(iconsize)d'>",
+                "x": -154,
+                "y": 0
+            }
+        },
+        "2friend": {
+            "hideIfDead": false,
+            "left": {
+                "align": "left",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/friend.png' width='24' height='24'>",
+                "x": 58,
+                "y": -3
+            },
+            "right": {
+                "align": "right",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/friend.png' width='24' height='24'>",
+                "x": -58,
+                "y": -3
+            }
+        },
+        "3class": {
+            "hideIfDead": false,
+            "left": {
+                "align": "left",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/green/%(class)s' width='17' height='21'>",
+                "x": 63,
+                "y": 0
+            },
+            "right": {
+                "align": "right",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/red/%(class)s' width='17' height='21'>",
+                "x": -63,
+                "y": 0
+            }
+        },
+        "4bartext": {
+            "hideIfDead": false,
+            "left": {
+                "align": "center",
+                "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(healthText)s</font>",
+                "x": 116,
+                "y": 1
+            },
+            "right": {
+                "align": "center",
+                "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(healthText)s</font>",
+                "x": -121,
+                "y": 1
+            }
+        },
+        "5barimg": {
+            "hideIfDead": true,
+            "left": {
+                "align": "left",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/%(fileName)s' width='%(barWidth)d' height='22'>",
+                "width": 72,
+                "x": 80,
+                "y": -1
+            },
+            "right": {
+                "align": "right",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/%(fileName)s' width='%(barWidth)d' height='22'>",
+                "width": 72,
+                "x": -82,
+                "y": -1
+            }
+        },
+        "6barbg": {
+            "hideIfDead": true,
+            "left": {
+                "align": "left",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/hp_bg.png' width='70' height='24'>",
+                "x": 80,
+                "y": -2
+            },
+            "right": {
+                "align": "right",
+                "text": "<img src='img://../mods/configs/CHAMPi/playerPanelPro/customcfg/hp_bg.png' width='70' height='24'>",
+                "x": -82,
+                "y": -2
+            }
+        },
+        "7dmg": {
+            "left": {
+                "align": "right",
+                "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(damageText)s</font>",
+                "x": 192,
+                "y": -1
+            },
+            "right": {
+                "align": "right",
+                "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(damageText)s</font>",
+                "x": -182,
+                "y": -1
+            }
+        },
+        "8wgr": {
+            "left": {
+                "align": "left",
+                "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(wgrText)s</font>",
+                "x": 196,
+                "y": -4
+            },
+            "right": {
+                "align": "right",
+                "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(wgrText)s</font>",
+                "x": -228,
+                "y": -4
+            }
+        }
+    }
+}

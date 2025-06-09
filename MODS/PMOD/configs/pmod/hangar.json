@@ -1,0 +1,37 @@
+// Ангарная часть мода.
+// Hangar part of the mod.
+
+{
+	// true - включить модуль.
+	// true - enable the module.
+	"enable": false,
+	
+	// Восстанавливать выбранный тип боя при смене сервера
+	// Restore the selected type of battle when changing the server
+	"restoreBattleType": false,
+	
+	// Фильтр сообщений в ангаре
+	// Hangar messeges filter
+	"messagesCleaner": {
+		
+		// true - включить функцию.
+		// true - enable function.	
+		"enable": false,
+		
+		// Всплывающие сообщения в ангаре.
+		// Pop-up messages in the hangar.
+		"popUpMessages": false,
+		
+		// Сообщения в системном канале.
+		// Messages in the system channel.
+		"systemLog": false,
+		
+		// Список строк по которым удаляются всплывающие сообщения.
+		// List of strings which delete popup messages.
+		"maskPopUp": ["вы не меняли пароль", "добро пожаловать на сервер", "ремонт", "куплено"],
+		
+		// Список строк по которым удаляются сообщения в системном канале.
+		// List of strings which delete messages from system channel.
+		"maskSysLog": ["вы не меняли пароль", "добро пожаловать на сервер"]
+	}
+}

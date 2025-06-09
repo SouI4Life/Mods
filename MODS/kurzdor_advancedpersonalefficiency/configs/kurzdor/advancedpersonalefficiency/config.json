@@ -1,0 +1,14 @@
+{
+  "assist": {
+    "enabled": true,
+    "format": "{{totalAssist}} ({{radioAssist}} / {{trackAssist}})",
+    "mode": "replace"
+  },
+  "crits": {
+    "enabled": false
+  },
+  "enabled": true,
+  "spotted": {
+    "enabled": false
+  }
+}

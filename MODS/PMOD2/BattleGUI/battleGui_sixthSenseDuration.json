@@ -1,0 +1,4 @@
+//	Продолжительность отображения индикатора засвета (лампочка) в секундах.
+//	Duration displaying light indicator (lamp) in seconds.
+
+"sixthSenseDuration" : 2
