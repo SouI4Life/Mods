@@ -32,4 +32,5 @@ jobs:
         aws s3 sync . s3://$BUCKET \
           --endpoint-url https://$ACCOUNT_ID.r2.cloudflarestorage.com \
           --exclude ".git/*" \
+          --exact-timestamps \
           --delete
