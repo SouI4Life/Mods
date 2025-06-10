@@ -12,26 +12,31 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Install or Update AWS CLI
-      run: |
-        if [ -d "/usr/local/aws-cli/v2/current" ]; then
-          echo "AWS CLI is already installed. Updating..."
-          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-          unzip awscliv2.zip
-          cd aws || exit 1
-          sudo ./install --update
+    - name: Install rclone
+  run: sudo apt-get update && sudo apt-get install -y rclone
 
-    - name: Upload files to Cloudflare R2
-    env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-      AWS_REGION: ${{ secrets.R2_REGION }}
-      BUCKET: ${{ secrets.R2_BUCKET }}
-      ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-      AWS_CLI_DISABLE_MULTIPART_CHECKSUM: true
-    run: |
-      aws configure set default.s3.signature_version s3v4
-      aws s3 sync . s3://$BUCKET \
-        --endpoint-url https://$ACCOUNT_ID.r2.cloudflarestorage.com \
-        --exclude ".git/*" \
-        --delete
+- name: Configure rclone for R2
+  env:
+    RCLONE_CONFIG_R2_TYPE: s3
+    RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+    RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+    RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+    RCLONE_CONFIG_R2_REGION: ${{ secrets.R2_REGION }}
+    RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+  run: |
+    mkdir -p ~/.config/rclone
+    cat > ~/.config/rclone/rclone.conf <<EOL
+[R2]
+type = s3
+provider = Cloudflare
+access_key_id = $RCLONE_CONFIG_R2_ACCESS_KEY_ID
+secret_access_key = $RCLONE_CONFIG_R2_SECRET_ACCESS_KEY
+region = $RCLONE_CONFIG_R2_REGION
+endpoint = $RCLONE_CONFIG_R2_ENDPOINT
+EOL
+
+- name: Sync files to R2 Bucket
+  env:
+    BUCKET: ${{ secrets.R2_BUCKET }}
+  run: |
+    rclone sync . R2:$BUCKET --exclude ".git/**" --progress
