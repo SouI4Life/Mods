@@ -1,4 +1,0 @@
-// Скрывать личный жетон игрока который убил вас.
-// Hide dog tag of the player who killed you.
-
-"hidePostmortemDogTag": false

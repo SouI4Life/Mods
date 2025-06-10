@@ -1,1 +1,0 @@
-while a and b and c:print 1
