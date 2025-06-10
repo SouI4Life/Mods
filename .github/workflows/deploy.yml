@@ -27,6 +27,8 @@ jobs:
         ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
       run: |
         aws configure set default.s3.signature_version s3v4
+        aws configure set default.s3.use_accelerate_endpoint false
+        aws configure set default.s3.disable_checksum true
         aws s3 sync . s3://$BUCKET \
           --endpoint-url https://$ACCOUNT_ID.r2.cloudflarestorage.com \
           --exclude ".git/*" \
