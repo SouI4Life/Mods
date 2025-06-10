@@ -2,41 +2,37 @@ name: Deploy to R2
 
 on:
   push:
-    branches: [ "main" ]  # Заміни на "master", якщо твоя основна гілка має іншу назву
+    branches: [ "main" ]  # Заміни на "master", якщо інша основна гілка
 
 jobs:
   upload:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Install rclone
-      run: sudo apt-get update && sudo apt-get install -y rclone
+      - name: Install rclone
+        run: sudo apt-get update && sudo apt-get install -y rclone
 
-    - name: Configure rclone for R2
-      env:
-        RCLONE_CONFIG_R2_TYPE: s3
-        RCLONE_CONFIG_R2_PROVIDER: Cloudflare
-        RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-        RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-        RCLONE_CONFIG_R2_REGION: ${{ secrets.R2_REGION }}
-        RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
-      run: |
-        mkdir -p ~/.config/rclone
-        cat > ~/.config/rclone/rclone.conf <<EOL
-[R2]
-type = s3
-provider = Cloudflare
-access_key_id = $RCLONE_CONFIG_R2_ACCESS_KEY_ID
-secret_access_key = $RCLONE_CONFIG_R2_SECRET_ACCESS_KEY
-region = $RCLONE_CONFIG_R2_REGION
-endpoint = $RCLONE_CONFIG_R2_ENDPOINT
-EOL
+      - name: Configure rclone for R2
+        env:
+          ACCESS_KEY: ${{ secrets.R2_ACCESS_KEY_ID }}
+          SECRET_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          REGION: ${{ secrets.R2_REGION }}
+          ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+        run: |
+          mkdir -p ~/.config/rclone
+          echo "[R2]" > ~/.config/rclone/rclone.conf
+          echo "type = s3" >> ~/.config/rclone/rclone.conf
+          echo "provider = Cloudflare" >> ~/.config/rclone/rclone.conf
+          echo "access_key_id = $ACCESS_KEY" >> ~/.config/rclone/rclone.conf
+          echo "secret_access_key = $SECRET_KEY" >> ~/.config/rclone/rclone.conf
+          echo "region = $REGION" >> ~/.config/rclone/rclone.conf
+          echo "endpoint = $ENDPOINT" >> ~/.config/rclone/rclone.conf
 
-    - name: Sync files to R2 Bucket
-      env:
-        BUCKET: ${{ secrets.R2_BUCKET }}
-      run: |
-        rclone sync . R2:$BUCKET --exclude ".git/**" --progress
+      - name: Sync files to R2 Bucket
+        env:
+          BUCKET: ${{ secrets.R2_BUCKET }}
+        run: |
+          rclone sync . R2:$BUCKET --exclude ".git/**" --progress
