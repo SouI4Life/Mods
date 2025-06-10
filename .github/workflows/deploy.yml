@@ -28,7 +28,7 @@ jobs:
           sudo ./install
         fi
         aws --version
-        
+
     - name: Upload files to Cloudflare R2
       env:
          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -42,4 +42,3 @@ jobs:
            --endpoint-url https://$ACCOUNT_ID.r2.cloudflarestorage.com \
            --exclude ".git/*" \
            --delete \
-           --no-checksum
