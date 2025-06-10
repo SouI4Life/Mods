@@ -1,7 +1,0 @@
-
-//	Состояние панели игроков (ушей) при отсчете до начала боя.
-	// Возможные значения - none (скрыть), short (короткая), medium (средняя), medium2 (средняя 2), large (длинная).
-	// Players panel state when counting up the fight.
-	// Possible values ​​- none, short, medium, medium2, large.
-
-"playersPanelState" : "large"

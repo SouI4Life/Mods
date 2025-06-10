@@ -1,9 +1,0 @@
-/*
-	Обработка сообщений в системном канале 
-	Process messages in the system channel
-*/
-"systemMessages": {
-	// true - включить модуль.
-	// true - enable the module.
-	"enable": false
-}

@@ -1,8 +1,0 @@
-{
-  "default_icon": true, 
-  "default_icon_name": "eye_of_sauron.png", 
-  "enabled": true, 
-  "lampShowTime": 10, 
-  "playTickSound": false, 
-  "user_icon": "mods/configs/mod_battle_observer/__icon__path__200x200.png"
-}

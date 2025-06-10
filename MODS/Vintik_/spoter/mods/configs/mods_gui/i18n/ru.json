@@ -1,9 +1,0 @@
-﻿{
-    "gui_buttonApply": "Застосувати",
-    "gui_buttonCancel": "Скасувати",
-    "gui_buttonOK": "Ok",
-    "gui_enableButtonTooltip": "{HEADER}Налаштування модів{/HEADER}{BODY}Увм. | Вимк. і налаштувати моди{/BODY}",
-    "gui_name": "МОДЫ - Налаштування",
-    "gui_windowTitle": "Налаштування модів",
-    "version": 304
-}

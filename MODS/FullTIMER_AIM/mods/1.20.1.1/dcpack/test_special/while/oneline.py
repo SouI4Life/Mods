@@ -1,1 +1,0 @@
-while a:print 1

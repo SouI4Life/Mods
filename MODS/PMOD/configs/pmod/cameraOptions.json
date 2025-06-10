@@ -1,9 +1,0 @@
-
-{
-	"enable": false,
-	${"cameraOptions_noGlideCamera.json"},
-	${"cameraOptions_noFlashBang.json"},	
-	${"cameraOptions_noShockWave.json"},
-	"killerVisionTime": 5.0,
-	"heightOffset": 4.0
-}
