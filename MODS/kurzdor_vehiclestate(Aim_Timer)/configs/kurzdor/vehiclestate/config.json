@@ -1,0 +1,51 @@
+{
+  "aimingTimer": {
+    "almostDoneThreshold": 75,
+    "enabled": true
+  },
+  "align": "right",
+  "colors": {
+    "aimingTimer": {
+      "aiming": "#ff1207",
+      "almostDone": "#ffcc66",
+      "done": "#7cd606"
+    }
+  },
+  "coolingDelayTimer": {
+    "enabled": true
+  },
+  "enabled": true,
+  "hotkeys": {
+    "toggle": [66, [29, 157]]
+  },
+  "offsets": {
+    "arcade": {
+      "x": 172,
+      "y": -83
+    },
+    "sniper": {
+      "x": 278,
+      "y": 0
+    },
+    "strategic": {
+      "x": 350,
+      "y": 0
+    }
+  },
+  "prettyNumberFormat": false,
+  "shadow": {
+    "alpha": 70,
+    "angle": 90,
+    "blur": 2,
+    "color": "#000000",
+    "distance": 1,
+    "strength": 4
+  },
+  "templates": {
+    "aimingTimer": "<font face='$FieldFont' size='16' color='%(c:aimingStatus)s'>%(aimingRemainingTime)s - %(aimingProgress)s</font>",
+    "healthInfo": "",
+    "shellInfo": ""
+  },
+  "version": 3,
+  "visible": true
+}
