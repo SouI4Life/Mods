@@ -33,4 +33,5 @@ jobs:
           --endpoint-url https://$ACCOUNT_ID.r2.cloudflarestorage.com \
           --exclude ".git/*" \
           --exact-timestamps \
-          --delete
+          --delete \
+          --no-checksum
