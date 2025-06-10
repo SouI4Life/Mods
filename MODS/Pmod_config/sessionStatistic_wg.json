@@ -1,0 +1,4 @@
+// Скрыть кнопку игровой сессионной статистики
+// Hide the game session statistics button
+
+	"hideIngameStatistic": false

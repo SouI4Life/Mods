@@ -1,0 +1,215 @@
+
+"sessionStatistic": {
+	
+	"noBattles": {
+		"icon": "",
+		"background": "{{config}}skins/lebwa/resources/background-logo.png",
+		"message": "<br><br><p align='center'><font face='$TitleFont' size='15' color='#E9E2BF'>PMOD - Сессионная статистика</font><br><br>Привет {{PlayerName}}, для отображения изменений в статистике нужно провести хотя бы один бой!</p> "
+	},
+	
+	"pages": [
+		
+		// Общая компактная
+		{
+			"pageName": "compactStatistic",
+			"macroses": "overal",
+			"messageBackground": {
+				"enable": true,
+				"path": "{{config}}skins/lebwa/resources/background-logo.png"
+			},
+			"templateWrapper": [
+				"<br><p align='center'>{{CM:compact_active}}{{CM:detailed}}{{CM:tanks}}{{CM:delete}}</p>",
+				"{{CM:delimiter10px}}",
+				"<font size='14' color='#A3A09B'><textformat leading='2' tabstops='[85,155]'>{{items}}</textformat></font>",
+				"{{CM:delimiter10px}}"
+			//	"{{CM:delimiter10px}}",
+			//	"{{CM:reload}}"
+			],
+			"templateItem": [
+				"Рейтинг<tab><font color='#F5F2E1'>WN8</font><tab><font color='{{c:WN8}}'>{{WN8}} ({{XWN8}})</font>{{UM:line}}",
+				"Бои<tab><font color='#F5F2E1'>{{Wins}} / {{Battles}}</font><tab><font color='{{c:WinRate}}'>{{WinRate}}%</font>{{UM:line}}",
+				"Опыт<tab><font color='#F5F2E1'>{{XP}}</font><tab><font color='{{c:AvgXP}}'>{{AvgXP}}</font>{{UM:line}}",
+				"Урон<tab><font color='#F5F2E1'>{{DamageDealt}}</font><tab><font color='{{c:AvgDamageDealt}}'>{{AvgDamageDealt}}</font>{{UM:line}}",
+				"Фраги<tab><font color='#F5F2E1'>{{Frags}}</font><tab><font color='{{c:AvgFrags}}'>{{AvgFrags}}</font>{{UM:line}}",
+				"Кредиты<tab><font color='{{c:Credits}}'>{{Credits}}</font><tab><font color='{{c:PureCredits}}'>{{PureCredits}}</font>"
+			],
+			"colors": {
+				"WinRate": [{"value": 47, "color": "#EE0000"}, {"value": 49, "color": "#FE7903"}, {"value": 52, "color": "#F8F400"}, {"value": 57, "color": "#60FF00"}, {"value": 64, "color": "#02C9B3"}, {"value": 101, "color": "#D042F3"}],
+				"AvgDamageDealt": [{"value": 800, "color": "#EE0000"}, {"value": 1500, "color": "#FE7903"}, {"value": 2000, "color": "#F8F400"}, {"value": 2500, "color": "#60FF00"}, {"value": 3000, "color": "#02C9B3"}, {"value": 9999,  "color": "#D042F3"}],
+				"AvgFrags": [{"value": 0.6, "color": "#EE0000"}, {"value": 0.8,  "color": "#FE7903"}, {"value": 1,    "color": "#F8F400"}, {"value": 1.3,  "color": "#60FF00"}, {"value": 2,    "color": "#02C9B3"}, {"value": 999,   "color": "#D042F3"}],
+				"AvgXP": [{"value": 0,   "color": "#D6D7D4"}, {"value": 201, "color": "#EE0000"}, {"value": 301,  "color": "#FE7903"}, {"value": 601,  "color": "#F8F400"}, {"value": 801,  "color": "#60FF00"}, {"value": 1101, "color": "#02C9B3"}, {"value": 99999, "color": "#D042F3"}],
+				"PureCredits": [{"value": 0, "color": "#D44B5D"}, {"value": 99999999, "color": "#C3D84C"}],
+				"Credits": [{"value": 0, "color": "#D44B5D"}, {"value": 99999999, "color": "#C3D84C"}],
+				"WN8": [{"value": 355,  "color": "#FE0E00"}, {"value": 820,  "color": "#FE7903"}, {"value": 1370, "color": "#F8F400"}, {"value": 2020, "color": "#60FF00"}, {"value": 2620, "color": "#02C9B3"}, {"value": 99999, "color": "#D042F3"}]
+			},
+			"userMacros": {
+				"UM:line": "<br><img src='img://{{config}}skins/lebwa/resources/line.png' height='2' width='220'><br>"
+			}
+		},
+		
+		// Общая детальная
+		{
+			"pageName": "detailStatistic",
+			"macroses": "overal",
+			"messageBackground": {
+				"enable": true,
+				"path": "{{config}}skins/lebwa/resources/background-logo.png"
+			},
+			"templateWrapper": [
+				"<br><p align='center'>{{CM:compact}}{{CM:detailed_active}}{{CM:tanks}}{{CM:delete}}</p>",
+				"{{CM:delimiter10px}}",
+				"<font size='14' color='#A3A09B'><textformat leading='2' tabstops='[85,155]'>{{items}}</textformat></font>",
+				"{{CM:delimiter10px}}"
+			//	"{{CM:delimiter10px}}",
+			//	"{{CM:reload}}"
+			],
+			"templateItem": [
+				"Рейтинг<tab><font color='#F5F2E1'>WN8</font><tab><font color='{{c:WN8}}'>{{WN8}} ({{XWN8}})</font>{{UM:line}}",
+				"Победы<tab><font color='#F5F2E1'>{{Wins}} / {{Battles}}</font><tab><font color='{{c:WinRate}}'>{{WinRate}}%</font>{{UM:line}}",
+				"Опыт<tab><font color='#F5F2E1'>{{XP}}</font><tab><font color='{{c:AvgXP}}'>{{AvgXP}}</font>{{UM:line}}",
+				"Урон<tab><font color='#F5F2E1'>{{DamageDealt}}</font><tab><font color='{{c:AvgDamageDealt}}'>{{AvgDamageDealt}}</font>{{UM:line}}",
+				"Фраги<tab><font color='#F5F2E1'>{{Frags}}</font><tab><font color='{{c:AvgFrags}}'>{{AvgFrags}}</font>{{UM:line}}",
+				"Асист<tab><font color='#F5F2E1'>{{DamageAssisted}}</font><tab><font color='{{c:DamageAssisted}}'>{{AvgDamageAssisted}}</font>{{UM:line}}",
+				"Защита<tab><font color='#F5F2E1'>{{DroppedCapturePoints}}</font><tab><font color='{{c:DiffAvgDroppedCapturePoints}}'>{{AvgDroppedCapturePoints}}</font>{{UM:line}}",
+				"Попадания<tab><font color='#F5F2E1'>{{Hits}}/{{Shots}}</font><tab><font color='{{c:HitsRate}}'>{{HitsRate}}%</font>{{UM:line}}",
+				"Пробития<tab><font color='#F5F2E1'>{{Piercings}}/{{Hits}}</font><tab><font color='{{c:EffHitsRate}}'>{{EffHitsRate}}%</font>{{UM:line}}",
+				"Засвет<tab><font color='#F5F2E1'>{{SpottedEnemies}}</font><tab><font color='{{c:SpottedEnemies}}'>{{AvgSpottedEnemies}}</font>{{UM:line}}",
+				"Захват<tab><font color='#F5F2E1'>{{CapturePoints}}</font><tab><font color='{{c:DiffAvgCapturePoints}}'>{{AvgCapturePoints}}</font>{{UM:line}}",
+				"Кредиты<tab><font color='{{c:Credits}}'>{{Credits}}</font><tab><font color='{{c:PureCredits}}'>{{PureCredits}}</font>"
+			],
+			"colors": {
+				"WinRate": [{"value": 47, "color": "#EE0000"}, {"value": 49, "color": "#FE7903"}, {"value": 52, "color": "#F8F400"}, {"value": 57, "color": "#60FF00"}, {"value": 64, "color": "#02C9B3"}, {"value": 101, "color": "#D042F3"}],
+				"AvgDamageDealt": [{"value": 800, "color": "#EE0000"}, {"value": 1500, "color": "#FE7903"}, {"value": 2000, "color": "#F8F400"}, {"value": 2500, "color": "#60FF00"}, {"value": 3000, "color": "#02C9B3"}, {"value": 9999,  "color": "#D042F3"}],
+				"AvgFrags": [{"value": 0.6, "color": "#EE0000"}, {"value": 0.8,  "color": "#FE7903"}, {"value": 1,    "color": "#F8F400"}, {"value": 1.3,  "color": "#60FF00"}, {"value": 2,    "color": "#02C9B3"}, {"value": 999,   "color": "#D042F3"}],
+				"AvgXP": [{"value": 0,   "color": "#D6D7D4"}, {"value": 201, "color": "#EE0000"}, {"value": 301,  "color": "#FE7903"}, {"value": 601,  "color": "#F8F400"}, {"value": 801,  "color": "#60FF00"}, {"value": 1101, "color": "#02C9B3"}, {"value": 99999, "color": "#D042F3"}],
+				"PureCredits": [{"value": 0, "color": "#D44B5D"}, {"value": 99999999, "color": "#C3D84C"}],
+				"Credits": [{"value": 0, "color": "#D44B5D"}, {"value": 99999999, "color": "#C3D84C"}],
+				"SpottedEnemies": 		[{"value": 0.6,  "color": "#FE0E00"}, {"value": 1,    "color": "#FE7903"}, {"value": 1.5,  "color": "#F8F400"}, {"value": 2,    "color": "#60FF00"}, {"value": 5,    "color": "#02C9B3"}, {"value": 15,    "color": "#D042F3"}],
+				"DiffAvgCapturePoints": 	[{"value": 0, "color": "#C0C0C0"}, {"value": 9999999, "color": "#60FF00"}],
+				"DiffAvgDroppedCapturePoints": [{"value": 0, "color": "#C0C0C0"}, {"value": 9999999, "color": "#60FF00"}],
+				
+				"HitsRate":                [{"value": 45,   "color": "#FE0E00"}, {"value": 55,   "color": "#FE7903"}, {"value": 65,   "color": "#F8F400"}, {"value": 80,   "color": "#60FF00"}, {"value": 90,   "color": "#02C9B3"}, {"value": 101,   "color": "#D042F3"}],
+				"EffHitsRate":             [{"value": 45,   "color": "#FE0E00"}, {"value": 55,   "color": "#FE7903"}, {"value": 65,   "color": "#F8F400"}, {"value": 80,   "color": "#60FF00"}, {"value": 90,   "color": "#02C9B3"}, {"value": 101,   "color": "#D042F3"}],
+				"EffShotsRate":            [{"value": 45,   "color": "#FE0E00"}, {"value": 55,   "color": "#FE7903"}, {"value": 65,   "color": "#F8F400"}, {"value": 80,   "color": "#60FF00"}, {"value": 90,   "color": "#02C9B3"}, {"value": 101,   "color": "#D042F3"}],
+
+				"DamageAssisted":          [{"value": 500,  "color": "#FE0E00"}, {"value": 1000, "color": "#FE7903"}, {"value": 1800, "color": "#F8F400"}, {"value": 2500, "color": "#60FF00"}, {"value": 3000, "color": "#02C9B3"}, {"value": 9999,  "color": "#D042F3"}],
+				"WN8": [{"value": 355,  "color": "#FE0E00"}, {"value": 820,  "color": "#FE7903"}, {"value": 1370, "color": "#F8F400"}, {"value": 2020, "color": "#60FF00"}, {"value": 2620, "color": "#02C9B3"}, {"value": 99999, "color": "#D042F3"}]
+			},
+			"userMacros": {
+				"UM:line": "<br><img src='img://{{config}}skins/lebwa/resources/line.png' height='2' width='220'><br>"
+			}
+		},
+		
+		// Эфективность на всех танках
+		{
+			"pageName": "tanksEfficiency",
+			"macroses": "byTanks",
+			"messageBackground": {
+				"enable": true,
+				"path": "{{config}}skins/lebwa/resources/background-logo.png"
+			},
+			"templateWrapper": [
+				"<br><p align='center'>{{CM:compact}}{{CM:detailed}}{{CM:tanks_active}}{{CM:delete}}</p>",
+				"{{CM:delimiter10px}}",
+				"<font size='14' color='#A3A09B'><textformat leading='2' tabstops='[95,125,165]'>",
+				"Техника",
+				"<tab><a href='event:sortPage:WinRate'>Бои</a>",
+				"<tab><a href='event:sortPage:AvgDamageDealt'>Урон</a>",
+				"<tab><a href='event:sortPage:WN8'>WN8</a>",
+				"{{UM:headerLine}}{{items}}</textformat></font>{{UM:headerLine}}",
+				"{{CM:delimiter10px}}"
+			//	"{{CM:delimiter10px}}",
+			//	"{{CM:reload}}"
+			],
+			"templateConnector": "<br><img src='img://{{config}}skins/lebwa/resources/line.png' height='2' width='220' vspace='-6'><br>",
+			"templateItem": "<a href='event:showPage:tankEfficiency:{{tank_id}}'>{{UM:infoIcon}}</a> <font size='12' color='#E5D8BE'>{{UM:name}}{{UM:battles}}{{UM:damage}}{{UM:rating}}</font>",
+			"itemsSortingMacros": "Battles:desc",
+			"colors": {
+				"AvgDamageDealt": [{"value": 800, "color": "#EE0000"}, {"value": 1500, "color": "#FE7903"}, {"value": 2000, "color": "#F8F400"}, {"value": 2500, "color": "#60FF00"}, {"value": 3000, "color": "#02C9B3"}, {"value": 9999,  "color": "#D042F3"}],
+				"WinRate": [{"value": 47, "color": "#EE0000"}, {"value": 49, "color": "#FE7903"}, {"value": 52, "color": "#F8F400"}, {"value": 57, "color": "#60FF00"}, {"value": 64, "color": "#02C9B3"}, {"value": 101, "color": "#D042F3"}],
+				"WN8": [{"value": 355,  "color": "#FE0E00"}, {"value": 820,  "color": "#FE7903"}, {"value": 1370, "color": "#F8F400"}, {"value": 2020, "color": "#60FF00"}, {"value": 2620, "color": "#02C9B3"}, {"value": 99999, "color": "#D042F3"}]
+			},
+			"userMacros": {
+				"UM:headerLine": "<br><img src='img://{{config}}skins/lebwa/resources/null.png' height='6' width='200'><br>",
+				"UM:name": "<font color='#E4D5C2'>{{VehicleLocalNameShort}}</font>",
+				"UM:battles": "<tab><font color='{{c:WinRate}}'>{{Wins}}/{{Battles}}</font>",
+				"UM:damage": "<tab><font color='{{c:AvgDamageDealt}}'>{{AvgDamageDealt}}</font>",
+				"UM:rating": "<tab><font color='{{c:WN8}}'>{{WN8}} ({{XWN8}})</font>",
+				"UM:infoIcon": "<img src='img://{{config}}skins/lebwa/resources/icon-tank-link.png' width='12' height='12' vspace='-1'>"
+			}
+		},
+		
+		// Эфективность на отдельном танке
+		{
+			"pageName": "tankEfficiency",
+			"macroses": "byTank",
+			"messageBackground": {
+				"enable": true,
+				"path": "{{config}}skins/lebwa/resources/background-logo.png"
+			},
+			"templateWrapper": [
+				"<br><p align='center'>{{CM:compact}}{{CM:detailed}}{{CM:tanks}}{{CM:delete}}</p>",
+				"{{CM:delimiter10px}}",
+				"<font size='14' color='#A3A09B'><textformat leading='2' tabstops='[85,155]'>{{items}}</textformat></font>",
+				"{{CM:delimiter10px}}"
+			//	"{{CM:delimiter10px}}",
+			//	"{{CM:reload}}"
+			],
+			"templateItem": [
+				"<p align='center'><font color='#F5F2E1' size='16'>{{VehicleLocalNameShort}}</font></p>{{CM:delimiter5px}}",
+				"Рейтинг<tab><font color='#F5F2E1'>WN8</font><tab><font color='{{c:WN8}}'>{{WN8}} ({{XWN8}})</font>{{UM:line}}",
+				"Победы<tab><font color='#F5F2E1'>{{Wins}} / {{Battles}}</font><tab><font color='{{c:WinRate}}'>{{WinRate}}%</font>{{UM:line}}",
+				"Опыт<tab><font color='#F5F2E1'>{{XP}}</font><tab><font color='{{c:AvgXP}}'>{{AvgXP}}</font>{{UM:line}}",
+				"Урон<tab><font color='#F5F2E1'>{{DamageDealt}}</font><tab><font color='{{c:AvgDamageDealt}}'>{{AvgDamageDealt}}</font>{{UM:line}}",
+				"Фраги<tab><font color='#F5F2E1'>{{Frags}}</font><tab><font color='{{c:AvgFrags}}'>{{AvgFrags}}</font>{{UM:line}}",
+				"Асист<tab><font color='#F5F2E1'>{{DamageAssisted}}</font><tab><font color='{{c:DamageAssisted}}'>{{AvgDamageAssisted}}</font>{{UM:line}}",
+				"Защита<tab><font color='#F5F2E1'>{{DroppedCapturePoints}}</font><tab><font color='{{c:DiffAvgDroppedCapturePoints}}'>{{AvgDroppedCapturePoints}}</font>{{UM:line}}",
+				"Попадания<tab><font color='#F5F2E1'>{{Hits}}/{{Shots}}</font><tab><font color='{{c:HitsRate}}'>{{HitsRate}}%</font>{{UM:line}}",
+				"Пробития<tab><font color='#F5F2E1'>{{Piercings}}/{{Hits}}</font><tab><font color='{{c:EffHitsRate}}'>{{EffHitsRate}}%</font>{{UM:line}}",
+				"Для отметки<tab><font color='#F5F2E1'>{{GunMarkScore}}</font><tab><font color='{{c:AvgGunMarkScore}}'>{{AvgGunMarkScore}}</font>{{UM:line}}",
+				"Засвет<tab><font color='#F5F2E1'>{{SpottedEnemies}}</font><tab><font color='{{c:SpottedEnemies}}'>{{AvgSpottedEnemies}}</font>{{UM:line}}",
+				"Захват<tab><font color='#F5F2E1'>{{CapturePoints}}</font><tab><font color='{{c:DiffAvgCapturePoints}}'>{{AvgCapturePoints}}</font>{{UM:line}}",
+				"Кредиты<tab><font color='{{c:Credits}}'>{{Credits}}</font><tab><font color='{{c:PureCredits}}'>{{PureCredits}}</font>"
+			],
+			"colors": {
+				"WinRate": [{"value": 47, "color": "#EE0000"}, {"value": 49, "color": "#FE7903"}, {"value": 52, "color": "#F8F400"}, {"value": 57, "color": "#60FF00"}, {"value": 64, "color": "#02C9B3"}, {"value": 101, "color": "#D042F3"}],
+				"AvgDamageDealt": [{"value": 800, "color": "#EE0000"}, {"value": 1500, "color": "#FE7903"}, {"value": 2000, "color": "#F8F400"}, {"value": 2500, "color": "#60FF00"}, {"value": 3000, "color": "#02C9B3"}, {"value": 9999,  "color": "#D042F3"}],
+				"AvgGunMarkScore": [{"value": 800, "color": "#EE0000"}, {"value": 1500, "color": "#FE7903"}, {"value": 2000, "color": "#F8F400"}, {"value": 2500, "color": "#60FF00"}, {"value": 3000, "color": "#02C9B3"}, {"value": 9999,  "color": "#D042F3"}],
+				"AvgFrags": [{"value": 0.6, "color": "#EE0000"}, {"value": 0.8,  "color": "#FE7903"}, {"value": 1,    "color": "#F8F400"}, {"value": 1.3,  "color": "#60FF00"}, {"value": 2,    "color": "#02C9B3"}, {"value": 999,   "color": "#D042F3"}],
+				"AvgXP": [{"value": 0,   "color": "#D6D7D4"}, {"value": 201, "color": "#EE0000"}, {"value": 301,  "color": "#FE7903"}, {"value": 601,  "color": "#F8F400"}, {"value": 801,  "color": "#60FF00"}, {"value": 1101, "color": "#02C9B3"}, {"value": 99999, "color": "#D042F3"}],
+				"PureCredits": [{"value": 0, "color": "#D44B5D"}, {"value": 99999999, "color": "#C3D84C"}],
+				"Credits": [{"value": 0, "color": "#D44B5D"}, {"value": 99999999, "color": "#C3D84C"}],
+				"SpottedEnemies": 		[{"value": 0.6,  "color": "#FE0E00"}, {"value": 1,    "color": "#FE7903"}, {"value": 1.5,  "color": "#F8F400"}, {"value": 2,    "color": "#60FF00"}, {"value": 5,    "color": "#02C9B3"}, {"value": 15,    "color": "#D042F3"}],
+				"DiffAvgCapturePoints": 	[{"value": 0, "color": "#C0C0C0"}, {"value": 9999999, "color": "#60FF00"}],
+				"DiffAvgDroppedCapturePoints": [{"value": 0, "color": "#C0C0C0"}, {"value": 9999999, "color": "#60FF00"}],
+				
+				"HitsRate":                [{"value": 45,   "color": "#FE0E00"}, {"value": 55,   "color": "#FE7903"}, {"value": 65,   "color": "#F8F400"}, {"value": 80,   "color": "#60FF00"}, {"value": 90,   "color": "#02C9B3"}, {"value": 101,   "color": "#D042F3"}],
+				"EffHitsRate":             [{"value": 45,   "color": "#FE0E00"}, {"value": 55,   "color": "#FE7903"}, {"value": 65,   "color": "#F8F400"}, {"value": 80,   "color": "#60FF00"}, {"value": 90,   "color": "#02C9B3"}, {"value": 101,   "color": "#D042F3"}],
+				"EffShotsRate":            [{"value": 45,   "color": "#FE0E00"}, {"value": 55,   "color": "#FE7903"}, {"value": 65,   "color": "#F8F400"}, {"value": 80,   "color": "#60FF00"}, {"value": 90,   "color": "#02C9B3"}, {"value": 101,   "color": "#D042F3"}],
+
+				"DamageAssisted":          [{"value": 500,  "color": "#FE0E00"}, {"value": 1000, "color": "#FE7903"}, {"value": 1800, "color": "#F8F400"}, {"value": 2500, "color": "#60FF00"}, {"value": 3000, "color": "#02C9B3"}, {"value": 9999,  "color": "#D042F3"}],
+				"WN8": [{"value": 355,  "color": "#FE0E00"}, {"value": 820,  "color": "#FE7903"}, {"value": 1370, "color": "#F8F400"}, {"value": 2020, "color": "#60FF00"}, {"value": 2620, "color": "#02C9B3"}, {"value": 99999, "color": "#D042F3"}]
+			},
+			"userMacros": {
+				"UM:line": "<br><img src='img://{{config}}skins/lebwa/resources/line.png' height='2' width='220'><br>"
+			}
+		}
+		
+	],
+	
+	"commonMacros": {
+		"CM:delimiter1px": "<br><img src='img://{{config}}skins/lebwa/resources/null.png' height='1' width='220'><br>",
+		"CM:delimiter5px": "<br><img src='img://{{config}}skins/lebwa/resources/null.png' height='5' width='220'><br>",
+		"CM:delimiter10px": "<br><img src='img://{{config}}skins/lebwa/resources/null.png' height='10' width='220'><br>",
+		
+		"CM:compact": "<a href='event:showPage:compactStatistic'><img src='img://{{config}}skins/lebwa/resources/buttons_compact.png' width='44' height='32' vspace='-10'></a>",
+		"CM:compact_active": "<a href='event:showPage:compactStatistic'><img src='img://{{config}}skins/lebwa/resources/buttons_compact_active.png' width='44' height='32' vspace='-10'></a>",
+		"CM:detailed": "<a href='event:showPage:detailStatistic'><img src='img://{{config}}skins/lebwa/resources/buttons_detailed.png' width='44' height='32' vspace='-10'></a>",
+		"CM:detailed_active": "<a href='event:showPage:detailStatistic'><img src='img://{{config}}skins/lebwa/resources/buttons_detailed_active.png' width='44' height='32' vspace='-10'></a>",
+		"CM:tanks": "<a href='event:showPage:tanksEfficiency'><img src='img://{{config}}skins/lebwa/resources/buttons_tanks.png' width='44' height='32' vspace='-10'></a>",
+		"CM:tanks_active": "<a href='event:showPage:tanksEfficiency'><img src='img://{{config}}skins/lebwa/resources/buttons_tanks_active.png' width='44' height='32' vspace='-10'></a>",
+		"CM:delete": "<a href='event:resetStatisticConfirmation'><img src='img://{{config}}skins/lebwa/resources/buttons_trash.png' width='44' height='32' vspace='-10'></a>",
+		
+		"CM:reload": "<a href='event:reloadConfig'><img src='img://gui/maps/icons/buttons/refresh.png' width='32' height='32' vspace='-10'></a>"
+	}
+}

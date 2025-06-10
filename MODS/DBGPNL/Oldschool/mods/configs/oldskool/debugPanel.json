@@ -1,0 +1,9 @@
+{
+    "enabled": true,
+    "fontSize": 16,
+    "panelText": "СЛАВА УКРАЇНІ!",
+    "panelWidth": 400,
+    "clockInBattle": true,
+    "hideRecordedFPS": true,
+    "configVersion": 1
+}

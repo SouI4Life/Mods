@@ -1,0 +1,47 @@
+// RaJCeL inBattleStatistics Players Panel Damage config file
+{
+    // enables panel
+    "enable": false,
+    // enables errors trace in python.log
+    "debug": false,
+    // always show panel info
+    "alwaysOn": false,
+    // hotkey to show panel info, when alwaysOn is false
+    "hotkey": 21,
+    "message": {
+        // horizontal align; determine place from which "x" are calculated; available values: "left", "center", "right"
+        "hAlign": "left",
+        // vertical align; determine place from which "y" are calculated; available values: "top", "center", "bottom"
+        "vAlign": "top",
+        // x positions for different players panel types; in pixels;
+        "x": {
+            "none": 2,
+            "short": 95,
+            "medium": 145,
+            "medium2": 170,
+            "large": 295
+        },
+        // y positions for different players panel types; in pixels;
+        "y": {
+            "none": 1,
+            "short": 1,
+            "medium": 1,
+            "medium2": 1,
+            "large": 1
+        },
+        "alpha": 1.0, // 0.0 - 1.0; 0.0 fully transparent; 1.0 fully visible
+        "height": 380,
+        "width": 50,
+        "shadow": {
+            "distance": 1,
+            "angle": 45,
+            "color": "#000000",
+            "alpha": 0.75,
+            "blurX": 5,
+            "blurY": 5,
+            "strength": 5,
+            "quality": 1
+        },
+        "format": "<b><font size='15' color='#F8F400' face='Arial'>%s</font></b>"
+    }
+}

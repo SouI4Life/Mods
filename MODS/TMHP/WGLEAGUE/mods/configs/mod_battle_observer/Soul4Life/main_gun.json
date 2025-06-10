@@ -1,0 +1,12 @@
+{
+  "enabled": true, 
+  "mainGunDoneIcon": "<img src='img://gui/maps/icons/battle_observer/done.png' width='22' height='22' vspace='-5'>", 
+  "mainGunFailureIcon": "<img src='img://gui/maps/icons/battle_observer/warning.png' width='25' height='22' vspace='-5'>", 
+  "mainGunIcon": "<img src='img://gui/maps/icons/battle_observer/main_gun.png' width='24' height='22' vspace='-5'>", 
+  "settings": {
+    "align": "left", 
+    "x": 255, 
+    "y": 0
+  }, 
+  "template": "%(mainGunIcon)s%(mainGunDoneIcon)s%(mainGunFailureIcon)s<font color='%(mainGunColor)s'>%(mainGun)s</font>"
+}

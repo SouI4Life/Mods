@@ -1,0 +1,3 @@
+// Инерция камеры (появилась в 0.8.11).
+// Сamera inertia (introduced in 0.8.11).
+"noGlideCamera": true

@@ -1,0 +1,38 @@
+{
+    "adjustSixthSenseDuration": true,
+    "checkUpdate": true,
+    "countdownPanel": {
+        "alignX": "center",
+        "alignY": "center",
+        "x": -1,
+        "y": -340
+    },
+    "enabled": true,
+    "font": "$FieldFont",
+    "fontColor": "FFFFFF",
+    "fontSize": 24,
+    "image": 0,
+    "imageAlphaHide": 0,
+    "imageAlphaShow": 1,
+    "imageCycle": false,
+    "imagePath": "mods/configs/CHAMPi/sixthSenseTimer/sixthSense_icons",
+    "imageScale": 100,
+    "removeOriginalImage": false,
+    "shadow": {
+        "alpha": 0.66,
+        "blurX": 2,
+        "blurY": 2,
+        "color": 35071,
+        "enabled": true,
+        "inner": false,
+        "knockout": false,
+        "strength": 6
+    },
+    "showCountdown": true,
+    "showImage": true,
+    "showImageInfoOnHover": false,
+    "showWelcomeMessage": true,
+    "timer": 10,
+    "toggleKey": ["KEY_F3", ["KEY_LCONTROL", "KEY_RCONTROL"]],
+    "version": 3
+}

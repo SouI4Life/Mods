@@ -1,0 +1,10 @@
+{
+	"enable": true,
+	"enabled": true,
+    "offset": [107, 342],
+	"minimized": false,
+	"skinVariant": "new",
+	"anchorPoint": "top-right",
+	"progressLogic": "damage",
+	"accountMark": true    
+}

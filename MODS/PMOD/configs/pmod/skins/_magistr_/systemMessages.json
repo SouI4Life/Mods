@@ -1,0 +1,74 @@
+"systemMessages": {
+  "battleResults": {
+    "winPattern": {
+      "message": "<textformat tabstops='[27]'>{{UM:winTitle}}\n<font size='14'>{{UM:mapIcon}}\t<b>Карта: </b><font color='#FFDA24' size='14'><b>{{Map}}</b></font>\n{{UM:tankIcon}}\t<b>Танк: </b><font color='#FFDA24' size='14'><b>{{VehicleLocalName}}</b></font></font>\n<font size='14'>{{UM:damageIcon}}\t<b>Урон: </b><font color='{{c:DamageDealt}}' size='14'><b>{{DamageDealt}}</b></font> (<font color='{{c:Frags}}'>{{UM:destroyedAmountIcon}}<b>{{Frags}}</b></font>)\n{{UM:xpIcon}}\t<b>Опыт: </b><font color='{{c:XP}}' size='14'><b>{{XP}}</b></font> <b>{{DailyXPFactor}}</b></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:crewXpIcon}}\t<b>Экипаж: <font color='{{c:XP}}'>{{TmenXP}}</b></font></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:creditsIcon}}\t<b>Кредиты: <font color='{{c:PureCredits}}' size='14'>{{PureCredits}}</b></font></font></textformat>{{PiggyBank}}{{Bonds}}{{BattlePassPoints}}{{Achievements}}{{UM:battleStatsFooter}}",
+      "bgImage": "../maps/icons/library/FortBattleVictoryBg-1.png",
+      "icon": "../maps/icons/library/BattleResultIcon-1.png",
+      "noBattleData": {
+        "message": "<textformat tabstops='[27]'>{{UM:winTitle}}\n<font size='14'>{{UM:mapIcon}}\t<b>Карта: </b><font color='#FFDA24' size='14'><b>{{Map}}</b></font>\n{{UM:tankIcon}}\t<b>Танк: </b><font color='#FFDA24' size='14'><b>{{VehicleLocalName}}</b></font></font>\n<font size='14'>{{UM:xpIcon}}\t<b>Опыт: </b><font color='{{c:XP}}' size='14'><b>{{XP}}</b></font> <b>{{DailyXPFactor}}</b></font></textformat>\n<textformat tabstops='[27]'><font color='#FFEBA1' size='14'>{{UM:crewXpIcon}}\t<b>Экипаж: <font color='{{c:XP}}'>{{TmenXP}}</b></font></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:creditsIcon}}\t<b>Кредиты: <font color='{{c:Credits}}' size='14'>{{Credits}}</b></font></font></textformat>\n{{Bonds}}",
+        "bgImage": "../maps/icons/library/FortBattleVictoryBg-1.png",
+        "icon": "../maps/icons/library/BattleResultIcon-1.png"
+      }
+    },
+    "defeatPattern": {
+      "message": "<textformat tabstops='[27]'>{{UM:defeatTitle}}\n<font size='14'>{{UM:mapIcon}}\t<b>Карта: </b><font color='#FFDA24' size='14'><b>{{Map}}</b></font>\n{{UM:tankIcon}}\t<b>Танк: </b><font color='#FFDA24' size='14'><b>{{VehicleLocalName}}</b></font></font>\n<font size='14'>{{UM:damageIcon}}\t<b>Урон: </b><font color='{{c:DamageDealt}}' size='14'><b>{{DamageDealt}}</b></font> (<font color='{{c:Frags}}'>{{UM:destroyedAmountIcon}}<b>{{Frags}}</b></font>)\n{{UM:xpIcon}}\t<b>Опыт: </b><font color='{{c:XP}}' size='14'><b>{{XP}}</b></font> <b>{{DailyXPFactor}}</b></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:crewXpIcon}}\t<b>Экипаж: <font color='{{c:XP}}'>{{TmenXP}}</b></font></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:creditsIcon}}\t<b>Кредиты: <font color='{{c:PureCredits}}' size='14'>{{PureCredits}}</b></font></font></textformat>{{PiggyBank}}{{Bonds}}{{BattlePassPoints}}{{Achievements}}{{UM:battleStatsFooter}}",
+      "bgImage": "../maps/icons/library/FortBattleDefeatBg-1.png",
+      "icon": "../maps/icons/library/BattleResultIcon-1.png",
+      "noBattleData": {
+        "message": "<textformat tabstops='[27]'>{{UM:defeatTitle}}\n<font size='14'>{{UM:mapIcon}}\t<b>Карта: </b><font color='#FFDA24' size='14'><b>{{Map}}</b></font>\n{{UM:tankIcon}}\t<b>Танк: </b><font color='#FFDA24' size='14'><b>{{VehicleLocalName}}</b></font></font>\n<font size='14'>{{UM:xpIcon}}\t<b>Опыт: </b><font color='{{c:XP}}' size='14'><b>{{XP}}</b></font> <b>{{DailyXPFactor}}</b></font></textformat>\n<textformat tabstops='[27]'><font color='#FFEBA1' size='14'>{{UM:crewXpIcon}}\t<b>Экипаж: <font color='{{c:XP}}'>{{TmenXP}}</b></font></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:creditsIcon}}\t<b>Кредиты: <font color='{{c:Credits}}' size='14'>{{Credits}}</b></font></font></textformat>\n{{Bonds}}",
+        "bgImage": "../maps/icons/library/FortBattleDefeatBg-1.png",
+        "icon": "../maps/icons/library/BattleResultIcon-1.png"
+      }
+    },
+    "drawPattern": {
+      "message": "<textformat tabstops='[27]'>{{UM:drawTitle}}\n<font size='14'>{{UM:mapIcon}}\t<b>Карта: </b><font color='#FFDA24' size='14'><b>{{Map}}</b></font>\n{{UM:tankIcon}}\t<b>Танк: </b><font color='#FFDA24' size='14'><b>{{VehicleLocalName}}</b></font></font>\n<font size='14'>{{UM:damageIcon}}\t<b>Урон: </b><font color='{{c:DamageDealt}}' size='14'><b>{{DamageDealt}}</b></font> (<font color='{{c:Frags}}'>{{UM:destroyedAmountIcon}}<b>{{Frags}}</b></font>)\n{{UM:xpIcon}}\t<b>Опыт: </b><font color='{{c:XP}}' size='14'><b>{{XP}}</b></font> <b>{{DailyXPFactor}}</b></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:crewXpIcon}}\t<b>Экипаж: <font color='{{c:XP}}'>{{TmenXP}}</b></font></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:creditsIcon}}\t<b>Кредиты: <font color='{{c:PureCredits}}' size='14'>{{PureCredits}}</b></font></font></textformat>{{PiggyBank}}{{Bonds}}{{BattlePassPoints}}{{Achievements}}{{UM:battleStatsFooter}}",
+      "bgImage": "../maps/icons/library/FortBattleDrawBg-1.png",
+      "icon": "../maps/icons/library/BattleResultIcon-1.png",
+      "noBattleData": {
+        "message": "<textformat tabstops='[27]'>{{UM:drawTitle}}\n<font size='14'>{{UM:mapIcon}}\t<b>Карта: </b><font color='#FFDA24' size='14'><b>{{Map}}</b></font>\n{{UM:tankIcon}}\t<b>Танк: </b><font color='#FFDA24' size='14'><b>{{VehicleLocalName}}</b></font></font>\n<font size='14'>{{UM:xpIcon}}\t<b>Опыт: </b><font color='{{c:XP}}' size='14'><b>{{XP}}</b></font> <b>{{DailyXPFactor}}</b></font></textformat>\n<textformat tabstops='[27]'><font color='#FFEBA1' size='14'>{{UM:crewXpIcon}}\t<b>Экипаж: <font color='{{c:XP}}'>{{TmenXP}}</b></font></font></textformat>\n<textformat tabstops='[27]'><font size='14'>{{UM:creditsIcon}}\t<b>Кредиты: <font color='{{c:Credits}}' size='14'>{{Credits}}</b></font></font></textformat>\n{{Bonds}}",
+        "bgImage": "../maps/icons/library/FortBattleDrawBg-1.png",
+        "icon": "../maps/icons/library/BattleResultIcon-1.png"
+      }
+    },
+    "macrosFormatter": {
+      "dailyXPFactor": "(<img src='img://gui/maps/icons/library/multyXp.png' width='14' height='14' align='baseline' vspace='-4'> x{{val}})",
+      "creditsPenalty": "штраф за нанесение урона союзникам: <font color='#D3D3D3'>{{val}}</font>",
+      "creditsCompensation": "компенсация за урон от союзников: <font color='#D3D3D3'>{{val}}</font>",
+      "xpPenalty": "штраф за нанесение урона союзникам: <font color='#D3D3D3'>{{val}}</font>",
+			"battlePassPoints": "\n<textformat tabstops='[27]'><font size='14'><img src='img://gui/maps/icons/battlePass/tooltips/points_16.png' width='14' height='14' align='baseline' vspace='-3'>\t<b>Очки Боевого пропуска: {{val}}</b></font></textformat>",
+			"piggyBank": "\n<textformat tabstops='[27]'><font size='14'><img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='-1'>\t<b>В хранилище: {{val}}</b></font></textformat>",
+			"gunMarks": "<font color='{{c:GMRatingDiff}}'><img src='img://gui/maps/icons/marksOnGun/95x85/sweden_3_marks.png' width='19' height='17' align='baseline' vspace='-14'>{{GMRatingDiff}}%</font>",
+			"bonds": "\n<textformat tabstops='[27]'><font size='14'><img src='img://gui/maps/icons/library/crystal_16x16.png' width='14' height='14' align='baseline' vspace='-3'>\t<b>Боны: {{val}}</b></font></textformat>",
+      "achievements": {
+        "pattern": "{{localName}}",
+        "separator": ", ",
+        "result": "\n<textformat tabstops='[27]'><img src='img://gui/maps/icons/library/dossier/honors40x32.png' width='20' height='16' align='baseline' vspace='-6'><font size='14'>\t<b>Достижения: </b></font><font color='#00FFFF' size='14'><b>{{pattern}}</b></font></textformat>"
+      }
+    },
+    "buttons": [
+      {
+        "enable": true,
+        "label": "Подробнее",
+        "type": "standart",
+        "action": "showBattleResults",
+        "width": 122
+      }
+    ],
+    "userMacros": {
+      "UM:winTitle": "<textformat leading='1'><font color='#60FF00' size='14'>\t<b>Победа!</b></font></textformat>",
+      "UM:defeatTitle": "<textformat leading='1'><font color='#FE0E00' size='14'>\t<b>Поражение!</b></font></textformat>",
+      "UM:drawTitle": "<textformat leading='1'><font color='#F8F400' size='14'>\t<b>Ничья!</b></font></textformat>",
+      "UM:mapIcon": "<img src='img://gui/maps/icons/filters/nations/all.png' width='20' height='12' align='baseline' vspace='-2'>",
+      "UM:tankIcon": "<img src='img://gui/maps/icons/library/dossier/survival40x32.png' width='20' height='16' align='baseline' vspace='-6'>",
+      "UM:damageIcon": "<img src='img://gui/maps/icons/library/dossier/avgDamage40x32.png' width='20' height='16' align='baseline' vspace='-6'>",
+      "UM:destroyedAmountIcon": "<img src='img://gui/maps/icons/library/dossier/maxDestroyed40x32.png' width='20' height='16' align='baseline' vspace='-6'>",
+      "UM:xpIcon": "<img src='img://gui/maps/icons/library/EliteXpIcon-2.png' width='18' height='16' align='baseline' vspace='-3'>",
+      "UM:crewXpIcon": "<img src='img://gui/maps/icons/boosters/booster_crew_xp.png' width='15' height='15' align='baseline' vspace='-5'>",
+      "UM:creditsIcon": "<img src='img://gui/maps/icons/library/CreditsIcon-1.png' width='12' height='12' align='baseline' vspace='-1'>",
+      "UM:crystalIcon": "<img src='img://gui/maps/icons/library/crystal_16x16.png' width='14' height='14' align='baseline' vspace='-3'>",
+      "UM:battlePassPointsIcon": "<img src='img://gui/maps/icons/battlePass/tooltips/points_16.png' width='14' height='14' align='baseline' vspace='-3'>",
+      "UM:battleStatsFooter": "\n\n<textformat leading='1'><img src='img://{{config}}/skins/_magistr_/assets/lines/{{c:WN8}}.png' width='230' height='1'></textformat>\n<textformat tabstops='[5,27,100,160]'><b>\t<font color='{{c:XPPlaceTeam}}'>{{XPPlaceTeam}}</font>\t<font color='#E9E2BF' size='13'>WN8: </font><font color='{{c:WN8}}'>{{WN8}}</font>\t<font color='#E9E2BF' size='13'>EFF: </font><font color='{{c:EFF}}'>{{EFF}}</font>\t{{GunMarks}}</b></textformat>"
+    },
+    ${"skins/_magistr_/assets/colors.json"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+	// Ограничение размера списка друзей. Стандартное значение 300
+	// The size limitation of the friends list. The default value of 300
+	"FriendsListSize": 500,
+
+	// Ограничение размера "черного списка". Стандартное значение 1000
+	// The size limitation of the "blacklist". The default value of 1000
+	"BlackListSize": 25000,
+
+	// "Горячая клавиша" для очистки "черного списка"
+	// Hot key is to clear the "blacklist"
+	"BLResetKey": "KEY_F12"
+}

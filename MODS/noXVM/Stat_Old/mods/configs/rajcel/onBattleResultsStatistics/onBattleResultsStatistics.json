@@ -1,0 +1,76 @@
+// RaJCeL onBattleResultsStatistics config file
+{
+    // enables mod
+    "enable": true,
+    // enables errors trace in python.log
+    "debug": false,
+    // after how many days reload players stats
+    "statsReloadDays": 7,
+    // message formats; see available macros at the end 
+    "playerNameFormat": "<img src='img://../mods/configs/rajcel/onBattleResultsStatistics/bars/{{c:WN8}}.png'/><IMG SRC='img://../mods/configs/rajcel/onBattleResultsStatistics/bars/{{c:battleWN8}}.png'/>{{playerName}}",
+    "playerDetailsHeaderFormat": "WN8 Overall/Battle",
+    "playerDetailsValuesFormat": "<font color='{{c:WN8}}'>{{WN8}}</font> / <font color='{{c:battleWN8}}'>{{battleWN8}}</font>",
+	"teamAllyFormat": "Allies | WN8 Overall: ∑ <font color='{{c:teamAllyAvgOverallWN8}}'>{{teamAllySumOverallWN8}}</font> / Avg <font color='{{c:teamAllyAvgOverallWN8}}'>{{teamAllyAvgOverallWN8}}</font> | Battle: ∑ <font color='{{c:teamAllyAvgBattleWN8}}'>{{teamAllySumBattleWN8}}</font> / Avg <font color='{{c:teamAllyAvgBattleWN8}}'>{{teamAllyAvgBattleWN8}}</font>",
+	"teamEnemyFormat": "Enemies | WN8 Overall: ∑ <font color='{{c:teamEnemyAvgOverallWN8}}'>{{teamEnemySumOverallWN8}}</font> / Avg <font color='{{c:teamEnemyAvgOverallWN8}}'>{{teamEnemyAvgOverallWN8}}</font> | Battle: ∑ <font color='{{c:teamEnemyAvgBattleWN8}}'>{{teamEnemySumBattleWN8}}</font> / Avg <font color='{{c:teamEnemyAvgBattleWN8}}'>{{teamEnemyAvgBattleWN8}}</font>",
+    // removes badges from the leftside of the playerName
+    "removeBadges": true,
+    // show statistics for anonymized - can add lag/freeze on battle results receiving
+    "showForAnonymized": false,
+    // colors section; "default" for standard text; rest of values for coloring available macros according to its name
+    // if you put other colors than remember to also prepare a color bars images for them
+    "colors": {
+        "default": "#FFFFFF", // white
+        "xvmScale": {
+            "enable":   true,      // true - use this scale; false - use scale given below - "WN8"
+            "veryBad":  "#FE0E00", // red
+            "bad":      "#FE7903", // orange
+            "normal":   "#F8F400", // yellow
+            "good":     "#60FF00", // green
+            "veryGood": "#02C9B3", // blue
+            "unique":   "#D042F3"  // violet
+        },
+        // by default it is WotLab scale
+        "WN8": [
+            {"value": 300,   "color": "#930D0D"}, // dark red
+            {"value": 450,   "color": "#F11919"}, // red 
+            {"value": 650,   "color": "#FF8A00"}, // orange
+            {"value": 900,   "color": "#E6DF27"}, // yellow
+            {"value": 1200,  "color": "#77E812"}, // green
+            {"value": 1600,  "color": "#459300"}, // dark green
+            {"value": 2000,  "color": "#2AE4FF"}, // blue
+            {"value": 2450,  "color": "#00A0B8"}, // dark blue
+            {"value": 2900,  "color": "#C64CFF"}, // violet
+            {"value": 99999, "color": "#8225AD"}  // dark violet
+        ]
+    },
+    // enables updating of tank expected values and xvm color scale
+    "updateWN8Values": {
+        "enable": true,
+        "expectedUrl": "https://static.modxvm.com/wn8-data-exp/json/wn8exp.json",
+        "scaleUrl": "https://static.modxvm.com/xvmscales.json"
+    }
+}
+// -------------------------------------------------------------------------------------------
+// available macros for player:
+// -------------------------------------------------------------------------------------------
+// {{WN8}}               - overall WN8,
+// {{c:WN8}}             - color of overall WN8,
+// {{battleWN8}}         - WN8 in current battle,
+// {{c:battleWN8}}       - color of WN8 in current battle,
+// {{playerName}}        - Player name.
+// -------------------------------------------------------------------------------------------
+// available macrosfor team:
+// -------------------------------------------------------------------------------------------
+// {{teamAllySumOverallWN8}}    - sum of overall WN8 of ally teammembers,
+// {{teamAllyAvgOverallWN8}}    - average of overall WN8 of ally teammembers,
+// {{c:teamAllyAvgOverallWN8}}  - color of average of overall WN8 of ally teammembers,
+// {{teamAllySumBattleWN8}}     - sum of battle WN8 of ally teammembers,
+// {{teamAllyAvgBattleWN8}}     - average of battle WN8 of ally teammembers,
+// {{c:teamAllyAvgBattleWN8}}   - color of average of battle WN8 of ally teammembers,
+// {{teamEnemySumOverallWN8}}   - sum of overall WN8 of enemy teammembers,
+// {{teamEnemyAvgOverallWN8}}   - average of overall WN8 of enemy teammembers,
+// {{c:teamEnemyAvgOverallWN8}} - color of average of overall WN8 of enemy teammembers,
+// {{teamEnemySumBattleWN8}}    - sum of battle WN8 of enemy teammembers,
+// {{teamEnemyAvgBattleWN8}}    - average of battle WN8 of enemy teammembers,
+// {{c:teamEnemyAvgBattleWN8}}  - color of average of battle WN8 of enemy teammembers.
+// -------------------------------------------------------------------------------------------
