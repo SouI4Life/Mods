@@ -1,0 +1,32 @@
+name: Deploy to R2
+
+on:
+  push:
+    branches: [ "main" ]  # Заміни на "master", якщо твоя гілка так називається
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Install AWS CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y awscli
+
+    - name: Upload files to Cloudflare R2
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.R2_REGION }}
+        BUCKET: ${{ secrets.R2_BUCKET }}
+        ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      run: |
+        aws configure set default.s3.signature_version s3v4
+        aws s3 sync . s3://$BUCKET \
+          --endpoint-url https://$ACCOUNT_ID.r2.cloudflarestorage.com \
+          --exclude ".git/*" \
+          --delete
