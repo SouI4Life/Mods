@@ -16,12 +16,16 @@ jobs:
       run: |
         if [ -d "/usr/local/aws-cli/v2/current" ]; then
           echo "AWS CLI is already installed. Updating..."
-          sudo ./aws/install --update
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          cd aws || exit 1
+          sudo ./install --update
         else
           echo "Installing AWS CLI..."
           curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
           unzip awscliv2.zip
-          sudo ./aws/install
+          cd aws || exit 1
+          sudo ./install
         fi
 
     - name: Upload files to Cloudflare R2
