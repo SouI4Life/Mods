@@ -27,7 +27,8 @@ jobs:
           cd aws || exit 1
           sudo ./install
         fi
-
+        aws --version
+        
     - name: Upload files to Cloudflare R2
       env:
          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
