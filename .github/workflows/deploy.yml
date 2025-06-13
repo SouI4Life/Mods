@@ -2,15 +2,17 @@ name: Deploy to R2
 
 on:
   push:
-    branches: [ "main" ]  # Заміни на "master", якщо інша основна гілка
+    branches: [ "main" ]  # Або "master", залежно від репозиторію
 
 jobs:
   upload:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository with Git LFS
         uses: actions/checkout@v3
+        with:
+          lfs: true  # <--- Це важливо!
 
       - name: Install rclone
         run: sudo apt-get update && sudo apt-get install -y rclone
