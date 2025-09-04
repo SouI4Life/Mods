@@ -42,6 +42,9 @@
       <DRRStep>0.05</DRRStep>
       <minScale>0.5</minScale>
     </DRRAutoscaler>
+    <DRRAutodetect>
+      <DRRScale>0.60<GPUScore>	300	</GPUScore></DRRScale>
+    </DRRAutodetect>
     <globalVBSize>	12582912	</globalVBSize>
     <globalIBSize>	131072	</globalIBSize>
     <streaming>
@@ -90,7 +93,6 @@
       <distance>	312	</distance>
       <frames>	6	</frames>
     </lod>
-    <dynamicShadows>	false	</dynamicShadows>
   </animation>
   <screenShot>
     <extension>jpg</extension>
@@ -199,6 +201,9 @@
     <PS_PERFORMANCE_SPEED_MULT>	10	</PS_PERFORMANCE_SPEED_MULT>
     <PS_PERFORMANCE_LOD_OFFSET>	0	</PS_PERFORMANCE_LOD_OFFSET>
     <PS_PERFORMANCE_LOD_MULT>1.2</PS_PERFORMANCE_LOD_MULT>
+    <PS_PERFORMANCE_SIMPLIFIED_SPEED_MULT>1.2</PS_PERFORMANCE_SIMPLIFIED_SPEED_MULT>
+    <PS_PERFORMANCE_SIMPLIFIED_RATE_MULT>0.3</PS_PERFORMANCE_SIMPLIFIED_RATE_MULT>
+    <PS_PERFORMANCE_SIMPLIFIED_MESH_RATE_MULT>0.3</PS_PERFORMANCE_SIMPLIFIED_MESH_RATE_MULT>
   </ParticleSystem>
   <cat_config>
     <isOnline>	true	</isOnline>
@@ -208,6 +213,8 @@
     <dxdiag>	false	</dxdiag>
     <dumpTimeout>	600000	</dumpTimeout>
     <reportArchiveSizeThresholdKb>	1024	</reportArchiveSizeThresholdKb>
+    <createSessionFiles>	false	</createSessionFiles>
+    <freezeTime>	0	</freezeTime>
   </cat_config>
   <debug>
     <framesCount>	0	</framesCount>
@@ -405,6 +412,12 @@
         <bank>
           <name>custom_styles.pck</name>
         </bank>
+        <bank>
+          <name>custom_elements.bnk</name>
+        </bank>
+        <bank>
+          <name>custom_elements.pck</name>
+        </bank>
       </SFX_soundbanks_loadonce>
       <SFX_soundbanks_hangar>
         <bank>
@@ -418,6 +431,9 @@
         </bank>
         <bank>
           <name>Personal_missions.bnk</name>
+        </bank>
+        <bank>
+          <name>personal_missions_voiceover.bnk</name>
         </bank>
         <bank>
           <name>personal_reserves.bnk</name>
@@ -474,16 +490,15 @@
           <name>cn_wot_plus.bnk</name>
         </bank>
         <bank>
-          <name>resources_well.bnk</name>
-        </bank>
-        <bank>
           <name>account_dashboard.bnk</name>
         </bank>
         <bank>
           <name>comp_7.bnk</name>
+          <extension>comp7</extension>
         </bank>
         <bank>
           <name>comp_7.pck</name>
+          <extension>comp7</extension>
         </bank>
         <bank>
           <name>ev_fep_hangar.bnk</name>
@@ -508,6 +523,21 @@
         </bank>
         <bank>
           <name>lootbox_system.pck</name>
+        </bank>
+        <bank>
+          <name>wdr.bnk</name>
+        </bank>
+        <bank>
+          <name>wdr.pck</name>
+        </bank>
+        <bank>
+          <name>hangar_personal_missions.bnk</name>
+        </bank>
+        <bank>
+          <name>about_vehicle.bnk</name>
+        </bank>
+        <bank>
+          <name>hangar_personal_missions.bnk</name>
         </bank>
       </SFX_soundbanks_hangar>
       <SFX_soundbanks_login>
@@ -605,6 +635,12 @@
         </bank>
         <bank>
           <name>newbie_hints_voiceover.bnk</name>
+        </bank>
+        <bank>
+          <name>abilities.bnk</name>
+        </bank>
+        <bank>
+          <name>abilities.pck</name>
         </bank>
       </SFX_soundbanks_arena>
       <SFX_soundbanks_editor>
@@ -840,6 +876,7 @@
   <gameface>
     <taskSystem>
       <maxThreads>	2	</maxThreads>
+      <minThreads>	2	</minThreads>
       <cpuCoresThreshold>	5	</cpuCoresThreshold>
     </taskSystem>
   </gameface>
