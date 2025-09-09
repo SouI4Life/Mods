@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<hmpReleaseInfo.xml>
+
+  <uk>
+    <enabled>true</enabled>
+    <version>0.3.81</version>
+                              
+    <changes>
+Версія #1.2.58, від 09.07.2025:
+                  • Оновлено для патча 1.29.1.0.  
+                  1) Фікс багів вильоту деяких модів на різних мовах
+                  2) Баг  з панеллю в бою поки висить, будемо фіксити 
+                  3) проблеми по модах пишіть сюда: https://t.me/+JwTyc-vdEjljZDdi                 
+
+                       
+                     
+                        
+                         
+            
+            
+
+    </changes>
+    <forumTheme></forumTheme>
+    <downloadLink>https://www.patreon.com/file?h=138331793&amp;m=528678169</downloadLink>
+    <modsBlackList>
+    </modsBlackList>
+    <xvm>
+      <isReleaseAvailable>False</isReleaseAvailable>
+      <releaseVersionURL>https://dl1.modxvm.com/release/xvm_10.2.1.zip</releaseVersionURL>
+      <nightlyVersionURL>https://nightly.modxvm.com/download/master/xvm_latest.zip</nightlyVersionURL>
+    </xvm>
+  </uk>
+
+  <en>
+    <enabled>true</enabled>
+    <version>0.3.81</version>
+    <changes>
+Version #1.2.58, date 09.07.2025:
+ • updated: patch 1.29.1.0.
+    • Updated:
+                             1) 3 ROWS OF TANKS IN THE HANGAR HAVE BEEN REPAIRED
+                             2) SOUND MANAGER HAS BEEN ADDED
+                             3) EQUIPMENT DISASSEMBLY HAS BEEN ADDED IN THE HANGAR,
+                                  YOU CAN DISASSEMBLE 3 EQUIPMENT AT A TIME
+           
+   
+
+    </changes>
+    <forumTheme></forumTheme>
+    <downloadLink>https://www.patreon.com/file?h=138331793&amp;m=528678169</downloadLink>
+    <modsBlackList>
+    </modsBlackList>
+    <xvm>
+      <isReleaseAvailable>False</isReleaseAvailable>
+      <releaseVersionURL>https://dl1.modxvm.com/release/xvm_10.2.1.zip</releaseVersionURL>
+      <nightlyVersionURL>https://nightly.modxvm.com/download/master/xvm_latest.zip</nightlyVersionURL>
+    </xvm>
+  </en>
+
+  <ru>
+    <enabled>true</enabled>
+    <version>0.3.81</version>
+    <changes>
+Версия #1.2.58, от 09.07.2025:
+   • Сборка обновлена для 1.29.1.0.
+                                НАСТРОЕНЫЙ АВТОВОЗВРАТ ЕКИПАЖА, РАБОТАЕТ С ХВМ 
+
+                               1) Фікс багів вильоту деяких модів на різних мовах
+                  2) Баг  з панеллю в бою поки висить, будемо фіксити 
+                  3) проблеми по модах пишіть сюда: https://t.me/+JwTyc-vdEjljZDdi                 
+
+    </changes>
+    <forumTheme></forumTheme>
+    <downloadLink>https://www.patreon.com/file?h=138331793&amp;m=528678169</downloadLink>
+    <modsBlackList>
+    </modsBlackList>
+    <xvm>
+      <isReleaseAvailable>False</isReleaseAvailable>
+      <releaseVersionURL>https://dl1.modxvm.com/release/xvm_10.2.1.zip</releaseVersionURL>
+      <nightlyVersionURL>https://nightly.modxvm.com/download/master/xvm_latest.zip</nightlyVersionURL>
+    </xvm>
+  </ru>
+
+<infoPanel>
+  <title>Деталі оновлення</title>
+  <wheelInfo>
+    <item label="Версія мода" value="0.3.81"/>
+    <item label="Патч гри" value="1.29.1.0"/>
+    <item label="Стан" value="Доступно оновлення"/>
+    <item label="Сайт" value="habwotmods.pp.ua"/>
+  </wheelInfo>
+</infoPanel>
+
+</hmpReleaseInfo.xml>
+
