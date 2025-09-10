@@ -5,18 +5,32 @@
     <enabled>true</enabled>
     <version>0.3.81</version>
                               
-    <changes>
-                  • Оновлено для патча 2.0.0.0.  
+    <changes> ОНОВЛЕННЯ ДО ПАТЧУ 2.0.0.0 (можна прокрутити сторінку)
+    • ПЕРЕРОБЛЕНО
     1) Тест
     2) Тест
     3) Тест 
+    4) Тест
+    5) Тест
 
-    Якщо виникають питання або проблеми - натисніть кнопку "Обговорення"              
+    • ОНОВЛЕНО
+    - Покращене коло зведення (Jak_Atackka)
+    - Мод TomatoGG
+    - Комплексний мод P-Mod
+    - Активатор кланових нагород
+    - Коло рентгену 15м (вмикаєтся через F9)
+    - Годинник в бою 
+
+    • ЗЛАМАНО
+    - Всі приціли (це скоріш за все на довго)
+    - Гаражні моди з віджетами
+
+    Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
 
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
     <downloadLink>https://www.patreon.com/file?h=138331793&amp;m=528678169</downloadLink>
-    <modsBlackList>
+    <modsBlackList>1234
     </modsBlackList>
   </uk>
 
@@ -40,7 +54,7 @@ Version #0.3.81, date 09.09.2025:
   </en>
 
 <infoPanel>
-  <title>Деталі оновлення</title>
+  <title>Деталі оновлення </title>
   <wheelInfo>
     <item label="Версія мода" value="0.3.81"/>
     <item label="Патч гри" value="2.0.0.0"/>
