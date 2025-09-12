@@ -5,7 +5,7 @@
     <enabled>true</enabled>
     <version>0.3.84</version>
                               
-    <changes> Оновлення №4 (можна прокрутити сторінку)
+    <changes> ВЕЛИКЕ Оновлення №4 (можна прокрутити сторінку)
     • ПЕРЕРОБЛЕНО та ПРИБРАНО
     1) Перенесено мод "Зоряне небо" в "Оптимізація"> "Погода"
     2) Прибрано крусель танків в 3 ряди (більше не буде працювати)
@@ -13,7 +13,7 @@
     4) Прибрано інспектор броні (став платним)
     
     • ОНОВЛЕНО
-    1) Приціли (4 приціли без зведень, решта на оновленні)
+    1) Приціли
     - BadBoy
     - Zayac
     - Гіперіон
@@ -30,7 +30,7 @@
 
     • ДОДАНО
     1) Мод "Сповіщення про досягнення"
-    2) Додано "Покращене небо та освітлення Версія 2" (З нічними мапами)
+    2) Додано "Покращене небо та освітлення. Версія 2" (З нічними мапами)
     3) Мод позицій на мапах для ВТ-СТ-ЛТ-ПТ
     - На постійно
     - По натисканню Alt
@@ -39,15 +39,21 @@
     6) Мод "Skill4Ltu" для статистики на сайті https://skill4ltu.eu
 
     • ЗЛАМАНО
-    - Приціли (скоро буде поповнення)
-    - Гаражні моди з віджетами починають оживати
+    1) Приціли
+    - Блакитний приціл
+    - Стандартний покращений приціл
+    - Приціл Смерш
+    - Жовтий приціл
+    - Анімовані приціли
+    2) Годинники в гаражі
+
 
     Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
 
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=138584356&amp;m=530403619</downloadLink>
-    <modsBlackList>1234
+    <downloadLink>https://www.patreon.com/file?h=138729806&amp;m=531415484</downloadLink>
+    <modsBlackList>
     </modsBlackList>
   </uk>
 
@@ -55,34 +61,61 @@
     <enabled>true</enabled>
     <version>0.3.84</version>
     <changes>
-• REWORKED
-    1) Added update notification in the garage (can be disabled if needed, but better not ;)
-    2) Reworked script for downloading some mods
+    • REWORKED & REMOVED
+    1) Moved the "Starry Sky" mod to Optimization > Weather
+    2) Removed 3-row tank carousel (will no longer work)
+    3) Removed auto crew return (no longer needed)
+    4) Removed armor inspector (became paid)
+    • UPDATED
+    1) Crosshairs
+    - BadBoy
+    - Zayac
+    - Hyperion
+    - Taipan 2
+    - Melty map
+    - White crosshair
+    2) Poliroid marker (garage widget is back)
+    - Tank icons
+    - 3D Icons
+    - Minimalistic icons
+    3) Garage mods
+    - Black standard
+    - Black with asphalt
 
-• UPDATED
-    - Garage Master
-    - Gun marker by CHAMPi
-    - Arty sphere
+    • ADDED
+    1) "Achievement Notifications" mod
+    2) Added "Improved Sky and Lighting. Version 2" (with night maps)
+    3) Map position mod for HT-MT-LT-TD
+    - Always active
+    - Activated with Alt key
+    4) Debug panel with ping arrows
+    5) Fast repair mod with selection wheel
+    6) "Skill4Ltu" mod for stats on https://skill4ltu.eu
 
-• BROKEN
-    - All crosshairs (will be replenished soon)
-    - Garage mods with widgets are starting to come alive
+    • BROKEN
+    1) Crosshairs
+    - Blue crosshair
+    - Standard improved crosshair
+    - Smersh crosshair
+    - Yellow crosshair
+    - Animated crosshairs
+    2) Garage clocks
 
-If you have any questions or issues - click the "Discord" button
+If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=138584356&amp;m=530403619</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=138729806&amp;m=531415484</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
 
 <infoPanel>
-  <title>Деталі оновлення </title>
+  <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="0.3.83"/>
+    <item label="Версія мода" value="0.3.84"/>
     <item label="Патч гри" value="2.0.0.0"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=138331793&amp;m=528678169"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=138729806&amp;m=531415484"/>
   </wheelInfo>
 </infoPanel>
 
