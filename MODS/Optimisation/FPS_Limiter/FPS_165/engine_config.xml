@@ -866,7 +866,7 @@
     <enableFlash>	true	</enableFlash>
     <ignoreCertErrors>	false	</ignoreCertErrors>
     <debugPort>	-1	</debugPort>
-    <maxFrameRate>	144	</maxFrameRate>
+    <maxFrameRate>	165	</maxFrameRate>
     <acceptLangList>
     </acceptLangList>
     <locale>

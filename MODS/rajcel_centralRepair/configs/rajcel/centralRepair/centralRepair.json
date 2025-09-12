@@ -1,0 +1,30 @@
+// RaJCeL centralRepair config file
+{
+    // enables panel
+    "enable": true,
+    // enables errors trace in python.log
+    "debug": false,
+    // always show panel info
+    "alwaysOn": false,
+    "hotkey": 29,
+    "icons": {
+        // make inactive (not clickable) icons transparent
+        "transparentInactive": true
+    },
+    //showing of time left to repair
+    "timers": {
+        "enable": true,
+        "offset": 10,
+        "fontSize": 22,
+        "fontType": "Arial",
+        "bold": true
+    },
+    "hpBar": {
+        "enable": true,
+        // always show hpBar
+        "alwaysOn": false,
+        "transparent": false,
+        "height": 21,
+        "width": 312
+    }
+}

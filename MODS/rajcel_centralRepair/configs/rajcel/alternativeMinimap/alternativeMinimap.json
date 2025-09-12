@@ -1,0 +1,12 @@
+// RaJCeL alternativeMinimap config file
+{
+    // enables mod
+    "enable": true,
+    // enables errors trace in python.log
+    "debug": false,
+    "mapPath": "img://../mods/configs/rajcel/alternativeMinimap/spaces/{{mapCodename}}/mmap.dds"
+}
+// Examples of maps possible to load:
+// https://wgmods.net/434/
+// https://wgmods.net/433/
+// https://wgmods.net/5131/
