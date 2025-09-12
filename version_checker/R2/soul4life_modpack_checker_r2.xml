@@ -27,6 +27,7 @@
     4) Моди на гаражі
     - Чорний стандартний
     - Чорний з асфальтом
+    5) Помічник танкіста
 
     • ДОДАНО
     1) Мод "Сповіщення про досягнення"
@@ -61,11 +62,12 @@
     <enabled>true</enabled>
     <version>0.3.84</version>
     <changes>
-    • REWORKED & REMOVED
+    • REWORKED and REMOVED
     1) Moved the "Starry Sky" mod to Optimization > Weather
     2) Removed 3-row tank carousel (will no longer work)
     3) Removed auto crew return (no longer needed)
     4) Removed armor inspector (became paid)
+
     • UPDATED
     1) Crosshairs
     - BadBoy
@@ -75,12 +77,13 @@
     - Melty map
     - White crosshair
     2) Poliroid marker (garage widget is back)
-    - Tank icons
+    3) Tank icons
     - 3D Icons
     - Minimalistic icons
-    3) Garage mods
+    4) Garage mods
     - Black standard
     - Black with asphalt
+    5) Little Helper
 
     • ADDED
     1) "Achievement Notifications" mod
