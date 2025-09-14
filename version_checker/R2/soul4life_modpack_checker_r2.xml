@@ -5,40 +5,12 @@
     <enabled>true</enabled>
     <version>0.3.84</version>
                               
-    <changes> ВЕЛИКЕ Оновлення №4 (можна прокрутити сторінку)
-    • ПЕРЕРОБЛЕНО та ПРИБРАНО
-    1) Перенесено мод "Зоряне небо" в "Оптимізація"> "Погода"
-    2) Прибрано крусель танків в 3 ряди (більше не буде працювати)
-    3) Прибрано авто повернення екіпажу (більше не потрібна)
-    4) Прибрано інспектор броні (став платним)
+    <changes> Трохи оновив приціли (можна прокрутити сторінку)
     
     • ОНОВЛЕНО
-    1) Приціли
-    - BadBoy
-    - Zayac
-    - Гіперіон
-    - Taipan 2
-    - Melty map
-    - Білий приціл
-    2) Позначка Poliroid (повернувся віджет в гараж)
-    3) Іконки танків
-    - 3D Іконки
-    - Мінімалістичні іконки
-    4) Моди на гаражі
-    - Чорний стандартний
-    - Чорний з асфальтом
-    5) Помічник танкіста
-
-    • ДОДАНО
-    1) Мод "Сповіщення про досягнення"
-    2) Додано "Покращене небо та освітлення. Версія 2" (З нічними мапами)
-    3) Мод позицій на мапах для ВТ-СТ-ЛТ-ПТ
-    - На постійно
-    - По натисканню Alt
-    4) Дебаг панель з стрілками пінга
-    5) Мод "Гвинтик" з колом вибору
-    6) Мод "Skill4Ltu" для статистики на сайті https://skill4ltu.eu
-
+    - Приціл ZAYAC (був баг з ним)
+    - Приціл Білий (теж був баг трошки)
+    
     • ЗЛАМАНО
     1) Приціли
     - Блакитний приціл
@@ -62,38 +34,9 @@
     <enabled>true</enabled>
     <version>0.3.84</version>
     <changes>
-    • REWORKED and REMOVED
-    1) Moved the "Starry Sky" mod to Optimization > Weather
-    2) Removed 3-row tank carousel (will no longer work)
-    3) Removed auto crew return (no longer needed)
-    4) Removed armor inspector (became paid)
-
     • UPDATED
-    1) Crosshairs
-    - BadBoy
-    - Zayac
-    - Hyperion
-    - Taipan 2
-    - Melty map
-    - White crosshair
-    2) Poliroid marker (garage widget is back)
-    3) Tank icons
-    - 3D Icons
-    - Minimalistic icons
-    4) Garage mods
-    - Black standard
-    - Black with asphalt
-    5) Little Helper
-
-    • ADDED
-    1) "Achievement Notifications" mod
-    2) Added "Improved Sky and Lighting. Version 2" (with night maps)
-    3) Map position mod for HT-MT-LT-TD
-    - Always active
-    - Activated with Alt key
-    4) Debug panel with ping arrows
-    5) Fast repair mod with selection wheel
-    6) "Skill4Ltu" mod for stats on https://skill4ltu.eu
+    - White sight
+    - ZAYAC signt
 
     • BROKEN
     1) Crosshairs
