@@ -3,19 +3,22 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>0.3.84</version>
+    <version>0.3.85</version>
                               
-    <changes> Трохи оновив приціли (можна прокрутити сторінку)
-    • ДОДАНО
+    <changes>(можна прокрутити сторінку)
+    • ДОДАНО НОВІ МОДИ
     1) Ремоделі техніки (3D ремоделі)
     - Королівський FV4005
     - BZ-75, 3D стиль з драконами
     - Стімпанк FV215b 183
     - Санта МАУС
-    - Темний 3D стиль на AMX 30b
-
+    - Темний 3D стиль на AMX 30B
+    2) Редизайн текстури танків
+    - Золота AE Phase 1
+    - Золотий AMX M4 54
+    - Золотий Type 64
     2) Нові гаражі
-    - Гараж Warhummer 40000
+    - Гараж Warhummer
     - Футуристичний гараж
 
     • ОНОВЛЕНО
@@ -31,38 +34,55 @@
     - Жовтий приціл
     - Анімовані приціли
     2) Годинники в гаражі
-
+    4) Помічник сталевого мисливця
 
     Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
 
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=138729806&amp;m=531415484</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=138892224&amp;m=532852425</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>0.3.84</version>
+    <version>0.3.85</version>
     <changes>
+    • ADDED NEW MODS
+    1) Remodels of vehicles (3D remodels)
+    - Royal FV4005
+    - BZ-75, 3D style with dragons
+    - Steampunk FV215b 183
+    - Santa MOUSE
+    - Dark 3D style on AMX 30b
+    2) Redesign of tank textures
+    - Golden AE Phase 1
+    - Golden AMX M4 54
+    - Golden Type 64
+    2) New garages
+    - Warhummer garage
+    - Futuristic garage
+
     • UPDATED
-    - White sight
-    - ZAYAC signt
+    - ZAYAC Sight (there was a bug)
+    - White Sight (there was also a little bug)
+    - Hyperion Sight (fixed error 404)
+    - Standard Improved Sight
 
     • BROKEN
-    1) Crosshairs
-    - Blue crosshair
-    - Standard improved crosshair
-    - Smersh crosshair
-    - Yellow crosshair
-    - Animated crosshairs
-    2) Garage clocks
+    1) Sights
+    - Blue Sight
+    - Smersh Sight
+    - Yellow Sight
+    - Animated Sights
+    2) Garage Clock
+    4) Steel Hunter's Assistant
 
 If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=138729806&amp;m=531415484</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=138892224&amp;m=532852425</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -70,10 +90,10 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="0.3.84"/>
+    <item label="Версія мода" value="0.3.85"/>
     <item label="Патч гри" value="2.0.0.0"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=138729806&amp;m=531415484"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=138892224&amp;m=532852425"/>
   </wheelInfo>
 </infoPanel>
 
