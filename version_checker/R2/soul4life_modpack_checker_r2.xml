@@ -3,34 +3,24 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>0.3.86</version>
+    <version>0.3.87</version>
                               
     <changes>(можна прокрутити сторінку)
     • ОНОВЛЕНО
-    - Перегляд влучань в гаражі
-    - Мод Skill4Ltu (був критичний баг)
-    
-    • ЗЛАМАНО
-    1) Приціли
-    - Блакитний приціл
-    - Приціл Смерш
-    - Жовтий приціл
-    - Анімовані приціли
-    2) Годинники в гаражі
-    4) Помічник сталевого мисливця
+    - модпак адаптовано до версії гри 2.0.0.1
 
     Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
 
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=139014928&amp;m=533480955</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=139247118&amp;m=534977444</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>0.3.86</version>
+    <version>0.3.87</version>
     <changes>
     • UPDATED
     - BattleHits
@@ -48,7 +38,7 @@
 If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=139014928&amp;m=533480955</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=139247118&amp;m=534977444</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -56,10 +46,10 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="0.3.86"/>
+    <item label="Версія мода" value="0.3.87"/>
     <item label="Патч гри" value="2.0.0.0"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=139014928&amp;m=533480955"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=139247118&amp;m=534977444"/>
   </wheelInfo>
 </infoPanel>
 
