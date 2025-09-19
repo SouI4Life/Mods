@@ -104,14 +104,14 @@
             "left": {
                 "align": "left",
                 "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(wgrText)s</font>",
-                "x": 196,
-                "y": -4
+                "x": 140,
+                "y": -2
             },
             "right": {
                 "align": "right",
                 "text": "<font face='$FieldFont' color='#%(fontColor)s' size='%(fontSize)d'>%(wgrText)s</font>",
-                "x": -228,
-                "y": -4
+                "x": -140,
+                "y": -2
             }
         }
     }
