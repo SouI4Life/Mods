@@ -3,28 +3,38 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>0.3.87</version>
+    <version>0.3.88</version>
                               
     <changes>(можна прокрутити сторінку)
     • ОНОВЛЕНО
-    - модпак адаптовано до версії гри 2.0.0.1
+    - Заміна радянських стягів на Українські (автор оновив мод, тепер він працює)
+    - Безліміт на чорний список (поремонтував)
+
+    • ЗЛАМАНО
+    1) Приціли
+    - Блакитний приціл
+    - Смерш
+    - Жовтий
+    - Анімовани
+    2) Годинник в гаражі
+    4) Поміяник сталевого мисливця
 
     Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
 
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=139247118&amp;m=534977444</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=139417878&amp;m=536228856</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>0.3.87</version>
+    <version>0.3.88</version>
     <changes>
     • UPDATED
-    - BattleHits
-    - The Skill4Ltu Mod (critical bag)
+    - UA flags mods
+    - Blacklits mod (bug fix)
 
     • BROKEN
     1) Sights
@@ -38,7 +48,7 @@
 If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=139247118&amp;m=534977444</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=139417878&amp;m=536228856</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -46,10 +56,10 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="0.3.87"/>
-    <item label="Патч гри" value="2.0.0.0"/>
+    <item label="Версія мода" value="0.3.88"/>
+    <item label="Патч гри" value="2.0.0.1"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=139247118&amp;m=534977444"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=139417878&amp;m=536228856"/>
   </wheelInfo>
 </infoPanel>
 
