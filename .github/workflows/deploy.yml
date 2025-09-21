@@ -42,12 +42,6 @@ jobs:
         run: |
           rclone sync . R2:$BUCKET \
             --exclude ".git/**" \
-            --progress \
-            --s3-chunk-size 64M \
-            --s3-upload-concurrency 4 \
-            --transfers 4 \
-            --checkers 8 \
-            --low-level-retries 10 \
-            --retries 3 \
-            --timeout 5m \
-            -vv
+            --max-size 1G \
+            --progress
+
