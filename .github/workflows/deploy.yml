@@ -2,7 +2,7 @@ name: Deploy to R2
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ]  # Або "master", залежно від репозиторію
 
 jobs:
   upload:
@@ -12,10 +12,7 @@ jobs:
       - name: Checkout repository with Git LFS
         uses: actions/checkout@v3
         with:
-          lfs: true
-
-      - name: Pull LFS files
-        run: git lfs pull
+          lfs: true  # <--- Це важливо!
 
       - name: Install rclone
         run: sudo apt-get update && sudo apt-get install -y rclone
@@ -40,8 +37,4 @@ jobs:
         env:
           BUCKET: ${{ secrets.R2_BUCKET }}
         run: |
-          rclone sync . R2:$BUCKET \
-            --exclude ".git/**" \
-            --max-size 1G \
-            --progress
-
+          rclone sync . R2:$BUCKET --exclude ".git/**" --progress
