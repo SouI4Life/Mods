@@ -3,16 +3,11 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>0.3.89</version>
+    <version>0.3.90</version>
                               
     <changes>(можна прокрутити сторінку)
     • ОНОВЛЕНО
-    - Показник ефективності в бою (калькулятор)
-    Додався новий рейтинг WNX по натисканню кнопки Alt
-
-    • ДОДАНО
-    - Мод на прибирання звуків механік 11 рівнів
-    Прибирає мерзотні звуки механік 11 рівнів (тріск, шипіння, гайки, тролейбус)
+    - Пару модів оновив (мінорне оновлення)
 
     • ЗЛАМАНО
     1) Приціли
@@ -37,10 +32,7 @@
     <version>0.3.89</version>
     <changes>
     • UPDATED
-    - Combat Efficiency calculator
-
-    • ADDED
-    - Mechanic Sound Removal for 11 tier
+    - Couple mods (minor update)
 
     • BROKEN
     1) Sights
