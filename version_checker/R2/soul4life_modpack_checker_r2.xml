@@ -3,12 +3,11 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.91.4</version>
+    <version>3.91.6</version>
                               
     <changes>(можна прокрутити сторінку)
-    • ВИПРАВЛЕНО
-    - Калькулятор ефективності в бою (від RaJCel)
-    - Оновив білі гуслі та білі трупи
+    Ремонт багу з кодом 1001 (все через стиль на 4005)
+    Тепер при встановлення модпаку інсталятор буде видаляти файл "data.wgpdc"
     
     • ЗЛАМАНО
     1) Приціли
@@ -22,19 +21,21 @@
     3) Гаражі
     - Футуристичний
     - Вархаммер
+
+    4) Стиль для FV4005
         
     Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
 
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=141628320&amp;m=551230347</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=141861531&amp;m=552767069</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>3.91.4</version>
+    <version>3.91.6</version>
     <changes>(you can scroll the page)
     • FIXED
     - Effectivity calculator (RaJCel)
@@ -56,7 +57,7 @@
 If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=141628320&amp;m=551230347</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=141861531&amp;m=552767069</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -64,10 +65,10 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="3.91.4"/>
-    <item label="Патч гри" value="2.0.1.0"/>
+    <item label="Версія мода" value="3.91.6"/>
+    <item label="Патч гри" value="2.0.1.1"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=141628320&amp;m=551230347"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=141861531&amp;m=552767069"/>
   </wheelInfo>
 </infoPanel>
 
