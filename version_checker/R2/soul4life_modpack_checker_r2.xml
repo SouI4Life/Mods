@@ -3,11 +3,16 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.91.8</version>
+    <version>3.91.9</version>
                               
     <changes>(можна прокрутити сторінку)
     ОНОВЛЕНО
-    Мод "Помічник сталевого мисливця"
+    1) Мод "Помічник сталевого мисливця"
+    2) Приціли
+    - Блакитний приціл
+    - Приціл Смерш
+    - Жовтий приціл
+    3) Всі гаражі
 
     • ЗЛАМАНО
     1) Приціли
@@ -31,24 +36,20 @@
 
   <en>
     <enabled>true</enabled>
-    <version>3.91.8</version>
+    <version>3.91.9</version>
     <changes>(you can scroll the page)
-    • FIXED
-    - Effectivity calculator (RaJCel)
-    - White tanks and chassis
-    
-    • BROKEN
+    • UPDATED
     1) Sights
     - Blue sight
     - Smerch sight
     - Yellow sight
+    2) All garages
+
+    • BROKEN
+    1) Sight
     - ZAYAC
     2) Clocks in the garage
-    3) Improved circle of convergence (by Jak_Atackka)
-    5) Screws
-    6) Garages
-    - Futuristic
-    - Warhummer
+    3) 3D Style on FV4005
 
 If you have questions or issues – press the "Discord" button.
     </changes>
@@ -61,7 +62,7 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="3.91.8"/>
+    <item label="Версія мода" value="3.91.9"/>
     <item label="Патч гри" value="2.0.1.1"/>
     <item label="Стан" value="Доступне оновлення"/>
     <item label="Сайт" value="https://www.patreon.com/file?h=143917648&amp;m=567211013"/>
