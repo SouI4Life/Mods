@@ -3,58 +3,47 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.91.9</version>
+    <version>3.92.1</version>
                               
     <changes>(можна прокрутити сторінку)
-    ОНОВЛЕНО
-    1) Мод "Помічник сталевого мисливця"
-    2) Приціли
-    - Блакитний приціл
-    - Приціл Смерш
-    - Жовтий приціл
-    3) Всі гаражі
+    • ОНОВЛЕНО
+    1) Всі моди CHAMPi
+    2) Всі моди Kurzdor
+    3) Моди на позначки
+    Ще різні моди
 
     • ЗЛАМАНО
     1) Приціли
-    - Блакитний приціл
-    - Приціл Смерш
-    - Жовтий приціл
-    - ZAYAC
-
     2) Годинники в гаражі
-
-    4) Стиль для FV4005
+    3) Стиль для FV4005
         
     Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
 
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=143917648&amp;m=567211013</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=144472227&amp;m=571145624</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>3.91.9</version>
+    <version>3.92.1</version>
     <changes>(you can scroll the page)
     • UPDATED
-    1) Sights
-    - Blue sight
-    - Smerch sight
-    - Yellow sight
-    2) All garages
-
+    1) CHAMPi mods
+    2) Kurzdor mods
+    3) Marks mods
+    and more
     • BROKEN
-    1) Sight
-    - ZAYAC
+    1) Sight's
     2) Clocks in the garage
     3) 3D Style on FV4005
 
 If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=143917648&amp;m=567211013</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=144472227&amp;m=571145624</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -62,10 +51,10 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="3.91.9"/>
-    <item label="Патч гри" value="2.0.1.1"/>
+    <item label="Версія мода" value="3.92.1"/>
+    <item label="Патч гри" value="2.1.0.0"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=143917648&amp;m=567211013"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=144472227&amp;m=571145624"/>
   </wheelInfo>
 </infoPanel>
 
