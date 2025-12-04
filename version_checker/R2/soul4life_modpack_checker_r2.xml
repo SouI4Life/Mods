@@ -3,14 +3,20 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.92.1</version>
+    <version>3.92.3</version>
                               
     <changes>(можна прокрутити сторінку)
+    • ДОДАНО\ ЗАМІНЕНО
+    - Прибрав мод "Швидкого демонтування обладнання"
+    Так як в "Автоматичному повернення обладнання з WoT+" вже є ця опція
+    WoT+ не треба щоб воно працювало, ні
+
+    -Додав мод "Калькулятор балістичних розрахунків"
+    Він по натисканню "Q" фіксує траєкторію стрільби якщо стріляєте по горизонту
+
     • ОНОВЛЕНО
-    1) Всі моди CHAMPi
-    2) Всі моди Kurzdor
-    3) Моди на позначки
-    Ще різні моди
+    1) Всі приціли (окрім анімованих)
+    Особисто перевірив - у мене все ок
 
     • ЗЛАМАНО
     1) Приціли
@@ -28,7 +34,7 @@
 
   <en>
     <enabled>true</enabled>
-    <version>3.92.1</version>
+    <version>3.92.3</version>
     <changes>(you can scroll the page)
     • UPDATED
     1) CHAMPi mods
@@ -51,8 +57,8 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="3.92.1"/>
-    <item label="Патч гри" value="2.1.0.0"/>
+    <item label="Версія мода" value="3.92.3"/>
+    <item label="Патч гри" value="2.1.0.1"/>
     <item label="Стан" value="Доступне оновлення"/>
     <item label="Сайт" value="https://www.patreon.com/file?h=144472227&amp;m=571145624"/>
   </wheelInfo>
