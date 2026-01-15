@@ -3,53 +3,45 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.92.3</version>
+    <version>3.93.1</version>
                               
     <changes>(можна прокрутити сторінку)
-    • ДОДАНО\ ЗАМІНЕНО
-    - Прибрав мод "Швидкого демонтування обладнання"
-    Так як в "Автоматичному повернення обладнання з WoT+" вже є ця опція
-    WoT+ не треба щоб воно працювало, ні
-
-    -Додав мод "Калькулятор балістичних розрахунків"
-    Він по натисканню "Q" фіксує траєкторію стрільби якщо стріляєте по горизонту
-
     • ОНОВЛЕНО
-    1) Всі приціли (окрім анімованих)
-    Особисто перевірив - у мене все ок
+    1) Гвинтики
+    2) Позначки
+    3) Мод майстра в гаражі
+    4) Іконка танків Master_XH
 
     • ЗЛАМАНО
     1) Приціли
     2) Годинники в гаражі
-    3) Стиль для FV4005
-        
-    Якщо виникають питання або проблеми - натисніть кнопку "Discord"              
+    3) 3D стиль FV4005
+    4) Післябойова статистика RaJCel - певне не повернеться           
 
+Чекаємо на оновлення прицілів❗️
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=145019709&amp;m=575038423</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=148277272&amp;m=597338586</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>3.92.3</version>
+    <version>3.93.1</version>
     <changes>(you can scroll the page)
     • UPDATED
-    1) CHAMPi mods
-    2) Kurzdor mods
-    3) Marks mods
-    and more
+
     • BROKEN
     1) Sight's
     2) Clocks in the garage
     3) 3D Style on FV4005
+    4) RaJCel on battle stat (in old design)
 
 If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=145019709&amp;m=575038423</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=148277272&amp;m=597338586</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -57,10 +49,10 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="3.92.3"/>
-    <item label="Патч гри" value="2.1.0.1"/>
+    <item label="Версія мода" value="3.93.1"/>
+    <item label="Патч гри" value="2.1.1.0"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=145019709&amp;m=575038423"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=148277272&amp;m=597338586"/>
   </wheelInfo>
 </infoPanel>
 
