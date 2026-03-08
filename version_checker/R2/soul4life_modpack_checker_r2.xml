@@ -3,45 +3,49 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.93.1</version>
+    <version>3.95.0</version>
                               
     <changes>(можна прокрутити сторінку)
+    Модпак адаптовано до нової версії
+
     • ОНОВЛЕНО
-    1) Гвинтики
-    2) Позначки
-    3) Мод майстра в гаражі
-    4) Іконка танків Master_XH
+    1) Приціли
+    2) Відлітаючий дамаг
+    3) Всі моди Kurzdor
+    4) Помічник танкіста
+    5) P-Mod
+    6) GuP мод (аніме озвучка)
 
     • ЗЛАМАНО
-    1) Приціли
+    1) Приціли 
+    - BadBoy Старі зведення (1 та 3)
     2) Годинники в гаражі
-    3) 3D стиль FV4005
-    4) Післябойова статистика RaJCel - певне не повернеться           
+    3) 3D стиль FV4005  
+    4) Позначка від Поліроіда
+    5) Гаражі
+    6) Майстер в гаражі (буде прибрано в наступному патчі)       
 
-Чекаємо на оновлення прицілів❗️
+Якщо є баги або питання натискайте на кнопку "Діскорд"
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=148277272&amp;m=597338586</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=152230683&amp;m=623778581</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>3.93.1</version>
+    <version>3.95.0</version>
     <changes>(you can scroll the page)
     • UPDATED
 
     • BROKEN
-    1) Sight's
-    2) Clocks in the garage
-    3) 3D Style on FV4005
-    4) RaJCel on battle stat (in old design)
+
 
 If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=148277272&amp;m=597338586</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=152230683&amp;m=623778581</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -49,10 +53,10 @@ If you have questions or issues – press the "Discord" button.
 <infoPanel>
   <title>Деталі оновлення</title>
   <wheelInfo>
-    <item label="Версія мода" value="3.93.1"/>
-    <item label="Патч гри" value="2.1.1.0"/>
+    <item label="Версія мода" value="3.95.0"/>
+    <item label="Патч гри" value="2.2.0.0"/>
     <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=148277272&amp;m=597338586"/>
+    <item label="Сайт" value="https://www.patreon.com/file?h=152230683&amp;m=623778581"/>
   </wheelInfo>
 </infoPanel>
 
