@@ -3,56 +3,67 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.96.0</version>
+    <version>3.97.0</version>
                               
-    <changes>(можна прокрутити сторінку)
+    <changes>
+    (можна прокрутити сторінку)
     Модпак адаптовано до нової версії
+    • ДОДАНО
+    1) Калькулятор Ело
+    Додано для Onradi (так можна, так)
+    2) Мод заміни тексту для кнопки "До бою!"
+    Треба була заміна моду - тому осьо
+    3) Новий гараж 8-bit (зимовий)
 
     • ОНОВЛЕНО
     1) Всі моди CHAMPi
-
+    2) Авто збір ресурсів з пса
+    3) Мод на позначки
+    4) Коло зведення від Pruszko
+    5) Глушилка для абілок 11 рівня
+    6) Менеджер реплеїв
+    7) Білі трупи та білі гуслі
+    Ну і ще різне оновив в модпаку
 
     • ЗЛАМАНО
     1) Приціли
-    - BadBoy Старі зведення (1 та 3)
-    2) Годинники в гаражі
-    3) 3D стиль FV4005
-    4) Швидкий ремонт     
+    2) Швидкий ремонт   
 
-Якщо є баги або питання натискайте на кнопку "Діскорд"
+    Якщо є баги або питання натискайте на кнопку "Діскорд"
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=152516288&amp;m=625704042</downloadLink>
+    <downloadLink>https://cdn.soul4life.xyz/installator/ModPack%20%D0%B2%D1%96%D0%B4%20Soul4Life_v.3.97.0.exe</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>3.96.0</version>
-    <changes>(you can scroll the page)
+    <version>3.97.0</version>
+    <changes>
+    (you can scroll the page)
     • UPDATED
 
     • BROKEN
 
 
-If you have questions or issues – press the "Discord" button.
+    If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=152516288&amp;m=625704042</downloadLink>
+    <downloadLink>https://cdn.soul4life.xyz/installator/ModPack%20%D0%B2%D1%96%D0%B4%20Soul4Life_v.3.97.0.exe</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
 
-<infoPanel>
-  <title>Деталі оновлення</title>
-  <wheelInfo>
-    <item label="Версія мода" value="3.96.0"/>
-    <item label="Патч гри" value="2.2.0.0"/>
-    <item label="Стан" value="Доступне оновлення"/>
-    <item label="Сайт" value="https://www.patreon.com/file?h=152516288&amp;m=625704042"/>
-  </wheelInfo>
-</infoPanel>
+  <infoPanel>
+    <title>Деталі оновлення</title>
+      <wheelInfo>
+        <item label="Версія мода" value="3.97.0"/>
+        <item label="Патч гри" value="2.2.1.0"/>
+        <item label="Стан" value="Доступне оновлення"/>
+        <item label="Сайт" value="https://cdn.soul4life.xyz/installator/ModPack%20%D0%B2%D1%96%D0%B4%20Soul4Life_v.3.97.0.exe"/>
+      </wheelInfo>
+  </infoPanel>
 
 </hmpReleaseInfo.xml>
 
