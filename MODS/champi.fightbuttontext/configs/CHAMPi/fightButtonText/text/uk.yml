@@ -1,0 +1,8 @@
+UI_description: "Текст кнопки"
+UI_setting_buttonImage_bloody: "Bloody (by Warlord)"
+UI_setting_buttonImage_default: "Стандартний"
+UI_setting_buttonImage_halloween: "Halloween 2023 Event"
+UI_setting_buttonImage_text: "Фон кнопки"
+UI_setting_buttonText_text: "Введіть текст для своєї кнопки або залиште поле пустим для Стандартного варіанту!"
+UI_setting_colorButtonText_text: "Колір: Текст Кнопки"
+UI_setting_useCustomColor_text: "Використати користувацький колір"
