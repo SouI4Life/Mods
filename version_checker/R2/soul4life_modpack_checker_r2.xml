@@ -3,7 +3,7 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.97.1</version>
+    <version>3.97.2</version>
                               
     <changes>
     (можна прокрутити сторінку)
@@ -21,7 +21,7 @@
     Якщо є баги або питання натискайте на кнопку "Діскорд"
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=156336505&amp;m=651226950</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=156336505&amp;m=651230516</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
@@ -39,7 +39,7 @@
     If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=156336505&amp;m=651226950</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=156336505&amp;m=651230516</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -50,7 +50,7 @@
         <item label="Версія мода" value="3.97.1"/>
         <item label="Патч гри" value="2.2.1.0"/>
         <item label="Стан" value="Доступне оновлення"/>
-        <item label="Сайт" value="https://www.patreon.com/file?h=156336505&amp;m=651226950"/>
+        <item label="Сайт" value="https://www.patreon.com/file?h=156336505&amp;m=651230516"/>
       </wheelInfo>
   </infoPanel>
 
