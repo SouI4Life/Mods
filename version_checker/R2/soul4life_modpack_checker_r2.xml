@@ -8,31 +8,20 @@
     <changes>
     (можна прокрутити сторінку)
     Модпак адаптовано до нової версії
-    • ДОДАНО
-    1) Калькулятор Ело
-    Додано для Onradi (так можна, так)
-    2) Мод заміни тексту для кнопки "До бою!"
-    Треба була заміна моду - тому осьо
-    3) Новий гараж 8-bit (зимовий)
 
     • ОНОВЛЕНО
-    1) Всі моди CHAMPi
-    2) Авто збір ресурсів з пса
-    3) Мод на позначки
-    4) Коло зведення від Pruszko
-    5) Глушилка для абілок 11 рівня
-    6) Менеджер реплеїв
-    7) Білі трупи та білі гуслі
-    Ну і ще різне оновив в модпаку
+    1) Приціли
 
     • ЗЛАМАНО
-    1) Приціли
-    2) Швидкий ремонт   
+    1) Приціли 
+    Taipan 2
+    Анімовані приціли
+    2) Гвинтики   
 
     Якщо є баги або питання натискайте на кнопку "Діскорд"
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://cdn.soul4life.xyz/installator/ModPack%20%D0%B2%D1%96%D0%B4%20Soul4Life_v.3.97.0.exe</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=156336505&amp;m=651226950</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
@@ -50,7 +39,7 @@
     If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://cdn.soul4life.xyz/installator/ModPack%20%D0%B2%D1%96%D0%B4%20Soul4Life_v.3.97.0.exe</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=156336505&amp;m=651226950</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -61,7 +50,7 @@
         <item label="Версія мода" value="3.97.0"/>
         <item label="Патч гри" value="2.2.1.0"/>
         <item label="Стан" value="Доступне оновлення"/>
-        <item label="Сайт" value="https://cdn.soul4life.xyz/installator/ModPack%20%D0%B2%D1%96%D0%B4%20Soul4Life_v.3.97.0.exe"/>
+        <item label="Сайт" value="https://www.patreon.com/file?h=156336505&amp;m=651226950"/>
       </wheelInfo>
   </infoPanel>
 
