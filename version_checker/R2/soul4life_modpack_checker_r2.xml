@@ -3,7 +3,7 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.97.0</version>
+    <version>3.97.1</version>
                               
     <changes>
     (можна прокрутити сторінку)
@@ -28,7 +28,7 @@
 
   <en>
     <enabled>true</enabled>
-    <version>3.97.0</version>
+    <version>3.97.1</version>
     <changes>
     (you can scroll the page)
     • UPDATED
@@ -47,7 +47,7 @@
   <infoPanel>
     <title>Деталі оновлення</title>
       <wheelInfo>
-        <item label="Версія мода" value="3.97.0"/>
+        <item label="Версія мода" value="3.97.1"/>
         <item label="Патч гри" value="2.2.1.0"/>
         <item label="Стан" value="Доступне оновлення"/>
         <item label="Сайт" value="https://www.patreon.com/file?h=156336505&amp;m=651226950"/>
