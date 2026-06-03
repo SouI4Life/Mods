@@ -3,25 +3,25 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.97.4</version>
+    <version>3.97.5</version>
                               
     <changes>
     (можна прокрутити сторінку)
     Модпак адаптовано до нової версії
 
-    •  
+    •  Ніц не оновлено
 
     Якщо є баги або питання натискайте на кнопку "Діскорд"
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=156843661&amp;m=654527128</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=158228479&amp;m=663070306</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </uk>
 
   <en>
     <enabled>true</enabled>
-    <version>3.97.4</version>
+    <version>3.97.5</version>
     <changes>
     (you can scroll the page)
     • UPDATED
@@ -32,7 +32,7 @@
     If you have questions or issues – press the "Discord" button.
     </changes>
     <forumLink>https://discord.gg/Q89Gs9gZDR</forumLink>
-    <downloadLink>https://www.patreon.com/file?h=156843661&amp;m=654527128</downloadLink>
+    <downloadLink>https://www.patreon.com/file?h=158228479&amp;m=663070306</downloadLink>
     <modsBlackList>
     </modsBlackList>
   </en>
@@ -40,10 +40,10 @@
   <infoPanel>
     <title>Деталі оновлення</title>
       <wheelInfo>
-        <item label="Версія мода" value="3.97.4"/>
-        <item label="Патч гри" value="2.2.1.2"/>
+        <item label="Версія мода" value="3.97.5"/>
+        <item label="Патч гри" value="2.2.1.3"/>
         <item label="Стан" value="Доступне оновлення"/>
-        <item label="Сайт" value="https://www.patreon.com/file?h=156843661&amp;m=654527128"/>
+        <item label="Сайт" value="https://www.patreon.com/file?h=158228479&amp;m=663070306"/>
       </wheelInfo>
   </infoPanel>
 
