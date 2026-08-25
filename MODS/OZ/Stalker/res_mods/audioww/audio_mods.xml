@@ -6,6 +6,14 @@
     </loadBanks>
 	<events>
 		<event>
+			<name>lightbulb</name>
+			<mod>lightbulb_andre</mod>
+		</event>
+		<event>
+			<name>lightbulb_02</name>
+			<mod>lightbulb_02_andre</mod>
+		</event>
+		<event>
 			<name>enemy_sighted_for_team</name>
 			<mod>enemy_sighted_for_team_andre</mod>
 		</event>

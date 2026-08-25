@@ -1,13 +1,15 @@
 <audio_mods.xml>
-    <loadBanks>
-        <bank>
-            <name>protanki.bnk</name>
-        </bank>
-    </loadBanks>
-	<events>
-		<event>
+	<loadBanks>
+		<bank>protanki.bnk</bank>	
+	</loadBanks>
+	<events>		
+                <event>
 			<name>lightbulb</name>
 			<mod>lightbulb_andre</mod>
+		</event>
+		<event>
+			<name>lightbulb_02</name>
+			<mod>lightbulb_02_andre</mod>
 		</event>
 		<event>
 			<name>enemy_sighted_for_team</name>
@@ -15,3 +17,73 @@
 		</event>
 	</events>
 </audio_mods.xml>
+
+	<!--
+	<loadBanks>
+		<bank>[mod_bank_name].bnk</bank>
+	</loadBanks>
+  
+  <events>
+    <event>
+      <name>eventName</name>
+      <mod>eventNameMod</mod>
+    </event>
+	</events>
+  
+	eventName - name of the replaceble event
+	eventNameMod - name of the new event
+  
+	<switches>
+		<switch>
+			<name>SW1</name>
+			<mod>SW1_mod</mod>
+			<states>
+				<state>
+					<name>ST1</name>
+					<mod>ST1_mod</mod>
+				</state>
+				<state>
+					<name>ST2</name>
+					<mod>ST2_mod</mod>
+				</state>
+				<state>
+					<name>ST3</name>
+					<mod>ST3_mod</mod>
+				</state>
+			</states>
+		</switch>
+	</switches>
+
+	<RTPCs>
+		<RTPC>
+			<name>RTPC_ext_speed_abs</name>
+			<mod>RTPC_ext_speed_abs_mod</mod>
+		</RTPC>
+		<RTPC>
+			<name>RTPC_2</name>
+			<mod>RTPC_2_mod</mod>
+		</RTPC>
+	</RTPCs>
+
+	<states>
+		<stateGroup>
+			<name>STG1</name>
+			<mod>STG1_mod</mod>
+			<stateNames>
+				<state>
+					<name>ST1</name>
+					<mod>ST1_mod</mod>
+				</state>
+				<state>
+					<name>ST2</name>
+					<mod>ST2_mod</mod>
+				</state>
+				<state>
+					<name>ST3</name>
+					<mod>ST3_mod</mod>
+				</state>
+			</stateNames>
+		</stateGroup>
+	</states>
+  
+	-->
