@@ -1,0 +1,7 @@
+JetBrains Mono is licensed under the SIL Open Font License, Version 1.1.
+Copyright 2020 The JetBrains Mono Project Authors.
+https://github.com/JetBrains/JetBrainsMono
+
+ModMenuMono.ttf is a subset of JetBrains Mono Regular, reduced to the character
+ranges this menu can display. It keeps the Reserved Font Name and is bundled
+under the terms of the OFL, which permits distribution as part of a larger work.

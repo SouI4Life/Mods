@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Ce mod permet de configurer les mods installés encore plus facilement.
+buttons/ok: OK
+buttons/cancel: Annuler
+buttons/apply: Appliquer
+buttons/close: FERMER
+buttons/clear: Effacer
+buttons/default: Par défaut
+stateswitcher/tooltip/header: Activer / Désactiver le mod
+stateswitcher/tooltip/body: Indicateur vert - mod activé\nIndicateur rouge - mod désactivé
+colorchoice/header: COULEUR
+search/placeholder: Rechercher des mods…
+reset/tooltip/header: Réinitialiser les réglages
+reset/tooltip/body: Rétablit les options de ce mod à leurs valeurs par défaut. Appliquer / OK le conserve, Annuler l'annule.
+reset/confirm/message: Rétablir les réglages par défaut de ce mod ?
+reset/confirm/submit: Rétablir
+search/hits: {0} mods trouvés sur {1}
+colorchoice/preset/menu/edit: Modifier le préréglage
+colorchoice/preset/menu/copyhex: Copier le code hex
+colorchoice/preset/menu/clear: Effacer le préréglage
+newfeature/menu/markallread: Tout marquer comme lu
+buttons/saveclose: Enregistrer et fermer
+menusettings/title: RÉGLAGES DU MENU
+menusettings/accent: Couleur d'accent
+menusettings/background: Couleur de fond
+menusettings/scale: Échelle du panneau
+menusettings/columns: Colonnes d'options
+menusettings/columns/noroom: La fenêtre est trop étroite pour quatre colonnes.
+entries/none: Aucun mod n'utilise encore ce menu
+menusettings/az: Index de A à Z
+menusettings/az/grid: Grille
+menusettings/az/rail: Barre
+menusettings/az/off: Off
+menusettings/language: Langue
+menusettings/language/auto: Auto (langue du jeu)
+menusettings/transparent: Fenêtre transparente
+menusettings/transparency: Transparence
+menusettings/reset/message: Réinitialiser l'apparence du menu ? Les réglages des mods ne sont pas touchés.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Modifications non enregistrées
+review/chars: caractères
+input/preview: Aperçu
+image/fitted: Image réduite
+image/fittedwindow: Réduite pour tenir dans la fenêtre
+moderror/title: Ce mod a signalé une erreur
+moderror/safe: Vos réglages sont intacts et toujours actifs.
+moderror/failed: Une action propre à ce mod a échoué - certaines de ses fonctions peuvent ne pas répondre.
+moderror/report: Signalez-le à l'auteur du mod, pas au modpack.
+history/undo: Annuler
+history/redo: Rétablir
+window/look: Apparence de la fenêtre
+footer/unsaved: modifications non enregistrées
+footer/mods: mods
+entries/other: Autres mods
+entries/other/body: Fenêtres enregistrées par d’autres mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} avec de nouvelles options
+entries/pick: Ouvrir les paramètres
+results/search/title: Résultats de recherche
+results/new/title: Nouvelles options
+results/empty: Aucun résultat
+results/more: {0} de plus - affinez la recherche
+help/open: Ouvrir ce menu
+help/search: Aller au champ de recherche
+help/arrows: Parcourir la liste des mods
+help/slider: Déplacer le curseur sous la souris
+help/escape: Revenir, puis fermer la fenêtre
+help/rightclick: Options des raccourcis et des couleurs
+menusettings/openhotkey: Touche d'ouverture du menu
+tabs/ungrouped: Sans groupe

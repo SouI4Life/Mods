@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Šis mods ļauj vēl vienkāršāk konfigurēt instalētos modus.
+buttons/ok: OK
+buttons/cancel: Atcelt
+buttons/apply: Lietot
+buttons/close: AIZVĒRT
+buttons/clear: Notīrīt
+buttons/default: Noklusējums
+stateswitcher/tooltip/header: Iespējot / Atspējot modu
+stateswitcher/tooltip/body: Zaļš indikators - mods iespējots\nSarkans indikators - mods atspējots
+colorchoice/header: KRĀSA
+search/placeholder: Meklēt modus…
+reset/tooltip/header: Iestatījumu atiestatīšana
+reset/tooltip/body: Atjauno šī moda iestatījumus uz noklusējumu. Lietot / OK saglabā, Atcelt atmet.
+reset/confirm/message: Atiestatīt šo modu uz noklusējuma iestatījumiem?
+reset/confirm/submit: Atiestatīt
+search/hits: atrasti {0} no {1} modiem
+colorchoice/preset/menu/edit: Rediģēt priekšiestatījumu
+colorchoice/preset/menu/copyhex: Kopēt hex kodu
+colorchoice/preset/menu/clear: Notīrīt priekšiestatījumu
+newfeature/menu/markallread: Atzīmēt visus kā izlasītus
+buttons/saveclose: Saglabāt un aizvērt
+menusettings/title: IZVĒLNES IESTATĪJUMI
+menusettings/accent: Akcenta krāsa
+menusettings/background: Fona krāsa
+menusettings/scale: Paneļa mērogs
+menusettings/columns: Opciju kolonnas
+menusettings/columns/noroom: Logs ir pārāk šaurs četrām kolonnām.
+entries/none: Neviens mods vēl neizmanto šo izvēlni
+menusettings/az: Rādītājs no A līdz Ž
+menusettings/az/grid: Režģis
+menusettings/az/rail: Josla
+menusettings/az/off: Izsl.
+menusettings/language: Valoda
+menusettings/language/auto: Auto (spēles valoda)
+menusettings/transparent: Caurspīdīgs logs
+menusettings/transparency: Caurspīdīgums
+menusettings/reset/message: Atjaunot izvēlnes izskatu? Modu iestatījumi netiek mainīti.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Nesaglabātās izmaiņas
+review/chars: rakstzīmes
+input/preview: Priekšskatījums
+image/fitted: Attēls samazināts
+image/fittedwindow: Samazināts atbilstoši logam
+moderror/title: Šis mods ziņoja par kļūdu
+moderror/safe: Jūsu iestatījumi ir drošībā un joprojām darbojas.
+moderror/failed: Viena šī moda darbība neizdevās - dažas funkcijas var nereaģēt.
+moderror/report: Ziņojiet moda autoram, nevis modpakai.
+history/undo: Atsaukt
+history/redo: Atkārtot
+window/look: Loga izskats
+footer/unsaved: nesaglabātās izmaiņas
+footer/mods: modi
+entries/other: Citi modi
+entries/other/body: Citu modu reģistrētie logi
+header/mods/one: {0} mods
+header/mods/many: {0} modi
+header/new: {0} ar jaunām opcijām
+entries/pick: Atvērt iestatījumus
+results/search/title: Meklēšanas rezultāti
+results/new/title: Jaunas opcijas
+results/empty: Nav atbilstību
+results/more: vēl {0} - precizējiet meklējumu
+help/open: Atvērt šo izvēlni
+help/search: Pāriet uz meklēšanu
+help/arrows: Pārvietoties modu sarakstā
+help/slider: Pārvietot slīdni zem kursora
+help/escape: Solis atpakaļ, tad aizvērt logu
+help/rightclick: Taustiņu un krāsu lodziņu opcijas
+menusettings/openhotkey: Izvēlnes atvēršanas taustiņš
+tabs/ungrouped: Bez grupas

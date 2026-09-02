@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Acest mod permite configurarea și mai ușoară a modurilor instalate.
+buttons/ok: OK
+buttons/cancel: Anulează
+buttons/apply: Aplică
+buttons/close: ÎNCHIDE
+buttons/clear: Șterge
+buttons/default: Implicit
+stateswitcher/tooltip/header: Activează / Dezactivează modul
+stateswitcher/tooltip/body: Indicator verde - mod activat\nIndicator roșu - mod dezactivat
+colorchoice/header: CULOARE
+search/placeholder: Caută moduri…
+reset/tooltip/header: Resetare setări
+reset/tooltip/body: Readuce opțiunile acestui mod la valorile implicite. Aplică / OK păstrează, Anulează renunță.
+reset/confirm/message: Resetați acest mod la setările implicite?
+reset/confirm/submit: Resetează
+search/hits: {0} din {1} moduri găsite
+colorchoice/preset/menu/edit: Editează presetarea
+colorchoice/preset/menu/copyhex: Copiază codul hex
+colorchoice/preset/menu/clear: Golește presetarea
+newfeature/menu/markallread: Marchează tot ca citit
+buttons/saveclose: Salvează și închide
+menusettings/title: SETĂRILE MENIULUI
+menusettings/accent: Culoare de accent
+menusettings/background: Culoare de fundal
+menusettings/scale: Scara panoului
+menusettings/columns: Coloane de opțiuni
+menusettings/columns/noroom: Fereastra este prea îngustă pentru patru coloane.
+entries/none: Niciun mod nu folosește încă acest meniu
+menusettings/az: Index de la A la Z
+menusettings/az/grid: Grilă
+menusettings/az/rail: Bară
+menusettings/az/off: Oprit
+menusettings/language: Limbă
+menusettings/language/auto: Auto (limba jocului)
+menusettings/transparent: Fereastră transparentă
+menusettings/transparency: Transparență
+menusettings/reset/message: Reseteți aspectul meniului? Setările modurilor rămân neschimbate.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Modificări nesalvate
+review/chars: caractere
+input/preview: Previzualizare
+image/fitted: Imagine micșorată
+image/fittedwindow: Micșorată pentru a încăpea în fereastră
+moderror/title: Acest mod a raportat o eroare
+moderror/safe: Setările tale sunt în siguranță și rămân valabile.
+moderror/failed: O acțiune a acestui mod a eșuat - unele funcții pot să nu răspundă.
+moderror/report: Raportează autorului modului, nu modpack-ului.
+history/undo: Anulează
+history/redo: Refă
+window/look: Aspectul ferestrei
+footer/unsaved: modificări nesalvate
+footer/mods: moduri
+entries/other: Alte moduri
+entries/other/body: Ferestre înregistrate de alte moduri
+header/mods/one: {0} mod
+header/mods/many: {0} moduri
+header/new: {0} cu opțiuni noi
+entries/pick: Deschide setările
+results/search/title: Rezultatele căutării
+results/new/title: Opțiuni noi
+results/empty: Nicio potrivire
+results/more: încă {0} - restrângeți căutarea
+help/open: Deschide acest meniu
+help/search: Salt la câmpul de căutare
+help/arrows: Parcurge lista de moduri
+help/slider: Mută cursorul de sub indicator
+help/escape: Un pas înapoi, apoi închide
+help/rightclick: Opțiuni pentru taste și culori
+menusettings/openhotkey: Tasta de deschidere a meniului
+tabs/ungrouped: Fără grup

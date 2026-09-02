@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Denne mod gør det endnu nemmere at konfigurere installerede mods.
+buttons/ok: OK
+buttons/cancel: Annuller
+buttons/apply: Anvend
+buttons/close: LUK
+buttons/clear: Ryd
+buttons/default: Standard
+stateswitcher/tooltip/header: Aktivér / Deaktivér mod
+stateswitcher/tooltip/body: Grøn indikator - mod aktiveret\nRød indikator - mod deaktiveret
+colorchoice/header: FARVE
+search/placeholder: Søg mods…
+reset/tooltip/header: Nulstil indstillinger
+reset/tooltip/body: Sætter denne mods indstillinger tilbage til standard. Anvend / OK beholder, Annuller fortryder.
+reset/confirm/message: Nulstil denne mod til standardindstillinger?
+reset/confirm/submit: Nulstil
+search/hits: {0} af {1} mods fundet
+colorchoice/preset/menu/edit: Rediger forudindstilling
+colorchoice/preset/menu/copyhex: Kopiér hex-kode
+colorchoice/preset/menu/clear: Ryd forudindstilling
+newfeature/menu/markallread: Markér alle som læst
+buttons/saveclose: Gem og luk
+menusettings/title: MENUINDSTILLINGER
+menusettings/accent: Accentfarve
+menusettings/background: Baggrundsfarve
+menusettings/scale: Panelskala
+menusettings/columns: Indstillingskolonner
+menusettings/columns/noroom: Vinduet er for smalt til fire kolonner.
+entries/none: Ingen mod bruger denne menu endnu
+menusettings/az: A til Å indeks
+menusettings/az/grid: Gitter
+menusettings/az/rail: Stribe
+menusettings/az/off: Fra
+menusettings/language: Sprog
+menusettings/language/auto: Auto (spillets sprog)
+menusettings/transparent: Gennemsigtigt vindue
+menusettings/transparency: Gennemsigtighed
+menusettings/reset/message: Nulstil menuens udseende til standard? Mod-indstillinger røres ikke.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Ikke-gemte ændringer
+review/chars: tegn
+input/preview: Forhåndsvisning
+image/fitted: Billedet er nedskaleret
+image/fittedwindow: Nedskaleret til vinduet
+moderror/title: Dette mod har meldt en fejl
+moderror/safe: Dine indstillinger er sikre og gælder stadig.
+moderror/failed: En af dette mods egne handlinger fejlede - nogle funktioner svarer måske ikke.
+moderror/report: Meld det til moddets forfatter, ikke til modpacken.
+history/undo: Fortryd
+history/redo: Gentag
+window/look: Vinduets udseende
+footer/unsaved: ikke-gemte ændringer
+footer/mods: mods
+entries/other: Andre mods
+entries/other/body: Vinduer registreret af andre mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} med nye indstillinger
+entries/pick: Åbn indstillinger
+results/search/title: Søgeresultater
+results/new/title: Nye indstillinger
+results/empty: Ingen match
+results/more: {0} mere - indsnævr søgningen
+help/open: Åbn denne menu
+help/search: Gå til søgefeltet
+help/arrows: Bevæg dig gennem modlisten
+help/slider: Flyt skyderen under markøren
+help/escape: Gå tilbage, luk så vinduet
+help/rightclick: Valg for taster og farvefelter
+menusettings/openhotkey: Tast til åbning af menuen
+tabs/ungrouped: Uden gruppe

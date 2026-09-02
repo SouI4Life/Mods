@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Tämä modi tekee asennettujen modien määrityksestä entistä helpompaa.
+buttons/ok: OK
+buttons/cancel: Peruuta
+buttons/apply: Käytä
+buttons/close: SULJE
+buttons/clear: Tyhjennä
+buttons/default: Oletus
+stateswitcher/tooltip/header: Ota modi käyttöön / poista käytöstä
+stateswitcher/tooltip/body: Vihreä ilmaisin - modi käytössä\nPunainen ilmaisin - modi pois käytöstä
+colorchoice/header: VÄRI
+search/placeholder: Hae modeja…
+reset/tooltip/header: Palauta asetukset
+reset/tooltip/body: Palauttaa tämän modin asetukset oletusarvoihin. Käytä / OK säilyttää, Peruuta hylkää.
+reset/confirm/message: Palautetaanko tämä modi oletusasetuksiin?
+reset/confirm/submit: Palauta
+search/hits: löytyi {0}/{1} modia
+colorchoice/preset/menu/edit: Muokkaa esiasetusta
+colorchoice/preset/menu/copyhex: Kopioi hex-koodi
+colorchoice/preset/menu/clear: Tyhjennä esiasetus
+newfeature/menu/markallread: Merkitse kaikki luetuiksi
+buttons/saveclose: Tallenna ja sulje
+menusettings/title: VALIKON ASETUKSET
+menusettings/accent: Korostusväri
+menusettings/background: Taustaväri
+menusettings/scale: Paneelin koko
+menusettings/columns: Asetussarakkeet
+menusettings/columns/noroom: Ikkuna on liian kapea neljälle sarakkeelle.
+entries/none: Yksikään modi ei vielä käytä tätä valikkoa
+menusettings/az: A:sta Ö:hön hakemisto
+menusettings/az/grid: Ruudukko
+menusettings/az/rail: Palkki
+menusettings/az/off: Pois
+menusettings/language: Kieli
+menusettings/language/auto: Auto (pelin kieli)
+menusettings/transparent: Läpinäkyvä ikkuna
+menusettings/transparency: Läpinäkyvyys
+menusettings/reset/message: Palautetaanko valikon ulkoasu oletuksiin? Modien asetuksiin ei kosketa.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Tallentamattomat muutokset
+review/chars: merkkiä
+input/preview: Esikatselu
+image/fitted: Kuva pienennetty
+image/fittedwindow: Pienennetty ikkunan mukaan
+moderror/title: Tämä modi ilmoitti virheestä
+moderror/safe: Asetuksesi ovat turvassa ja voimassa.
+moderror/failed: Yksi modin omista toiminnoista epäonnistui - osa sen ominaisuuksista ei ehkä vastaa.
+moderror/report: Ilmoita modin tekijälle, älä modpackille.
+history/undo: Kumoa
+history/redo: Tee uudelleen
+window/look: Ikkunan ulkoasu
+footer/unsaved: tallentamattomat muutokset
+footer/mods: modit
+entries/other: Muut modit
+entries/other/body: Muiden modien rekisteröimät ikkunat
+header/mods/one: {0} modi
+header/mods/many: {0} modia
+header/new: {0} uusilla asetuksilla
+entries/pick: Avaa asetukset
+results/search/title: Hakutulokset
+results/new/title: Uudet asetukset
+results/empty: Ei osumia
+results/more: {0} lisää - tarkenna hakua
+help/open: Avaa tämä valikko
+help/search: Siirry hakukenttään
+help/arrows: Liiku modilistassa
+help/slider: Siirrä osoittimen alla olevaa liukusäädintä
+help/escape: Askel taakse, sitten sulje ikkuna
+help/rightclick: Valinnat näppäimille ja väriruuduille
+menusettings/openhotkey: Valikon avausnäppäin
+tabs/ungrouped: Ei ryhmää

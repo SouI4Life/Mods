@@ -1,0 +1,6 @@
+<root>
+  <id>aslain.modmenu</id>
+  <version>2.0.03</version>
+  <name>Mod Menu</name>
+  <description>One window in the garage for the settings of the mods that use it. Speaks the Python API mods already use, so an existing mod needs no change. Needs OpenWG Gameface 1.1.6 or newer. https://github.com/Aslain/modmenu</description>
+</root>

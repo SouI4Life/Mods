@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Este mod permite configurar los mods instalados aún más fácilmente.
+buttons/ok: OK
+buttons/cancel: Cancelar
+buttons/apply: Aplicar
+buttons/close: CERRAR
+buttons/clear: Borrar
+buttons/default: Predeterminado
+stateswitcher/tooltip/header: Activar / Desactivar mod
+stateswitcher/tooltip/body: Indicador verde - mod activado\nIndicador rojo - mod desactivado
+colorchoice/header: COLOR
+search/placeholder: Buscar mods…
+reset/tooltip/header: Restablecer ajustes
+reset/tooltip/body: Devuelve las opciones de este mod a sus valores predeterminados. Aplicar / OK lo mantiene, Cancelar lo descarta.
+reset/confirm/message: ¿Restablecer este mod a sus ajustes predeterminados?
+reset/confirm/submit: Restablecer
+search/hits: {0} de {1} mods encontrados
+colorchoice/preset/menu/edit: Editar preajuste
+colorchoice/preset/menu/copyhex: Copiar código hex
+colorchoice/preset/menu/clear: Borrar preajuste
+newfeature/menu/markallread: Marcar todo como leído
+buttons/saveclose: Guardar y cerrar
+menusettings/title: AJUSTES DEL MENÚ
+menusettings/accent: Color de acento
+menusettings/background: Color de fondo
+menusettings/scale: Escala del panel
+menusettings/columns: Columnas de opciones
+menusettings/columns/noroom: La ventana es demasiado estrecha para cuatro columnas.
+entries/none: Ningún mod usa todavía este menú
+menusettings/az: Índice de A a Z
+menusettings/az/grid: Cuadrícula
+menusettings/az/rail: Barra
+menusettings/az/off: No
+menusettings/language: Idioma
+menusettings/language/auto: Auto (idioma del juego)
+menusettings/transparent: Ventana transparente
+menusettings/transparency: Transparencia
+menusettings/reset/message: ¿Restablecer la apariencia del menú? Los ajustes de los mods no se tocan.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Cambios sin guardar
+review/chars: caracteres
+input/preview: Vista previa
+image/fitted: Imagen reducida
+image/fittedwindow: Reducida para caber en la ventana
+moderror/title: Este mod ha notificado un error
+moderror/safe: Tus ajustes están a salvo y siguen aplicándose.
+moderror/failed: Una acción propia de este mod ha fallado - puede que algunas funciones no respondan.
+moderror/report: Informa al autor del mod, no al modpack.
+history/undo: Deshacer
+history/redo: Rehacer
+window/look: Aspecto de la ventana
+footer/unsaved: cambios sin guardar
+footer/mods: mods
+entries/other: Otros mods
+entries/other/body: Ventanas registradas por otros mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} con nuevas opciones
+entries/pick: Abrir ajustes
+results/search/title: Resultados de búsqueda
+results/new/title: Nuevas opciones
+results/empty: Sin coincidencias
+results/more: {0} más - afina la búsqueda
+help/open: Abrir este menú
+help/search: Ir al cuadro de búsqueda
+help/arrows: Recorrer la lista de mods
+help/slider: Mover el deslizador bajo el cursor
+help/escape: Retroceder y luego cerrar la ventana
+help/rightclick: Opciones de teclas y casillas de color
+menusettings/openhotkey: Tecla para abrir el menú
+tabs/ungrouped: Sin grupo

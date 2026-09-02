@@ -1,0 +1,76 @@
+name: Налаштування модів
+description: Цей мод дозволяє ще простіше налаштовувати встановлені моди.
+buttons/ok: OK
+buttons/cancel: Скасувати
+buttons/apply: Застосувати
+buttons/close: ЗАКРИТИ
+buttons/clear: Очистити
+buttons/default: За замовчуванням
+stateswitcher/tooltip/header: Увімнути / Вимкнути мод
+stateswitcher/tooltip/body: Зелений індикатор - мод увімкнено\nЧервоний індикатор - мод вимкнено
+colorchoice/header: КОЛІР
+search/placeholder: Пошук модів…
+reset/tooltip/header: Скидання налаштувань
+reset/tooltip/body: Повертає налаштування цього мода до типових значень. Застосувати / OK зберігає, Скасувати скасовує.
+reset/confirm/message: Скинути налаштування цього мода до типових значень?
+reset/confirm/submit: Скинути
+search/hits: знайдено {0} з {1} модів
+colorchoice/preset/menu/edit: Редагувати пресет
+colorchoice/preset/menu/copyhex: Копіювати hex-код
+colorchoice/preset/menu/clear: Очистити пресет
+newfeature/menu/markallread: Позначити все як прочитане
+buttons/saveclose: Зберегти й закрити
+menusettings/title: НАЛАШТУВАННЯ МЕНЮ
+menusettings/accent: Колір акценту
+menusettings/background: Колір тла
+menusettings/scale: Масштаб панелі
+menusettings/columns: Колонки налаштувань
+menusettings/columns/noroom: Вікно завузьке для чотирьох колонок.
+entries/none: Жоден мод ще не використовує це меню
+menusettings/az: Покажчик А-Я
+menusettings/az/grid: Сітка
+menusettings/az/rail: Смуга
+menusettings/az/off: Вимк.
+menusettings/language: Мова
+menusettings/language/auto: Авто (мова гри)
+menusettings/transparent: Прозоре вікно
+menusettings/transparency: Прозорість
+menusettings/reset/message: Скинути налаштування вигляду меню? Налаштування модів не змінюються.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Незбережені зміни
+review/chars: символів
+input/preview: Попередній перегляд
+image/fitted: Зображення зменшено
+image/fittedwindow: Зменшено за шириною вікна
+moderror/title: Цей мод повідомив про помилку
+moderror/safe: Ваші налаштування в безпеці та діють далі.
+moderror/failed: Одна з дій цього мода не вдалася - частина його функцій може не відповідати.
+moderror/report: Повідомте автора мода, а не модпак.
+history/undo: Скасувати
+history/redo: Повторити
+window/look: Вигляд вікна
+footer/unsaved: незбережені зміни
+footer/mods: моди
+entries/other: Інші моди
+entries/other/body: Вікна, зареєстровані іншими модами
+header/mods/one: {0} мод
+header/mods/few: {0} моди
+header/mods/many: {0} модів
+header/new: {0} з новими опціями
+plural/rule: slavic
+entries/pick: Відкрити налаштування
+results/search/title: Результати пошуку
+results/new/title: Нові налаштування
+results/empty: Нічого не знайдено
+results/more: ще {0} - уточніть пошук
+help/open: Відкрити це меню
+help/search: Перейти до пошуку
+help/arrows: Переміщення списком модів
+help/slider: Рухати повзунок під курсором
+help/escape: Крок назад, потім закрити вікно
+help/rightclick: Дії для клавіш і комірок кольору
+menusettings/openhotkey: Клавіша відкриття меню
+tabs/ungrouped: Без групи

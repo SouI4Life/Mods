@@ -1,0 +1,76 @@
+name: Mod Menu
+description: Гэты мод дазваляе яшчэ прасцей наладжваць усталяваныя моды.
+buttons/ok: OK
+buttons/cancel: Адмяніць
+buttons/apply: Ужыць
+buttons/close: ЗАКРЫЦЬ
+buttons/clear: Ачысціць
+buttons/default: Перадвызначаны
+stateswitcher/tooltip/header: Уключыць / адключыць мод
+stateswitcher/tooltip/body: Зялёны індыкатар - мод уключаны\nЧырвоны індыкатар - мод адключаны
+colorchoice/header: КОЛЕР
+search/placeholder: Пошук модаў…
+reset/tooltip/header: Скід наладаў
+reset/tooltip/body: Вяртае налады гэтага мода да прадвызначаных значэнняў. Ужыць / OK захоўвае, Скасаваць адмяняе.
+reset/confirm/message: Скінуць налады гэтага мода да прадвызначаных?
+reset/confirm/submit: Скінуць
+search/hits: знойдзена {0} з {1} модаў
+colorchoice/preset/menu/edit: Рэдагаваць прэсет
+colorchoice/preset/menu/copyhex: Капіяваць hex-код
+colorchoice/preset/menu/clear: Ачысціць прэсет
+newfeature/menu/markallread: Адзначыць усё як прачытанае
+buttons/saveclose: Захаваць і закрыць
+menusettings/title: НАЛАДЫ МЕНЮ
+menusettings/accent: Колер акцэнту
+menusettings/background: Колер фону
+menusettings/scale: Маштаб панэлі
+menusettings/columns: Слупкі налад
+menusettings/columns/noroom: Акно занадта вузкае для чатырох слупкоў.
+entries/none: Ні адзін мод пакуль не выкарыстоўвае гэтае меню
+menusettings/az: Паказальнік А-Я
+menusettings/az/grid: Сетка
+menusettings/az/rail: Паласа
+menusettings/az/off: Выкл.
+menusettings/language: Мова
+menusettings/language/auto: Аўта (мова гульні)
+menusettings/transparent: Празрыстае акно
+menusettings/transparency: Празрыстасць
+menusettings/reset/message: Скінуць налады выгляду меню да пачатковых? Налады модаў не зменяцца.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Незахаваныя змены
+review/chars: сімвалаў
+input/preview: Папярэдні прагляд
+image/fitted: Выява паменшана
+image/fittedwindow: Паменшана пад памер акна
+moderror/title: Гэты мод паведаміў пра памылку
+moderror/safe: Вашы налады ў бяспецы і працуюць далей.
+moderror/failed: Адно з дзеянняў гэтага мода не спрацавала - некаторыя яго функцыі могуць не адказваць.
+moderror/report: Паведаміце пра гэта аўтару мода, а не мадпаку.
+history/undo: Адрабіць
+history/redo: Паўтарыць
+window/look: Выгляд акна
+footer/unsaved: незахаваныя змены
+footer/mods: моды
+entries/other: Іншыя моды
+entries/other/body: Вокны, зарэгістраваныя іншымі модамі
+header/mods/one: {0} мод
+header/mods/few: {0} моды
+header/mods/many: {0} модаў
+header/new: {0} з новымі опцыямі
+plural/rule: slavic
+entries/pick: Адкрыць налады
+results/search/title: Вынікі пошуку
+results/new/title: Новыя налады
+results/empty: Нічога не знойдзена
+results/more: яшчэ {0} - удакладніце пошук
+help/open: Адкрыць гэта меню
+help/search: Перайсці да пошуку
+help/arrows: Перамяшчэнне па спісе модаў
+help/slider: Рухаць паўзунок пад курсорам
+help/escape: Крок назад, потым закрыць акно
+help/rightclick: Дзеянні для клавіш і ячэек колеру
+menusettings/openhotkey: Клавіша адкрыцця меню
+tabs/ungrouped: Без групы

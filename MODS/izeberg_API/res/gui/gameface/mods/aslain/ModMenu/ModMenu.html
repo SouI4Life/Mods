@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="ModMenu.css">
+</head>
+<body>
+<main class="mm-root" id="mm-root">
+<div class="mm-backdrop" id="mm-backdrop"></div>
+<section class="mm-window" id="mm-window">
+<header class="mm-header" id="mm-header">
+<div class="mm-logo">
+<span class="mm-logo-bar mm-logo-v"></span>
+<span class="mm-logo-bar mm-logo-h"></span>
+<span class="mm-logo-lens"></span>
+<span class="mm-logo-core"></span>
+<span class="mm-logo-stud mm-logo-s1"></span>
+<span class="mm-logo-stud mm-logo-s2"></span>
+<span class="mm-logo-stud mm-logo-s3"></span>
+<span class="mm-logo-stud mm-logo-s4"></span>
+</div>
+<div class="mm-title-block">
+<h1 class="mm-title" id="mm-title">Mods settings</h1>
+<div class="mm-subtitle" id="mm-subtitle"></div>
+</div>
+<div class="mm-header-search">
+<input class="mm-search-input" id="mm-search" type="text" autocomplete="off">
+<div class="mm-placeholder" id="mm-search-ph"></div>
+<div class="mm-search-clear" id="mm-search-clear">
+<span class="mm-close-bar mm-close-bar-a"></span>
+<span class="mm-close-bar mm-close-bar-b"></span>
+</div>
+</div>
+<div class="mm-hits" id="mm-hits"></div>
+<div class="mm-footer-spacer"></div>
+<div class="mm-header-tools">
+<button class="mm-tool mm-entries" id="mm-entries" type="button" aria-label="Other mods">
+<span class="mm-entries-dot mm-ed1"></span>
+<span class="mm-entries-dot mm-ed2"></span>
+<span class="mm-entries-dot mm-ed3"></span>
+<span class="mm-entries-dot mm-ed4"></span>
+</button>
+<div class="mm-seg" id="mm-colmode">
+<div class="mm-seg-item" id="mm-col2">2 col</div>
+<div class="mm-seg-item" id="mm-col4">4 col</div>
+</div>
+<button class="mm-tool mm-help" id="mm-help" type="button" aria-label="Keyboard shortcuts">?</button>
+<button class="mm-tool mm-gear" id="mm-gear" type="button" aria-label="Menu settings">
+<span class="mm-gear-dot mm-gear-d1"></span>
+<span class="mm-gear-dot mm-gear-d2"></span>
+<span class="mm-gear-dot mm-gear-d3"></span>
+</button>
+<button class="mm-tool mm-full" id="mm-full" type="button" aria-label="Full screen">
+<span class="mm-full-corner mm-full-tl"></span>
+<span class="mm-full-corner mm-full-tr"></span>
+<span class="mm-full-corner mm-full-bl"></span>
+<span class="mm-full-corner mm-full-br"></span>
+</button>
+<button class="mm-tool mm-close" id="mm-close" type="button" aria-label="Close">
+<span class="mm-close-bar mm-close-bar-a"></span>
+<span class="mm-close-bar mm-close-bar-b"></span>
+</button>
+</div>
+</header>
+<div class="mm-body">
+<aside class="mm-sidebar" id="mm-sidebar">
+<div class="mm-az" id="mm-az"></div>
+<div class="mm-list-wrap">
+<div class="mm-list" id="mm-list"></div>
+<div class="mm-vscroll" id="mm-list-scroll"><div class="mm-vscroll-thumb"></div></div>
+<div class="mm-az-rail" id="mm-az-rail"></div>
+</div>
+</aside>
+<section class="mm-detail" id="mm-detail">
+<div class="mm-modhead" id="mm-modhead">
+<div class="mm-modhead-left">
+<h2 class="mm-modname" id="mm-modname"></h2>
+</div>
+<div class="mm-modhead-right">
+<button class="mm-reset" id="mm-modreset" type="button" style="display: none;">Reset</button>
+<div class="mm-switch" id="mm-modswitch" style="display: none;"><div class="mm-switch-knob"></div></div>
+</div>
+</div>
+<div class="mm-opts-wrap">
+<div class="mm-opts" id="mm-opts"></div>
+<div class="mm-vscroll" id="mm-opts-scroll"><div class="mm-vscroll-thumb"></div></div>
+</div>
+</section>
+</div>
+<footer class="mm-footer">
+<div class="mm-history" id="mm-history">
+<div class="mm-hist-btn mm-disabled" id="mm-undo"></div>
+<div class="mm-hist-btn mm-disabled" id="mm-redo"></div>
+</div>
+<div class="mm-counter" id="mm-counter">
+<div class="mm-counter-pill" id="mm-counter-pill">0</div>
+<div class="mm-counter-text" id="mm-counter-text"></div>
+</div>
+<div class="mm-footer-spacer"></div>
+<div class="mm-actions">
+<button class="mm-button mm-button-ghost" id="mm-cancel" type="button">Cancel</button>
+<button class="mm-button mm-button-secondary" id="mm-apply" type="button">Apply</button>
+<button class="mm-button mm-button-primary" id="mm-save" type="button">Save and close</button>
+</div>
+</footer>
+</section>
+<div class="mm-tooltip" id="mm-tooltip">
+<div class="mm-tooltip-inner">
+<div class="mm-tooltip-scroll" id="mm-tooltip-scroll"></div>
+<div class="mm-vscroll mm-tt-bar" id="mm-tooltip-bar"><div class="mm-vscroll-thumb"></div></div>
+</div>
+</div>
+</main>
+<script src="ModMenu.js"></script>
+</body>
+</html>

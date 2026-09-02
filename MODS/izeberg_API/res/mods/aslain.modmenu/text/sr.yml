@@ -1,0 +1,76 @@
+name: Mod Menu
+description: Ovaj mod omogućava još lakšu konfiguraciju instaliranih modova.
+buttons/ok: OK
+buttons/cancel: Otkaži
+buttons/apply: Primeni
+buttons/close: ZATVORI
+buttons/clear: Očisti
+buttons/default: Podrazumevano
+stateswitcher/tooltip/header: Omogući / Onemogući mod
+stateswitcher/tooltip/body: Zeleni indikator - mod omogućen\nCrveni indikator - mod onemogućen
+colorchoice/header: BOJA
+search/placeholder: Pretraga modova…
+reset/tooltip/header: Ресетовање подешавања
+reset/tooltip/body: Враћа опције овог мода на подразумеване вредности. Примени / OK задржава, Откажи одбацује.
+reset/confirm/message: Вратити овај мод на подразумевана подешавања?
+reset/confirm/submit: Врати
+search/hits: pronađeno {0} od {1} modova
+colorchoice/preset/menu/edit: Uredi preset
+colorchoice/preset/menu/copyhex: Kopiraj hex kod
+colorchoice/preset/menu/clear: Očisti preset
+newfeature/menu/markallread: Означи све као прочитано
+buttons/saveclose: Sačuvaj i zatvori
+menusettings/title: PODEŠAVANJA MENIJA
+menusettings/accent: Boja akcenta
+menusettings/background: Boja pozadine
+menusettings/scale: Razmera panela
+menusettings/columns: Kolone opcija
+menusettings/columns/noroom: Prozor je preuzak za četiri kolone.
+entries/none: Ниједан мод још не користи овај мени
+menusettings/az: Индекс А до Ш
+menusettings/az/grid: Мрежа
+menusettings/az/rail: Трака
+menusettings/az/off: Искљ.
+menusettings/language: Jezik
+menusettings/language/auto: Auto (jezik igre)
+menusettings/transparent: Providan prozor
+menusettings/transparency: Прозирност
+menusettings/reset/message: Вратити изглед менија на подразумевано? Подешавања модова се не мењају.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Nesačuvane promene
+review/chars: znakova
+input/preview: Pregled
+image/fitted: Slika je smanjena
+image/fittedwindow: Smanjeno prema širini prozora
+moderror/title: Ovaj mod je prijavio grešku
+moderror/safe: Vaša podešavanja su bezbedna i dalje važe.
+moderror/failed: Jedna radnja ovog moda nije uspela - neke funkcije možda ne reaguju.
+moderror/report: Prijavite autoru moda, ne modpaku.
+history/undo: Poništi
+history/redo: Ponovi
+window/look: Izgled prozora
+footer/unsaved: nesačuvane promene
+footer/mods: modovi
+entries/other: Ostali modovi
+entries/other/body: Prozori koje su registrovali drugi modovi
+header/mods/one: {0} mod
+header/mods/few: {0} moda
+header/mods/many: {0} modova
+header/new: {0} sa novim opcijama
+plural/rule: slavic
+entries/pick: Отвори подешавања
+results/search/title: Rezultati pretrage
+results/new/title: Nove opcije
+results/empty: Nema podudaranja
+results/more: još {0} - suzite pretragu
+help/open: Otvori ovaj meni
+help/search: Skoči na pretragu
+help/arrows: Kretanje kroz listu modova
+help/slider: Pomeranje klizača ispod pokazivača
+help/escape: Korak nazad, zatim zatvori prozor
+help/rightclick: Opcije za tastere i polja boja
+menusettings/openhotkey: Taster za otvaranje menija
+tabs/ungrouped: Bez grupe

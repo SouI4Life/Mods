@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Este mod permite configurar os mods instalados ainda mais facilmente.
+buttons/ok: OK
+buttons/cancel: Cancelar
+buttons/apply: Aplicar
+buttons/close: FECHAR
+buttons/clear: Limpar
+buttons/default: Padrão
+stateswitcher/tooltip/header: Ativar / Desativar mod
+stateswitcher/tooltip/body: Indicador verde - mod ativado\nIndicador vermelho - mod desativado
+colorchoice/header: COR
+search/placeholder: Procurar mods…
+reset/tooltip/header: Redefinir configurações
+reset/tooltip/body: Restaura as opções deste mod para os valores padrão. Aplicar / OK mantém, Cancelar descarta.
+reset/confirm/message: Redefinir este mod para as configurações padrão?
+reset/confirm/submit: Redefinir
+search/hits: {0} de {1} mods encontrados
+colorchoice/preset/menu/edit: Editar predefinição
+colorchoice/preset/menu/copyhex: Copiar código hex
+colorchoice/preset/menu/clear: Limpar predefinição
+newfeature/menu/markallread: Marcar tudo como lido
+buttons/saveclose: Guardar e fechar
+menusettings/title: DEFINIÇÕES DO MENU
+menusettings/accent: Cor de destaque
+menusettings/background: Cor de fundo
+menusettings/scale: Escala do painel
+menusettings/columns: Colunas de opções
+menusettings/columns/noroom: A janela é demasiado estreita para quatro colunas.
+entries/none: Nenhum mod usa ainda este menu
+menusettings/az: Índice de A a Z
+menusettings/az/grid: Grelha
+menusettings/az/rail: Barra
+menusettings/az/off: Não
+menusettings/language: Idioma
+menusettings/language/auto: Auto (idioma do jogo)
+menusettings/transparent: Janela transparente
+menusettings/transparency: Transparência
+menusettings/reset/message: Repor o aspeto do menu? As definições dos mods não são alteradas.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Alterações não guardadas
+review/chars: caracteres
+input/preview: Pré-visualização
+image/fitted: Imagem reduzida
+image/fittedwindow: Reduzida para caber na janela
+moderror/title: Este mod comunicou um erro
+moderror/safe: As tuas definições estão seguras e continuam ativas.
+moderror/failed: Uma ação deste mod falhou - algumas funções podem não responder.
+moderror/report: Comunica ao autor do mod, não ao modpack.
+history/undo: Anular
+history/redo: Refazer
+window/look: Aspeto da janela
+footer/unsaved: alterações não guardadas
+footer/mods: mods
+entries/other: Outros mods
+entries/other/body: Janelas registadas por outros mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} com novas opções
+entries/pick: Abrir definições
+results/search/title: Resultados da pesquisa
+results/new/title: Novas opções
+results/empty: Nenhuma correspondência
+results/more: mais {0} - refine a pesquisa
+help/open: Abrir este menu
+help/search: Ir para a pesquisa
+help/arrows: Percorrer a lista de mods
+help/slider: Mover o cursor sob o ponteiro
+help/escape: Voltar e depois fechar a janela
+help/rightclick: Opções de teclas e caixas de cor
+menusettings/openhotkey: Tecla para abrir o menu
+tabs/ungrouped: Sem grupo

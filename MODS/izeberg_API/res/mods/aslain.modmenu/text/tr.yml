@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Bu mod, kurulu modları daha da kolay yapılandırmanızı sağlar.
+buttons/ok: OK
+buttons/cancel: İptal
+buttons/apply: Uygula
+buttons/close: KAPAT
+buttons/clear: Temizle
+buttons/default: Varsayılan
+stateswitcher/tooltip/header: Modu etkinleştir / devre dışı bırak
+stateswitcher/tooltip/body: Yeşil gösterge - mod etkin\nKırmızı gösterge - mod devre dışı
+colorchoice/header: RENK
+search/placeholder: Mod ara…
+reset/tooltip/header: Ayarları sıfırla
+reset/tooltip/body: Bu modun seçeneklerini varsayılana döndürür. Uygula / OK korur, İptal iptal eder.
+reset/confirm/message: Bu mod varsayılan ayarlara sıfırlansın mı?
+reset/confirm/submit: Sıfırla
+search/hits: {1} moddan {0} bulundu
+colorchoice/preset/menu/edit: Ön ayarı düzenle
+colorchoice/preset/menu/copyhex: Hex kodunu kopyala
+colorchoice/preset/menu/clear: Ön ayarı temizle
+newfeature/menu/markallread: Tümünü okundu olarak işaretle
+buttons/saveclose: Kaydet ve kapat
+menusettings/title: MENÜ AYARLARI
+menusettings/accent: Vurgu rengi
+menusettings/background: Arka plan rengi
+menusettings/scale: Panel ölçeği
+menusettings/columns: Seçenek sütunları
+menusettings/columns/noroom: Pencere dört sütun için çok dar.
+entries/none: Henüz hiçbir mod bu menüyü kullanmıyor
+menusettings/az: A dan Z ye dizin
+menusettings/az/grid: Izgara
+menusettings/az/rail: Şerit
+menusettings/az/off: Kapalı
+menusettings/language: Dil
+menusettings/language/auto: Otomatik (oyun dili)
+menusettings/transparent: Şeffaf pencere
+menusettings/transparency: Şeffaflık
+menusettings/reset/message: Menü görünümü varsayılana döndürülsün mü? Mod ayarları değişmez.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Kaydedilmemiş değişiklikler
+review/chars: karakter
+input/preview: Önizleme
+image/fitted: Görsel küçültüldü
+image/fittedwindow: Pencereye sığacak şekilde küçültüldü
+moderror/title: Bu mod bir hata bildirdi
+moderror/safe: Ayarlarınız güvende ve geçerli olmaya devam ediyor.
+moderror/failed: Bu modun kendi işlemlerinden biri başarısız oldu - bazı özellikleri yanıt vermeyebilir.
+moderror/report: Bunu modpack yerine modun yazarına bildirin.
+history/undo: Geri al
+history/redo: Yinele
+window/look: Pencere görünümü
+footer/unsaved: kaydedilmemiş değişiklikler
+footer/mods: modlar
+entries/other: Diğer modlar
+entries/other/body: Diğer modların kaydettiği pencereler
+header/mods/one: {0} mod
+header/mods/many: {0} mod
+header/new: {0} yeni seçeneklerle
+entries/pick: Ayarları aç
+results/search/title: Arama sonuçları
+results/new/title: Yeni seçenekler
+results/empty: Eşleşme yok
+results/more: {0} tane daha - aramayı daraltın
+help/open: Bu menüyü aç
+help/search: Arama kutusuna git
+help/arrows: Mod listesinde gezin
+help/slider: İmlecin altındaki kaydırıcıyı oynat
+help/escape: Bir adım geri, sonra pencereyi kapat
+help/rightclick: Kısayol ve renk kutusu seçenekleri
+menusettings/openhotkey: Menü açma tuşu
+tabs/ungrouped: Grupsuz

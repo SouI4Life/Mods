@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Този мод позволява още по-лесно конфигуриране на инсталираните модове.
+buttons/ok: OK
+buttons/cancel: Отказ
+buttons/apply: Приложи
+buttons/close: ЗАТВОРИ
+buttons/clear: Изчисти
+buttons/default: По подразбиране
+stateswitcher/tooltip/header: Включи / Изключи мод
+stateswitcher/tooltip/body: Зелен индикатор - мод включен\nЧервен индикатор - мод изключен
+colorchoice/header: ЦВЯТ
+search/placeholder: Търсене на модове…
+reset/tooltip/header: Нулиране на настройки
+reset/tooltip/body: Връща настройките на този мод до стойностите по подразбиране. Приложи / OK запазва, Отказ отменя.
+reset/confirm/message: Да се възстановят ли настройките на този мод по подразбиране?
+reset/confirm/submit: Възстанови
+search/hits: намерени {0} от {1} мода
+colorchoice/preset/menu/edit: Редактиране на пресета
+colorchoice/preset/menu/copyhex: Копиране на hex кода
+colorchoice/preset/menu/clear: Изчистване на пресета
+newfeature/menu/markallread: Маркирай всички като прочетени
+buttons/saveclose: Запази и затвори
+menusettings/title: НАСТРОЙКИ НА МЕНЮТО
+menusettings/accent: Цвят на акцента
+menusettings/background: Цвят на фона
+menusettings/scale: Мащаб на панела
+menusettings/columns: Колони с опции
+menusettings/columns/noroom: Прозорецът е твърде тесен за четири колони.
+entries/none: Все още никой мод не използва това меню
+menusettings/az: Указател А-Я
+menusettings/az/grid: Мрежа
+menusettings/az/rail: Лента
+menusettings/az/off: Изкл.
+menusettings/language: Език
+menusettings/language/auto: Авто (език на играта)
+menusettings/transparent: Прозрачен прозорец
+menusettings/transparency: Прозрачност
+menusettings/reset/message: Да се възстановят ли настройките на менюто? Настройките на модовете остават.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Незапазени промени
+review/chars: знака
+input/preview: Преглед
+image/fitted: Изображението е умалено
+image/fittedwindow: Умалено според прозореца
+moderror/title: Този мод съобщи за грешка
+moderror/safe: Настройките ви са запазени и продължават да действат.
+moderror/failed: Едно от действията на този мод се провали - някои негови функции може да не реагират.
+moderror/report: Съобщете на автора на мода, а не на модпака.
+history/undo: Отмени
+history/redo: Повтори
+window/look: Изглед на прозореца
+footer/unsaved: незапазени промени
+footer/mods: модове
+entries/other: Други модове
+entries/other/body: Прозорци, регистрирани от други модове
+header/mods/one: {0} мод
+header/mods/many: {0} модове
+header/new: {0} с нови опции
+entries/pick: Отвори настройките
+results/search/title: Резултати от търсенето
+results/new/title: Нови опции
+results/empty: Няма съвпадения
+results/more: още {0} - уточнете търсенето
+help/open: Отвори това меню
+help/search: Към полето за търсене
+help/arrows: Движение в списъка с модове
+help/slider: Плъзгачът под курсора
+help/escape: Стъпка назад, след това затваряне
+help/rightclick: Опции за клавиши и цветни клетки
+menusettings/openhotkey: Клавиш за отваряне на менюто
+tabs/ungrouped: Без група

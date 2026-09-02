@@ -1,0 +1,74 @@
+name: Mod Menu
+description: This mod lets you configure installed mods even more easily.
+buttons/ok: OK
+buttons/cancel: Cancel
+buttons/apply: Apply
+buttons/close: CLOSE
+buttons/clear: Clear
+buttons/default: Default
+stateswitcher/tooltip/header: Enable / Disable mod
+stateswitcher/tooltip/body: Green indicator - mod enabled\nRed indicator - mod disabled
+colorchoice/header: COLOR
+search/placeholder: Search mods…
+reset/tooltip/header: Reset settings
+reset/tooltip/body: Set this mod's options back to their defaults. Apply / OK keeps it, Cancel discards.
+reset/confirm/message: Reset this mod to its default settings?
+reset/confirm/submit: Reset
+colorchoice/preset/menu/edit: Edit preset
+colorchoice/preset/menu/copyhex: Copy hex code
+colorchoice/preset/menu/clear: Clear preset
+search/hits: found {0} of {1} mods
+newfeature/menu/markallread: Mark all as read
+buttons/saveclose: Save and close
+menusettings/title: MENU SETTINGS
+menusettings/accent: Accent color
+menusettings/background: Background color
+menusettings/scale: Panel scale
+menusettings/columns: Option columns
+menusettings/columns/noroom: The window is too narrow for four columns.
+entries/none: No mod is using this menu yet
+menusettings/az: A to Z index
+menusettings/az/grid: Grid
+menusettings/az/rail: Rail
+menusettings/az/off: Off
+menusettings/language: Language
+menusettings/language/auto: Auto (game language)
+menusettings/transparent: Transparent window
+menusettings/transparency: Transparency
+menusettings/reset/message: Reset the menu's own appearance and shortcuts to defaults? Mod settings are not touched.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Unsaved changes
+review/chars: characters
+input/preview: Preview
+image/fitted: Image scaled down
+image/fittedwindow: Scaled down to fit the window
+moderror/title: This mod reported an error
+moderror/safe: Your settings are safe and still apply.
+moderror/failed: One of this mod's own actions failed - some of its features may not respond.
+moderror/report: Report this to the mod's author, not to the modpack.
+history/undo: Undo
+history/redo: Redo
+window/look: Window look
+footer/unsaved: unsaved changes
+footer/mods: mods
+entries/other: Other mods
+entries/other/body: Windows registered by other mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} with new options
+entries/pick: Open settings
+results/search/title: Search results
+results/new/title: New options
+results/empty: Nothing matches
+results/more: {0} more - narrow the search
+help/open: Open this menu
+help/search: Jump to the search box
+help/arrows: Move through the mod list
+help/slider: Move the slider under the cursor
+help/escape: Step back, then close the window
+help/rightclick: Options for hotkeys and color slots
+menusettings/openhotkey: Open menu hotkey
+tabs/ungrouped: Ungrouped

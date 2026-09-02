@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Denne moden gjør det enda enklere å konfigurere installerte mods.
+buttons/ok: OK
+buttons/cancel: Avbryt
+buttons/apply: Bruk
+buttons/close: LUKK
+buttons/clear: Tøm
+buttons/default: Standard
+stateswitcher/tooltip/header: Aktiver / Deaktiver mod
+stateswitcher/tooltip/body: Grønn indikator - mod aktivert\nRød indikator - mod deaktivert
+colorchoice/header: FARGE
+search/placeholder: Søk etter mods…
+reset/tooltip/header: Tilbakestill innstillinger
+reset/tooltip/body: Tilbakestiller denne modens valg til standard. Bruk / OK beholder, Avbryt forkaster.
+reset/confirm/message: Tilbakestille denne moden til standardinnstillinger?
+reset/confirm/submit: Tilbakestill
+search/hits: {0} av {1} mods funnet
+colorchoice/preset/menu/edit: Rediger forhåndsinnstilling
+colorchoice/preset/menu/copyhex: Kopier hex-kode
+colorchoice/preset/menu/clear: Tøm forhåndsinnstilling
+newfeature/menu/markallread: Merk alle som lest
+buttons/saveclose: Lagre og lukk
+menusettings/title: MENYINNSTILLINGER
+menusettings/accent: Aksentfarge
+menusettings/background: Bakgrunnsfarge
+menusettings/scale: Panelskala
+menusettings/columns: Alternativkolonner
+menusettings/columns/noroom: Vinduet er for smalt til fire kolonner.
+entries/none: Ingen mod bruker denne menyen ennå
+menusettings/az: A til Å register
+menusettings/az/grid: Rutenett
+menusettings/az/rail: Stripe
+menusettings/az/off: Av
+menusettings/language: Språk
+menusettings/language/auto: Auto (spillets språk)
+menusettings/transparent: Gjennomsiktig vindu
+menusettings/transparency: Gjennomsiktighet
+menusettings/reset/message: Tilbakestille menyens utseende? Mod-innstillinger røres ikke.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Ulagrede endringer
+review/chars: tegn
+input/preview: Forhåndsvisning
+image/fitted: Bildet er nedskalert
+image/fittedwindow: Nedskalert for å passe i vinduet
+moderror/title: Denne modden meldte en feil
+moderror/safe: Innstillingene dine er trygge og gjelder fortsatt.
+moderror/failed: En av moddens egne handlinger feilet - noen funksjoner svarer kanskje ikke.
+moderror/report: Meld fra til moddens forfatter, ikke til modpacken.
+history/undo: Angre
+history/redo: Gjør om
+window/look: Vinduets utseende
+footer/unsaved: ulagrede endringer
+footer/mods: mods
+entries/other: Andre mods
+entries/other/body: Vinduer registrert av andre mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} med nye alternativer
+entries/pick: Åpne innstillinger
+results/search/title: Søkeresultater
+results/new/title: Nye innstillinger
+results/empty: Ingen treff
+results/more: {0} til - avgrens søket
+help/open: Åpne denne menyen
+help/search: Gå til søkefeltet
+help/arrows: Beveg deg gjennom modlisten
+help/slider: Flytt glidebryteren under pekeren
+help/escape: Ett steg tilbake, så lukk vinduet
+help/rightclick: Valg for taster og fargefelt
+menusettings/openhotkey: Tast for å åpne menyen
+tabs/ungrouped: Uten gruppe

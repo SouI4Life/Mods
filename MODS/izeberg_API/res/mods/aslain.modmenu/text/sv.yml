@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Denna mod gör det ännu enklare att konfigurera installerade mods.
+buttons/ok: OK
+buttons/cancel: Avbryt
+buttons/apply: Tillämpa
+buttons/close: STÄNG
+buttons/clear: Rensa
+buttons/default: Standard
+stateswitcher/tooltip/header: Aktivera / Inaktivera mod
+stateswitcher/tooltip/body: Grön indikator - mod aktiverad\nRöd indikator - mod inaktiverad
+colorchoice/header: FÄRG
+search/placeholder: Sök mods…
+reset/tooltip/header: Återställ inställningar
+reset/tooltip/body: Återställer denna mods alternativ till standard. Verkställ / OK behåller, Avbryt ångrar.
+reset/confirm/message: Återställa denna mod till standardinställningarna?
+reset/confirm/submit: Återställ
+search/hits: {0} av {1} moddar hittade
+colorchoice/preset/menu/edit: Redigera förinställning
+colorchoice/preset/menu/copyhex: Kopiera hex-kod
+colorchoice/preset/menu/clear: Rensa förinställning
+newfeature/menu/markallread: Markera alla som lästa
+buttons/saveclose: Spara och stäng
+menusettings/title: MENYINSTÄLLNINGAR
+menusettings/accent: Accentfärg
+menusettings/background: Bakgrundsfärg
+menusettings/scale: Panelskala
+menusettings/columns: Alternativkolumner
+menusettings/columns/noroom: Fönstret är för smalt för fyra kolumner.
+entries/none: Ingen mod använder den här menyn ännu
+menusettings/az: A till Ö register
+menusettings/az/grid: Rutnät
+menusettings/az/rail: List
+menusettings/az/off: Av
+menusettings/language: Språk
+menusettings/language/auto: Auto (spelets språk)
+menusettings/transparent: Genomskinligt fönster
+menusettings/transparency: Genomskinlighet
+menusettings/reset/message: Återställa menyns utseende? Mod-inställningar rörs inte.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Osparade ändringar
+review/chars: tecken
+input/preview: Förhandsgranskning
+image/fitted: Bilden har förminskats
+image/fittedwindow: Förminskad för att passa fönstret
+moderror/title: Denna modd rapporterade ett fel
+moderror/safe: Dina inställningar är säkra och gäller fortfarande.
+moderror/failed: En av moddens egna åtgärder misslyckades - vissa funktioner kanske inte svarar.
+moderror/report: Rapportera till moddens skapare, inte till modpacket.
+history/undo: Ångra
+history/redo: Gör om
+window/look: Fönstrets utseende
+footer/unsaved: osparade ändringar
+footer/mods: moddar
+entries/other: Andra moddar
+entries/other/body: Fönster registrerade av andra moddar
+header/mods/one: {0} modd
+header/mods/many: {0} moddar
+header/new: {0} med nya alternativ
+entries/pick: Öppna inställningar
+results/search/title: Sökresultat
+results/new/title: Nya inställningar
+results/empty: Inga träffar
+results/more: {0} till - begränsa sökningen
+help/open: Öppna den här menyn
+help/search: Gå till sökfältet
+help/arrows: Rör dig genom modlistan
+help/slider: Flytta reglaget under pekaren
+help/escape: Ett steg tillbaka, stäng sedan
+help/rightclick: Alternativ för tangenter och färgrutor
+menusettings/openhotkey: Tangent för att öppna menyn
+tabs/ungrouped: Utan grupp

@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Questa mod rende ancora più semplice configurare le mod installate.
+buttons/ok: OK
+buttons/cancel: Annulla
+buttons/apply: Applica
+buttons/close: CHIUDI
+buttons/clear: Cancella
+buttons/default: Predefinito
+stateswitcher/tooltip/header: Attiva / Disattiva mod
+stateswitcher/tooltip/body: Indicatore verde - mod attivato\nIndicatore rosso - mod disattivato
+colorchoice/header: COLORE
+search/placeholder: Cerca mod…
+reset/tooltip/header: Reimposta impostazioni
+reset/tooltip/body: Riporta le opzioni di questo mod ai valori predefiniti. Applica / OK la mantiene, Annulla la scarta.
+reset/confirm/message: Ripristinare le impostazioni predefinite di questo mod?
+reset/confirm/submit: Ripristina
+search/hits: trovati {0} mod su {1}
+colorchoice/preset/menu/edit: Modifica preset
+colorchoice/preset/menu/copyhex: Copia codice hex
+colorchoice/preset/menu/clear: Cancella preset
+newfeature/menu/markallread: Segna tutto come letto
+buttons/saveclose: Salva e chiudi
+menusettings/title: IMPOSTAZIONI MENU
+menusettings/accent: Colore accento
+menusettings/background: Colore sfondo
+menusettings/scale: Scala pannello
+menusettings/columns: Colonne opzioni
+menusettings/columns/noroom: La finestra è troppo stretta per quattro colonne.
+entries/none: Nessuna mod usa ancora questo menù
+menusettings/az: Indice dalla A alla Z
+menusettings/az/grid: Griglia
+menusettings/az/rail: Barra
+menusettings/az/off: No
+menusettings/language: Lingua
+menusettings/language/auto: Auto (lingua del gioco)
+menusettings/transparent: Finestra trasparente
+menusettings/transparency: Trasparenza
+menusettings/reset/message: Ripristinare l'aspetto del menu? Le impostazioni delle mod non vengono toccate.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Modifiche non salvate
+review/chars: caratteri
+input/preview: Anteprima
+image/fitted: Immagine ridotta
+image/fittedwindow: Ridotta per adattarsi alla finestra
+moderror/title: Questa mod ha segnalato un errore
+moderror/safe: Le tue impostazioni sono al sicuro e ancora attive.
+moderror/failed: Una delle azioni della mod non è riuscita - alcune funzioni potrebbero non rispondere.
+moderror/report: Segnalalo all'autore della mod, non al modpack.
+history/undo: Annulla
+history/redo: Ripeti
+window/look: Aspetto della finestra
+footer/unsaved: modifiche non salvate
+footer/mods: mod
+entries/other: Altre mod
+entries/other/body: Finestre registrate da altre mod
+header/mods/one: {0} mod
+header/mods/many: {0} mod
+header/new: {0} con nuove opzioni
+entries/pick: Apri le impostazioni
+results/search/title: Risultati della ricerca
+results/new/title: Nuove opzioni
+results/empty: Nessuna corrispondenza
+results/more: altri {0} - affina la ricerca
+help/open: Apri questo menu
+help/search: Vai al campo di ricerca
+help/arrows: Scorri l'elenco dei mod
+help/slider: Muovi il cursore sotto il puntatore
+help/escape: Torna indietro, poi chiudi la finestra
+help/rightclick: Opzioni per tasti e caselle colore
+menusettings/openhotkey: Tasto di apertura del menu
+tabs/ungrouped: Senza gruppo

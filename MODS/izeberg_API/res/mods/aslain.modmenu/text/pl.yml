@@ -1,0 +1,76 @@
+name: Mod Menu
+description: Mod ten umożliwia jeszcze łatwiejszą konfigurację zainstalowanych modów.
+buttons/ok: OK
+buttons/cancel: Anuluj
+buttons/apply: Zastosuj
+buttons/close: ZAMKNIJ
+buttons/clear: Wyczyść
+buttons/default: Domyślnie
+stateswitcher/tooltip/header: Włącz / Wyłącz moda
+stateswitcher/tooltip/body: Zielony wskaźnik - mod włączony\nCzerwony wskaźnik - mod wyłączony
+colorchoice/header: KOLOR
+search/placeholder: Szukaj modów…
+reset/tooltip/header: Reset ustawień
+reset/tooltip/body: Przywraca opcje tego moda do wartości domyślnych. Zastosuj / OK zatwierdza, Anuluj cofa.
+reset/confirm/message: Przywrócić ustawienia domyślne tego moda?
+reset/confirm/submit: Przywróć
+search/hits: znaleziono {0} z {1} modów
+colorchoice/preset/menu/edit: Edytuj preset
+colorchoice/preset/menu/copyhex: Kopiuj kod hex
+colorchoice/preset/menu/clear: Wyczyść preset
+newfeature/menu/markallread: Oznacz wszystkie jako przeczytane
+buttons/saveclose: Zapisz i zamknij
+menusettings/title: USTAWIENIA MENU
+menusettings/accent: Kolor akcentu
+menusettings/background: Kolor tła
+menusettings/scale: Skala panelu
+menusettings/columns: Kolumny opcji
+menusettings/columns/noroom: Okno jest za wąskie na cztery kolumny.
+entries/none: Żaden mod jeszcze nie korzysta z tego menu
+menusettings/az: Indeks A do Z
+menusettings/az/grid: Siatka
+menusettings/az/rail: Pasek
+menusettings/az/off: Wył.
+menusettings/language: Język
+menusettings/language/auto: Auto (język gry)
+menusettings/transparent: Przezroczyste okno
+menusettings/transparency: Przezroczystość
+menusettings/reset/message: Przywrócić domyślny wygląd menu? Ustawienia modów pozostają nietknięte.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Niezapisane zmiany
+review/chars: znaków
+input/preview: Podgląd
+image/fitted: Obraz pomniejszony
+image/fittedwindow: Pomniejszony do szerokości okna
+moderror/title: Ten mod zgłosił błąd
+moderror/safe: Twoje ustawienia są bezpieczne i nadal działają.
+moderror/failed: Jedno z działań tego moda nie powiodło się - część jego funkcji może nie odpowiadać.
+moderror/report: Zgłoś to autorowi moda, nie modpackowi.
+history/undo: Cofnij
+history/redo: Ponów
+window/look: Wygląd okna
+footer/unsaved: niezapisane zmiany
+footer/mods: mody
+entries/other: Inne mody
+entries/other/body: Okna zarejestrowane przez inne mody
+header/mods/one: {0} mod
+header/mods/few: {0} mody
+header/mods/many: {0} modów
+header/new: {0} z nowymi opcjami
+plural/rule: slavic
+entries/pick: Otwórz ustawienia
+results/search/title: Wyniki wyszukiwania
+results/new/title: Nowe opcje
+results/empty: Brak dopasowań
+results/more: jeszcze {0} - zawęź wyszukiwanie
+help/open: Otwórz to menu
+help/search: Przejdź do wyszukiwarki
+help/arrows: Poruszaj się po liście modów
+help/slider: Przesuń suwak pod kursorem
+help/escape: Cofnij, potem zamknij okno
+help/rightclick: Opcje hotkeyów i slotów koloru
+menusettings/openhotkey: Skrót otwierania menu
+tabs/ungrouped: Bez grupy

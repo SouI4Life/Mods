@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Ez a mod még könnyebbé teszi a telepített modok beállítását.
+buttons/ok: OK
+buttons/cancel: Mégsem
+buttons/apply: Folytatás
+buttons/close: BEZÁRÁS
+buttons/clear: Törlés
+buttons/default: Alapértelmezett
+stateswitcher/tooltip/header: Mod engedélyezése / letiltása
+stateswitcher/tooltip/body: Zöld jelzés - mod engedélyezve\nPiros jelzés - mod letiltva
+colorchoice/header: Szín
+search/placeholder: Modok keresése…
+reset/tooltip/header: Beállítások visszaállítása
+reset/tooltip/body: Visszaállítja ennek a modnak a beállításait alapértelmezettre. Alkalmaz / OK megtartja, Mégse elveti.
+reset/confirm/message: Visszaállítja ezt a modot az alapértelmezett beállításokra?
+reset/confirm/submit: Visszaállítás
+search/hits: {0} találat {1} modból
+colorchoice/preset/menu/edit: Előbeállítás szerkesztése
+colorchoice/preset/menu/copyhex: Hex kód másolása
+colorchoice/preset/menu/clear: Előbeállítás törlése
+newfeature/menu/markallread: Összes megjelölése olvasottként
+buttons/saveclose: Mentés és bezárás
+menusettings/title: MENÜBEÁLLÍTÁSOK
+menusettings/accent: Kiemelőszín
+menusettings/background: Háttérszín
+menusettings/scale: Panel mérete
+menusettings/columns: Beállítási oszlopok
+menusettings/columns/noroom: Az ablak túl keskeny négy oszlophoz.
+entries/none: Még egyetlen mod sem használja ezt a menüt
+menusettings/az: A-tól Z-ig index
+menusettings/az/grid: Rács
+menusettings/az/rail: Sáv
+menusettings/az/off: Ki
+menusettings/language: Nyelv
+menusettings/language/auto: Auto (a játék nyelve)
+menusettings/transparent: Átlátszó ablak
+menusettings/transparency: Átlátszóság
+menusettings/reset/message: Visszaállítod a menü megjelenését? A modok beállításai nem változnak.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Nem mentett módosítások
+review/chars: karakter
+input/preview: Előnézet
+image/fitted: A kép lekicsinyítve
+image/fittedwindow: Az ablakhoz igazítva kicsinyítve
+moderror/title: Ez a mod hibát jelzett
+moderror/safe: A beállításaid biztonságban vannak és érvényesek.
+moderror/failed: A mod egyik művelete meghiúsult - egyes funkciói nem biztos, hogy reagálnak.
+moderror/report: A mod szerzőjének jelezd, ne a modpacknak.
+history/undo: Visszavonás
+history/redo: Ismét
+window/look: Ablak megjelenése
+footer/unsaved: nem mentett módosítások
+footer/mods: modok
+entries/other: Egyéb modok
+entries/other/body: Más modok által regisztrált ablakok
+header/mods/one: {0} mod
+header/mods/many: {0} mod
+header/new: {0} új beállításokkal
+entries/pick: Beállítások megnyitása
+results/search/title: Keresési találatok
+results/new/title: Új beállítások
+results/empty: Nincs találat
+results/more: még {0} - szűkítse a keresést
+help/open: Menü megnyitása
+help/search: Ugrás a keresőmezőre
+help/arrows: Mozgás a modlistában
+help/slider: A kurzor alatti csúszka mozgatása
+help/escape: Egy lépés vissza, majd bezárás
+help/rightclick: Beállítások gyorsbillentyűkhöz és színekhez
+menusettings/openhotkey: Menü megnyitó billentyű
+tabs/ungrouped: Csoport nélkül

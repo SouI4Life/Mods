@@ -1,0 +1,76 @@
+name: Mod Menu
+description: Tento mod umožňuje ještě snazší konfiguraci nainstalovaných módů.
+buttons/ok: OK
+buttons/cancel: Zrušit
+buttons/apply: Použít
+buttons/close: ZAVŘÍT
+buttons/clear: Vymazat
+buttons/default: Výchozí
+stateswitcher/tooltip/header: Zapnout / Vypnout mod
+stateswitcher/tooltip/body: Zelený indikátor - mod zapnut\nČervený indikátor - mod vypnut
+colorchoice/header: BARVA
+search/placeholder: Hledat módy…
+reset/tooltip/header: Obnovení nastavení
+reset/tooltip/body: Vrátí volby tohoto modu na výchozí hodnoty. Použít / OK potvrdí, Zrušit zahodí.
+reset/confirm/message: Obnovit tento mod na výchozí nastavení?
+reset/confirm/submit: Obnovit
+search/hits: nalezeno {0} z {1} modů
+colorchoice/preset/menu/edit: Upravit předvolbu
+colorchoice/preset/menu/copyhex: Kopírovat hex kód
+colorchoice/preset/menu/clear: Vymazat předvolbu
+newfeature/menu/markallread: Označit vše jako přečtené
+buttons/saveclose: Uložit a zavřít
+menusettings/title: NASTAVENÍ MENU
+menusettings/accent: Barva zvýraznění
+menusettings/background: Barva pozadí
+menusettings/scale: Měřítko panelu
+menusettings/columns: Sloupce možností
+menusettings/columns/noroom: Okno je příliš úzké pro čtyři sloupce.
+entries/none: Zatím toto menu nepoužívá žádný mod
+menusettings/az: Rejstřík A až Z
+menusettings/az/grid: Mřížka
+menusettings/az/rail: Lišta
+menusettings/az/off: Vyp.
+menusettings/language: Jazyk
+menusettings/language/auto: Auto (jazyk hry)
+menusettings/transparent: Průhledné okno
+menusettings/transparency: Průhlednost
+menusettings/reset/message: Obnovit výchozí vzhled menu? Nastavení modů zůstanou beze změny.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Neuložené změny
+review/chars: znaků
+input/preview: Náhled
+image/fitted: Obrázek byl zmenšen
+image/fittedwindow: Zmenšeno podle šířky okna
+moderror/title: Tento mod nahlásil chybu
+moderror/safe: Vaše nastavení jsou v bezpečí a stále platí.
+moderror/failed: Jedna z akcí tohoto modu selhala - některé jeho funkce nemusí reagovat.
+moderror/report: Nahlaste to autorovi modu, ne modpacku.
+history/undo: Zpět
+history/redo: Znovu
+window/look: Vzhled okna
+footer/unsaved: neuložené změny
+footer/mods: módy
+entries/other: Ostatní módy
+entries/other/body: Okna registrovaná jinými módy
+header/mods/one: {0} mód
+header/mods/few: {0} módy
+header/mods/many: {0} módů
+header/new: {0} s novými volbami
+plural/rule: slavic
+entries/pick: Otevřít nastavení
+results/search/title: Výsledky hledání
+results/new/title: Nové možnosti
+results/empty: Žádná shoda
+results/more: dalších {0} - zpřesněte hledání
+help/open: Otevřít toto menu
+help/search: Přejít do vyhledávání
+help/arrows: Procházet seznam modů
+help/slider: Posunout posuvník pod kurzorem
+help/escape: Krok zpět, pak zavřít okno
+help/rightclick: Možnosti kláves a barevných slotů
+menusettings/openhotkey: Klávesa otevření menu
+tabs/ungrouped: Bez skupiny

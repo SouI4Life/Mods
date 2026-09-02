@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Αυτό το mod κάνει τη ρύθμιση των εγκατεστημένων mods ακόμη πιο εύκολη.
+buttons/ok: OK
+buttons/cancel: Άκυρο
+buttons/apply: Εφαρμογή
+buttons/close: ΚΛΕΙΣΙΜΟ
+buttons/clear: Εκκαθάριση
+buttons/default: Προεπιλογή
+stateswitcher/tooltip/header: Ενεργοποίηση / Απενεργοποίηση mod
+stateswitcher/tooltip/body: Πράσινη ένδειξη - το mod είναι ενεργό\nΚόκκινη ένδειξη - το mod είναι ανενεργό
+colorchoice/header: ΧΡΩΜΑ
+search/placeholder: Αναζήτηση mods…
+reset/tooltip/header: Επαναφορά ρυθμίσεων
+reset/tooltip/body: Επαναφέρει τις επιλογές αυτού του mod στις προεπιλογές. Εφαρμογή / OK τις κρατά, Άκυρο τις απορρίπτει.
+reset/confirm/message: Επαναφορά αυτού του mod στις προεπιλεγμένες ρυθμίσεις;
+reset/confirm/submit: Επαναφορά
+search/hits: βρέθηκαν {0} από {1} mods
+colorchoice/preset/menu/edit: Επεξεργασία preset
+colorchoice/preset/menu/copyhex: Αντιγραφή κωδικού hex
+colorchoice/preset/menu/clear: Καθαρισμός preset
+newfeature/menu/markallread: Επισήμανση όλων ως αναγνωσμένων
+buttons/saveclose: Αποθήκευση και κλείσιμο
+menusettings/title: ΡΥΘΜΙΣΕΙΣ ΜΕΝΟΥ
+menusettings/accent: Χρώμα τονισμού
+menusettings/background: Χρώμα φόντου
+menusettings/scale: Κλίμακα πίνακα
+menusettings/columns: Στήλες επιλογών
+menusettings/columns/noroom: Το παράθυρο είναι πολύ στενό για τέσσερις στήλες.
+entries/none: Κανένα mod δεν χρησιμοποιεί ακόμα αυτό το μενού
+menusettings/az: Ευρετήριο Α έως Ω
+menusettings/az/grid: Πλέγμα
+menusettings/az/rail: Μπάρα
+menusettings/az/off: Ανενεργό
+menusettings/language: Γλώσσα
+menusettings/language/auto: Αυτόματα (γλώσσα παιχνιδιού)
+menusettings/transparent: Διαφανές παράθυρο
+menusettings/transparency: Διαφάνεια
+menusettings/reset/message: Επαναφορά εμφάνισης μενού; Οι ρυθμίσεις των mod δεν αλλάζουν.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Μη αποθηκευμένες αλλαγές
+review/chars: χαρακτήρες
+input/preview: Προεπισκόπηση
+image/fitted: Η εικόνα σμικρύνθηκε
+image/fittedwindow: Σμικρύνθηκε για το παράθυρο
+moderror/title: Αυτό το mod ανέφερε σφάλμα
+moderror/safe: Οι ρυθμίσεις σας είναι ασφαλείς και ισχύουν.
+moderror/failed: Μια ενέργεια αυτού του mod απέτυχε - κάποιες λειτουργίες ίσως δεν αποκρίνονται.
+moderror/report: Αναφέρετέ το στον δημιουργό του mod, όχι στο modpack.
+history/undo: Αναίρεση
+history/redo: Επανάληψη
+window/look: Εμφάνιση παραθύρου
+footer/unsaved: μη αποθηκευμένες αλλαγές
+footer/mods: mods
+entries/other: Άλλα mods
+entries/other/body: Παράθυρα καταχωρημένα από άλλα mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} με νέες επιλογές
+entries/pick: Άνοιγμα ρυθμίσεων
+results/search/title: Αποτελέσματα αναζήτησης
+results/new/title: Νέες επιλογές
+results/empty: Καμία αντιστοιχία
+results/more: {0} ακόμη - περιορίστε την αναζήτηση
+help/open: Άνοιγμα αυτού του μενού
+help/search: Μετάβαση στην αναζήτηση
+help/arrows: Πλοήγηση στη λίστα mods
+help/slider: Μετακίνηση του ρυθμιστικού
+help/escape: Ένα βήμα πίσω, μετά κλείσιμο
+help/rightclick: Επιλογές για πλήκτρα και χρώματα
+menusettings/openhotkey: Πλήκτρο ανοίγματος μενού
+tabs/ungrouped: Χωρίς ομάδα

@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Šis modas leidžia dar paprasčiau konfigūruoti įdiegtus modus.
+buttons/ok: OK
+buttons/cancel: Atšaukti
+buttons/apply: Taikyti
+buttons/close: UŽDARYTI
+buttons/clear: Išvalyti
+buttons/default: Numatytasis
+stateswitcher/tooltip/header: Įjungti / Išjungti modą
+stateswitcher/tooltip/body: Žalias indikatorius - modas įjungtas\nRaudonas indikatorius - modas išjungtas
+colorchoice/header: SPALVA
+search/placeholder: Ieškoti modų…
+reset/tooltip/header: Nustatymų atstatymas
+reset/tooltip/body: Grąžina šio modo parinktis į numatytąsias reikšmes. Taikyti / OK išsaugo, Atšaukti atmeta.
+reset/confirm/message: Atstatyti šį modą į numatytuosius nustatymus?
+reset/confirm/submit: Atstatyti
+search/hits: rasta {0} iš {1} modų
+colorchoice/preset/menu/edit: Redaguoti parinktį
+colorchoice/preset/menu/copyhex: Kopijuoti hex kodą
+colorchoice/preset/menu/clear: Išvalyti parinktį
+newfeature/menu/markallread: Žymėti visus kaip skaitytus
+buttons/saveclose: Išsaugoti ir uždaryti
+menusettings/title: MENIU NUSTATYMAI
+menusettings/accent: Akcento spalva
+menusettings/background: Fono spalva
+menusettings/scale: Skydelio mastelis
+menusettings/columns: Parinkčių stulpeliai
+menusettings/columns/noroom: Langas per siauras keturiems stulpeliams.
+entries/none: Kol kas nė vienas modas nenaudoja šio meniu
+menusettings/az: Rodyklė nuo A iki Ž
+menusettings/az/grid: Tinklelis
+menusettings/az/rail: Juosta
+menusettings/az/off: Išj.
+menusettings/language: Kalba
+menusettings/language/auto: Auto (žaidimo kalba)
+menusettings/transparent: Permatomas langas
+menusettings/transparency: Permatomumas
+menusettings/reset/message: Atkurti meniu išvaizdą? Modų nustatymai nekeičiami.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Neišsaugoti pakeitimai
+review/chars: simboliai
+input/preview: Peržiūra
+image/fitted: Vaizdas sumažintas
+image/fittedwindow: Sumažinta pagal lango plotį
+moderror/title: Šis modas pranešė apie klaidą
+moderror/safe: Jūsų nustatymai saugūs ir tebegalioja.
+moderror/failed: Vienas šio modo veiksmas nepavyko - kai kurios funkcijos gali neatsakyti.
+moderror/report: Praneškite modo autoriui, ne modpakui.
+history/undo: Atšaukti
+history/redo: Pakartoti
+window/look: Lango išvaizda
+footer/unsaved: neišsaugoti pakeitimai
+footer/mods: modai
+entries/other: Kiti modai
+entries/other/body: Kitų modų užregistruoti langai
+header/mods/one: {0} modas
+header/mods/many: {0} modai
+header/new: {0} su naujomis parinktimis
+entries/pick: Atidaryti nustatymus
+results/search/title: Paieškos rezultatai
+results/new/title: Naujos parinktys
+results/empty: Nėra atitikmenų
+results/more: dar {0} - patikslinkite paiešką
+help/open: Atidaryti šį meniu
+help/search: Pereiti į paiešką
+help/arrows: Judėti modų sąrašu
+help/slider: Slinkti šliaužiklį po žymekliu
+help/escape: Žingsnis atgal, tada uždaryti langą
+help/rightclick: Klavišų ir spalvų langelių parinktys
+menusettings/openhotkey: Meniu atidarymo klavišas
+tabs/ungrouped: Be grupės

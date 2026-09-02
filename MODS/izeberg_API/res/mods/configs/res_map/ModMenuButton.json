@@ -1,0 +1,12 @@
+[
+  {
+    "type": "Layout",
+    "path": "coui://gui/gameface/mods/aslain/ModMenuButton/ModMenuButton.html",
+    "parameters": {
+      "extension": "",
+      "entrance": "ModMenuButton",
+      "impl": "gameface"
+    },
+    "itemID": "mods/aslain/ModMenuButton/layoutID"
+  }
+]

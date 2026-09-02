@@ -1,0 +1,74 @@
+name: Mod Menu
+description: Deze mod maakt het configureren van geïnstalleerde mods nog eenvoudiger.
+buttons/ok: OK
+buttons/cancel: Annuleren
+buttons/apply: Toepassen
+buttons/close: SLUITEN
+buttons/clear: Wissen
+buttons/default: Standaard
+stateswitcher/tooltip/header: Mod inschakelen / uitschakelen
+stateswitcher/tooltip/body: Groene indicator - mod ingeschakeld\nRode indicator - mod uitgeschakeld
+colorchoice/header: KLEUR
+search/placeholder: Mods zoeken…
+reset/tooltip/header: Instellingen herstellen
+reset/tooltip/body: Zet de opties van deze mod terug naar de standaardwaarden. Toepassen / OK behoudt het, Annuleren maakt het ongedaan.
+reset/confirm/message: Deze mod terugzetten naar de standaardinstellingen?
+reset/confirm/submit: Herstellen
+search/hits: {0} van {1} mods gevonden
+colorchoice/preset/menu/edit: Preset bewerken
+colorchoice/preset/menu/copyhex: Hex-code kopiëren
+colorchoice/preset/menu/clear: Preset wissen
+newfeature/menu/markallread: Alles als gelezen markeren
+buttons/saveclose: Opslaan en sluiten
+menusettings/title: MENU-INSTELLINGEN
+menusettings/accent: Accentkleur
+menusettings/background: Achtergrondkleur
+menusettings/scale: Paneelschaal
+menusettings/columns: Optiekolommen
+menusettings/columns/noroom: Het venster is te smal voor vier kolommen.
+entries/none: Nog geen mod gebruikt dit menu
+menusettings/az: A tot Z index
+menusettings/az/grid: Raster
+menusettings/az/rail: Balk
+menusettings/az/off: Uit
+menusettings/language: Taal
+menusettings/language/auto: Auto (taal van het spel)
+menusettings/transparent: Transparant venster
+menusettings/transparency: Transparantie
+menusettings/reset/message: Uiterlijk van het menu herstellen? Mod-instellingen blijven ongewijzigd.
+menusettings/font: Font
+menusettings/font/default: Default
+menusettings/font/pfdinmax: PFDINMax
+menusettings/fontsize: Font size
+review/title: Niet-opgeslagen wijzigingen
+review/chars: tekens
+input/preview: Voorbeeld
+image/fitted: Afbeelding verkleind
+image/fittedwindow: Verkleind om in het venster te passen
+moderror/title: Deze mod heeft een fout gemeld
+moderror/safe: Je instellingen zijn veilig en nog van kracht.
+moderror/failed: Een actie van deze mod is mislukt - sommige functies reageren mogelijk niet.
+moderror/report: Meld het bij de maker van de mod, niet bij het modpack.
+history/undo: Ongedaan maken
+history/redo: Opnieuw
+window/look: Uiterlijk van het venster
+footer/unsaved: niet-opgeslagen wijzigingen
+footer/mods: mods
+entries/other: Andere mods
+entries/other/body: Vensters geregistreerd door andere mods
+header/mods/one: {0} mod
+header/mods/many: {0} mods
+header/new: {0} met nieuwe opties
+entries/pick: Instellingen openen
+results/search/title: Zoekresultaten
+results/new/title: Nieuwe opties
+results/empty: Geen overeenkomsten
+results/more: nog {0} - verfijn de zoekopdracht
+help/open: Dit menu openen
+help/search: Naar het zoekveld
+help/arrows: Door de modlijst bewegen
+help/slider: De schuif onder de cursor verplaatsen
+help/escape: Stap terug, dan venster sluiten
+help/rightclick: Opties voor toetsen en kleurvakjes
+menusettings/openhotkey: Toets om het menu te openen
+tabs/ungrouped: Zonder groep
