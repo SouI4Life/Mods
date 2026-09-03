@@ -1,0 +1,85 @@
+{
+    "revision": 27, 
+    "settings": {
+        "advance/battle/tab/stats_display_background": true, 
+        "advance/battle/pp/stats_display_offset_left": 0, 
+        "battle/stats_display_size": "medium", 
+        "battle/stats_display_background": true, 
+        "lobby/show_profile_link_in_others_profiles_window": true, 
+        "advance/lobby/results/stats_display_value_left": [
+            "overall_wnx"
+        ], 
+        "advance/battle/tab/stats_display_value_right": [
+            "overall_wnx", 
+            "overall_winrate"
+        ], 
+        "advance/battle/pp/stats_display_mode": "always", 
+        "battle/stats_display_offset": 0, 
+        "advance/battle/pp/stats_display_value_right": [
+            "overall_wnx"
+        ], 
+        "battle/stats_display_value_alternate": [
+            "overall_wnx", 
+            "overall_winrate"
+        ], 
+        "lobby/stats_in_battle_results": true, 
+        "advance/lobby/results/stats_display_mode": "alternate", 
+        "lobby/show_vehicle_link_in_vehicle_context_menu": true, 
+        "advance/lobby/results/stats_display_value_right": [
+            "overall_wnx"
+        ], 
+        "advance/battle/pp/stats_display_offset_right": 0, 
+        "advance/battle/pp/stats_display_size": "medium", 
+        "advance/lobby/results/stats_display_value_alternate_right": [
+            "overall_wn8", 
+            "overall_winrate", 
+            "overall_battles"
+        ], 
+        "lobby/battle_results_deanonimize": false, 
+        "advance/battle/tab/stats_display_value_left": [
+            "overall_wnx", 
+            "overall_winrate"
+        ], 
+        "advance/battle/tab/stats_display_size": "medium", 
+        "advance/battle/tab/stats_display_value_alternate_left": [
+            "overall_wn8", 
+            "overall_winrate"
+        ], 
+        "battle/stats_display_value": [
+            "overall_wn8"
+        ], 
+        "advance/battle/tab/stats_display_value_alternate_right": [
+            "overall_wn8", 
+            "overall_winrate"
+        ], 
+        "advance/battle/pp/stats_display_value_alternate_left": [
+            "overall_wnx", 
+            "overall_winrate", 
+            "overall_battles"
+        ], 
+        "advance/battle/pp/stats_display_value_left": [
+            "overall_wnx"
+        ], 
+        "advance/lobby/results/stats_display_background": true, 
+        "battle/stats_in_tab_menu": false, 
+        "battle/stats_in_player_panels": true, 
+        "battle/stats_display_mode": "always", 
+        "lobby/show_profile_link_in_self_profile_window": true, 
+        "advance/enable": true, 
+        "advance/battle/pp/stats_display_background": true, 
+        "advance/lobby/results/stats_display_size": "medium", 
+        "lobby/show_profile_link_in_profile_context_menu": false, 
+        "advance/battle/pp/stats_display_value_alternate_right": [
+            "overall_wnx", 
+            "overall_winrate", 
+            "overall_battles"
+        ], 
+        "advance/lobby/results/stats_display_value_alternate_left": [
+            "overall_wn8", 
+            "overall_winrate", 
+            "overall_battles"
+        ], 
+        "advance/battle/tab/stats_display_mode": "always"
+    }, 
+    "version": "5"
+}
