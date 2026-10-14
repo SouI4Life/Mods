@@ -3,14 +3,14 @@
 
   <uk>
     <enabled>true</enabled>
-    <version>3.99.1</version>
+    <version>4.00.3</version>
                               
     <changes>
     (можна прокрутити сторінку)
     Модпак адаптовано до нової версії
 
     • ОНОВЛЕНО
-    - Залежність модів до api
+    - модпак адаптовано під мікропатч гри
 
     Якщо є баги або питання натискайте на кнопку "Діскорд"
     </changes>
@@ -22,7 +22,7 @@
 
   <en>
     <enabled>true</enabled>
-    <version>3.99.1</version>
+    <version>4.00.3</version>
     <changes>
     (you can scroll the page)
     • UPDATED
@@ -41,8 +41,8 @@
   <infoPanel>
     <title>Деталі оновлення</title>
       <wheelInfo>
-        <item label="Версія мода" value="3.99.1"/>
-        <item label="Патч гри" value="2.3.1.3"/>
+        <item label="Версія мода" value="4.00.3"/>
+        <item label="Патч гри" value="2.4.0.2"/>
         <item label="Стан" value="Доступне оновлення"/>
         <item label="Сайт" value="https://www.patreon.com/file?h=167830401&amp;m=727813553"/>
       </wheelInfo>
