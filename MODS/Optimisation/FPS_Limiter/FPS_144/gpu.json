@@ -1,0 +1,19 @@
+{
+  "anti_lag_2": {
+    "enabled": false
+  }, 
+  "framelimiter": {
+    "algorithm": "default", 
+    "hangar_max_fps": 144, 
+    "inactive_window_max_fps": 120, 
+    "max_fps": 144
+  }, 
+  "nvidia_reflex": {
+    "boost": false, 
+    "enabled": false
+  }, 
+  "ui": {
+    "enabled": true
+  }, 
+  "version": 3
+}
