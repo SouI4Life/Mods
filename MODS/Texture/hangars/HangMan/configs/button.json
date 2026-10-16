@@ -1,0 +1,26 @@
+/*
+   Settings for the HangMan button in the garage
+
+   Make changes only with UTF-8-capable editor like Notepad++
+*/
+{
+  // HangMan button in the garage on (true) or off (false):
+  "enable": true,
+  // icon, position and look of the button:
+  "button": {
+	// icon of the HangMan entry in Aslain's Mod Menu: a file inside the game resources or a path relative to the folder res_mods/<game version>
+	"image": "gui/gameface/mods/goofy67/HangMan/Button.png",
+	// button alignment, allowed values: "center" "left" and "right"
+	"align": "center",
+	// x-position from the alignment point, saved when you drag the button with the left mouse button
+	"pos_x": 290,
+	// y-position from the top edge (from the bottom edge when negative)
+	"pos_y": 5,
+	// grey button image, full colors on mouse-over
+	"grey": false
+  },
+
+  // HangMan entry in Aslain's Mod Menu on (true) or off (false)
+  // HangMan works only together with Aslain's Mod Menu: https://github.com/Aslain/modmenu/releases
+  "useModMenuButton": true
+}

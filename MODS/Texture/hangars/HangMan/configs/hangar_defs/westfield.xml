@@ -1,0 +1,48 @@
+<root>
+  <spacepath> spaces/23_westfeld </spacepath>
+  <alias> _(#arenas:23_westfeld/name) </alias>
+  <previewImage> ../../mods/configs/HangMan/hangar_defs/westfield.jpg </previewImage>
+  <vehicleCamouflageKind> summer </vehicleCamouflageKind>
+  <audio>
+    <wwmusic> music_westfield_dron_relaxed </wwmusic>
+    <wwambient> amb_map_23_westfield_wind_spring </wwambient>
+  </audio>
+  <hangarSettings>
+    <v_scale> 1.0 </v_scale>
+    <v_start_angles> 54.853 -0.980 -1.140 </v_start_angles>
+    <v_start_pos> -499.988 19.811 -285.352 </v_start_pos>
+    <vehicle_gun_pitch> 0.000000 </vehicle_gun_pitch>
+    <vehicle_turret_yaw> 0.000000 </vehicle_turret_yaw>
+    <shadow_forward_y_offset>-1000.000000</shadow_forward_y_offset>
+    <shadow_deferred_y_offset>-1000.000000</shadow_deferred_y_offset>
+    <shadow_light_dir> -0.3 -0.5 0.7 </shadow_light_dir>
+    <cam_start_target_pos> -499.988 19.811 -285.352 </cam_start_target_pos>
+    <cam_start_dist> 13.000 </cam_start_dist>
+    <cam_start_angles> -170.147 -10.000 </cam_start_angles>
+    <cam_dist_constr> 1.500 50.000 </cam_dist_constr>
+    <cam_dist_sens>0.005000</cam_dist_sens>
+    <cam_pitch_constr> -89.000 0.000 </cam_pitch_constr>
+    <cam_sens> 0.005 </cam_sens>
+    <cam_min_dist_vehicle_hull_length_k>1.000000</cam_min_dist_vehicle_hull_length_k>
+    <cam_pivot_pos> 0.0 1.0 0.0 </cam_pivot_pos>
+    <cam_fluency> 0.05 </cam_fluency>
+    <emblems_alpha_damaged> 0.3 </emblems_alpha_damaged>
+    <emblems_alpha_undamaged> 0.9 </emblems_alpha_undamaged>
+    <cam_capsule_scale> 1.50 1.50 1.50 </cam_capsule_scale>
+    <cam_capsule_gun_scale> 1.0 1.0 1.1 </cam_capsule_gun_scale>
+    <cam_idle_pitch_constr> -0.5 0.0 </cam_idle_pitch_constr>
+    <cam_idle_dist_constr> 4.0 12.0 </cam_idle_dist_constr>
+    <cam_idle_yaw_period> 139.0 </cam_idle_yaw_period>
+    <cam_idle_pitch_period> 67.0 </cam_idle_pitch_period>
+    <cam_idle_dist_period> 89.0 </cam_idle_dist_period>
+    <cam_idle_easing_in_time> 5.0 </cam_idle_easing_in_time>
+    <cam_parallax_distance> 0.0 0.0 </cam_parallax_distance>
+    <cam_parallax_angles> 0.20 0.12 </cam_parallax_angles>
+    <cam_parallax_smoothing> 5.0 </cam_parallax_smoothing>
+    <preview_cam_start_dist> 8.5 </preview_cam_start_dist>
+    <preview_cam_dist_constr> 0.0 8.0 </preview_cam_dist_constr>
+    <preview_cam_start_angles> -170.147 -25.000 </preview_cam_start_angles>
+    <preview_cam_pivot_pos> 0.0 1.0 0.0  </preview_cam_pivot_pos>
+    <preview_cam_start_target_pos> -499.988 19.811 -285.352 </preview_cam_start_target_pos>
+  </hangarSettings>
+</root>

@@ -1,0 +1,122 @@
+// Dynamically generated on startup. Just for debugging/information. Do not edit!
+//
+// List of all installed hangars:
+[
+  "spaces/h33_battle_royale_2021", 
+  "spaces/h33_comp7", 
+  "spaces/hangar_v4", 
+  "spaces/hangar_v4_fortrush", 
+  "spaces/hangar_v4_halloween", 
+  "spaces/hangar_v4_last_stand", 
+  "../../mods/configs/hangman/hangar_defs/airfield.xml", 
+  "../../mods/configs/hangman/hangar_defs/campania_big.xml", 
+  "../../mods/configs/hangman/hangar_defs/canada_a.xml", 
+  "../../mods/configs/hangman/hangar_defs/caucasus.xml", 
+  "../../mods/configs/hangman/hangar_defs/d-day.xml", 
+  "../../mods/configs/hangman/hangar_defs/ensk.xml", 
+  "../../mods/configs/hangman/hangar_defs/epic_random_valley.xml", 
+  "../../mods/configs/hangman/hangar_defs/erlenberg.xml", 
+  "../../mods/configs/hangman/hangar_defs/fishing_bay.xml", 
+  "../../mods/configs/hangman/hangar_defs/fjord.xml", 
+  "../../mods/configs/hangman/hangar_defs/himmelsdorf.xml", 
+  "../../mods/configs/hangman/hangar_defs/murovanka.xml", 
+  "../../mods/configs/hangman/hangar_defs/paris.xml", 
+  "../../mods/configs/hangman/hangar_defs/prohorovka.xml", 
+  "../../mods/configs/hangman/hangar_defs/redshire.xml", 
+  "../../mods/configs/hangman/hangar_defs/sweden.xml", 
+  "../../mods/configs/hangman/hangar_defs/westfield.xml"
+]
+//
+// Current hangarlist:
+[
+  "../../mods/configs/hangman/hangar_defs/d-day.xml", 
+  "../../mods/configs/hangman/hangar_defs/westfield.xml", 
+  "spaces/hangar_v4", 
+  "spaces/hangar_v4_halloween", 
+  "spaces/hangar_v4_last_stand", 
+  "spaces/hangar_v4_fortrush", 
+  "spaces/h33_comp7", 
+  "spaces/h33_battle_royale_2021", 
+  "../../mods/configs/hangman/hangar_defs/ensk.xml", 
+  "../../mods/configs/hangman/hangar_defs/erlenberg.xml", 
+  "../../mods/configs/hangman/hangar_defs/airfield.xml", 
+  "../../mods/configs/hangman/hangar_defs/murovanka.xml", 
+  "../../mods/configs/hangman/hangar_defs/epic_random_valley.xml", 
+  "../../mods/configs/hangman/hangar_defs/paris.xml", 
+  "../../mods/configs/hangman/hangar_defs/caucasus.xml", 
+  "../../mods/configs/hangman/hangar_defs/campania_big.xml", 
+  "../../mods/configs/hangman/hangar_defs/prohorovka.xml", 
+  "../../mods/configs/hangman/hangar_defs/redshire.xml", 
+  "../../mods/configs/hangman/hangar_defs/fishing_bay.xml", 
+  "../../mods/configs/hangman/hangar_defs/canada_a.xml", 
+  "../../mods/configs/hangman/hangar_defs/fjord.xml", 
+  "../../mods/configs/hangman/hangar_defs/himmelsdorf.xml", 
+  "../../mods/configs/hangman/hangar_defs/sweden.xml"
+]
+//
+// Hangars on ignorelist:
+[]
+//
+// Alias:
+{
+  "../../mods/configs/hangman/hangar_defs/paris.xml": "\u041f\u0430\u0440\u0438\u0436", 
+  "../../mods/configs/hangman/hangar_defs/epic_random_valley.xml": "\u041d\u0456\u0431\u0435\u043b\u044c\u0431\u0443\u0440\u0491", 
+  "../../mods/configs/hangman/hangar_defs/westfield.xml": "\u0412\u0435\u0441\u0442\u0444\u0456\u043b\u0434", 
+  "../../mods/configs/hangman/hangar_defs/caucasus.xml": "\u041f\u0435\u0440\u0435\u0432\u0430\u043b", 
+  "spaces/hangar_v4_last_stand": "\u0413\u0430\u0440\u0430\u0436 V4: \u041e\u0441\u0442\u0430\u043d\u043d\u0456\u0439 \u0440\u0443\u0431\u0456\u0436", 
+  "../../mods/configs/hangman/hangar_defs/fishing_bay.xml": "\u0420\u0438\u0431\u0430\u043b\u044c\u0441\u044c\u043a\u0430 \u0431\u0443\u0445\u0442\u0430", 
+  "../../mods/configs/hangman/hangar_defs/erlenberg.xml": "\u0415\u0440\u043b\u0435\u043d\u0431\u0435\u0440\u0491", 
+  "spaces/hangar_v4": "\u0413\u0430\u0440\u0430\u0436 V4", 
+  "../../mods/configs/hangman/hangar_defs/fjord.xml": "\u0424\u0456\u043e\u0440\u0434\u0438", 
+  "../../mods/configs/hangman/hangar_defs/sweden.xml": "\u0428\u0432\u0435\u0446\u0456\u044f", 
+  "spaces/h33_battle_royale_2021": "\u0413\u0430\u0440\u0430\u0436: \u0421\u0442\u0430\u043b\u0435\u0432\u0438\u0439 \u043c\u0438\u0441\u043b\u0438\u0432\u0435\u0446\u044c", 
+  "spaces/hangar_v4_halloween": "\u0413\u0430\u0440\u0430\u0436 V4: \u0412\u0430\u0432\u0438\u043b\u043e\u043d: \u0422\u0435\u043c\u043d\u0430 \u0432\u0435\u0436\u0430", 
+  "../../mods/configs/hangman/hangar_defs/campania_big.xml": "\u041f\u0440\u043e\u0432\u0456\u043d\u0446\u0456\u044f", 
+  "../../mods/configs/hangman/hangar_defs/prohorovka.xml": "\u041f\u0440\u043e\u0445\u043e\u0440\u0456\u0432\u043a\u0430", 
+  "../../mods/configs/hangman/hangar_defs/canada_a.xml": "\u0422\u0438\u0445\u0438\u0439 \u0431\u0435\u0440\u0435\u0433", 
+  "../../mods/configs/hangman/hangar_defs/ensk.xml": "\u0415\u043d\u0441\u044c\u043a", 
+  "../../mods/configs/hangman/hangar_defs/airfield.xml": "\u041b\u0435\u0442\u043e\u0432\u0438\u0449\u0435", 
+  "../../mods/configs/hangman/hangar_defs/d-day.xml": "D-Day", 
+  "spaces/hangar_v4_fortrush": "\u0413\u0430\u0440\u0430\u0436 V4: \u0427\u043e\u0440\u043d\u0438\u0439 \u0441\u0438\u0433\u043d\u0430\u043b", 
+  "../../mods/configs/hangman/hangar_defs/himmelsdorf.xml": "\u0425\u0456\u043c\u043c\u0435\u043b\u044c\u0441\u0434\u043e\u0440\u0444", 
+  "../../mods/configs/hangman/hangar_defs/redshire.xml": "\u0420\u0435\u0434\u0448\u0438\u0440", 
+  "../../mods/configs/hangman/hangar_defs/murovanka.xml": "\u041c\u0443\u0440\u043e\u0432\u0430\u043d\u043a\u0430", 
+  "spaces/h33_comp7": "\u0413\u0430\u0440\u0430\u0436: \u041d\u0430\u0442\u0438\u0441\u043a"
+}
+//
+// Nationhangars:
+{
+  "sweden": [
+    "../../mods/configs/hangman/hangar_defs/sweden.xml"
+  ], 
+  "ussr": [
+    "../../mods/configs/hangman/hangar_defs/ensk.xml"
+  ], 
+  "china": [
+    "../../mods/configs/hangman/hangar_defs/caucasus.xml"
+  ], 
+  "usa": [
+    "../../mods/configs/hangman/hangar_defs/canada_a.xml"
+  ], 
+  "uk": [
+    "../../mods/configs/hangman/hangar_defs/redshire.xml"
+  ], 
+  "czech": [
+    "../../mods/configs/hangman/hangar_defs/westfield.xml"
+  ], 
+  "japan": [
+    "../../mods/configs/hangman/hangar_defs/caucasus.xml"
+  ], 
+  "poland": [
+    "../../mods/configs/hangman/hangar_defs/murovanka.xml"
+  ], 
+  "italy": [
+    "../../mods/configs/hangman/hangar_defs/campania_big.xml"
+  ], 
+  "germany": [
+    "../../mods/configs/hangman/hangar_defs/himmelsdorf.xml"
+  ], 
+  "france": [
+    "../../mods/configs/hangman/hangar_defs/paris.xml"
+  ]
+}

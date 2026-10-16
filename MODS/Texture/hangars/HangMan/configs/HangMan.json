@@ -1,0 +1,97 @@
+/*
+   Settings for HangMan
+
+   Make changes only with UTF-8-capable editor like Notepad++
+*/
+{
+	// display message on client-start:
+	"game_greeting": false,
+	//
+	// The way the manager selects a garage to display, possible values:
+	//     "normal"       the usual manner, displays the previously selected garage
+	//     "random"       displays a randomly selected garage from the available garages on login and after battle
+	//     "nation"       changes the garage depending on the nation of the selected vehicle (see section "nations" below)
+	//     "last_battle"  takes the last known vehicle position of the last battle as garage
+	// (switching with buttons and/or keys still possible)
+	// changeable in the garage by pressing the keys for "change_mode" (see section "keys")
+	"mode": "normal",
+	//
+	// change the garage in "random"-mode on each login (true) or only after battle (false):
+	"changeOnLogin": true,
+	//
+	// show preview-thumbnails in the garage selection window, if available:
+	"show_preview": true,
+	//
+	// sort the garage list alphabetically by alias (true) or by path (false):
+	"sort_alphabetic": true,
+	//
+	// camouflage in the garage (may be overridden by 'hangar_def'- or 'arena_def'-file)
+	// values: one of "winter", "summer", "desert", "random", "none" or "default"
+	"vehicleCamouflageKind": "default",
+	//
+	// switch Clan-Logo on/off:
+	"ClanLogo": true,
+	//
+	// show save-button for the 'Last Battle'-garage
+	"show_LastBattle_save_button": true,
+	//
+	// fades GUI in the garage while dragging mouse:
+	"fadeOnMouseMove": false,
+	//
+	// display clickable premium vehicle (advertisement) in the garage:
+	"showPremTank": true,
+	//
+	// enable Depth of Field in the garage:
+	"enableDOF": false,
+	"DOFintensity": 1.00,
+	//
+	// enable music in the garage:
+	"musicInLobby": true,
+	//
+	// use alternative background image while the garage loads (false = black background):
+	"newHangarLoadImage": false,
+	//
+	// show combat-intelligence popup window:
+	"showTeaser": true,
+	//
+	// on a map garage, open customization, battle results and BattleHits in the game's own garage
+	// scenes (true, loads the game garage behind a short cover) or on the map itself (false):
+	"gameScenesOnMapGarages": false,
+	//
+	// settings for keys (and -combinations)
+	"keys":	{
+	  // in battle: save current map and position as garage-file:
+	  "safekey": "LALT NUMPAD7",
+	  // switch forward in the garage list:
+	  "switchkey": "LALT NUMPAD6",
+	  // switch backwards in the garage list:
+	  "backkey": "LALT NUMPAD4",
+	  // cycle through "mode"-values (normal, random, nation, last_battle):
+	  "change_mode": "LALT NUMPAD5",
+	  // activate and deactivate vehicle-positioning (beta):
+	  "movevehicle": "LALT F12"
+	},
+	// define garages for each nation in mode "nation": (set list of garages in brackets [ ] , e.g. ["spaces/hangar_v4", "../../mods/configs/HangMan/hangar_defs/ensk.xml"] )
+	"nations":	{
+	  "ussr":		"../../mods/configs/HangMan/hangar_defs/ensk.xml",
+	  "germany":	"../../mods/configs/HangMan/hangar_defs/himmelsdorf.xml",
+	  "usa":		"../../mods/configs/HangMan/hangar_defs/canada_a.xml",
+	  "france":		"../../mods/configs/HangMan/hangar_defs/paris.xml",
+	  "uk":			"../../mods/configs/HangMan/hangar_defs/redshire.xml",
+	  "china":		"../../mods/configs/HangMan/hangar_defs/caucasus.xml",
+	  "japan":		"../../mods/configs/HangMan/hangar_defs/caucasus.xml",
+	  "czech":		"../../mods/configs/HangMan/hangar_defs/westfield.xml",
+	  "sweden": 	"../../mods/configs/HangMan/hangar_defs/sweden.xml",
+	  "poland":		"../../mods/configs/HangMan/hangar_defs/murovanka.xml",
+	  "italy":		"../../mods/configs/HangMan/hangar_defs/campania_big.xml"
+	},
+	//
+	// if a nation has multiple garages, select one randomly (true):
+	"select_random_nationhangar": true,
+	//
+	// List of garages not to be displayed by the manager in "normal"- and "random"-mode:
+	"ignorelist": []
+	// Example:
+	// "ignorelist": ["spaces/h33_comp7", "spaces/h33_battle_royale_2021"]
+	//
+}
